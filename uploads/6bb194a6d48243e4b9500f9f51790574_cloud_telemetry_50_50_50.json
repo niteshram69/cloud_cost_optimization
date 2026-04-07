@@ -1,0 +1,2252 @@
+[
+    {
+        "resource_id": "aws::hot-bucket-2884ea50",
+        "provider": "aws",
+        "region": "us-east-1",
+        "tier_class": "Standard",
+        "size_bytes": 42673438750,
+        "object_count": 39183,
+        "last_30d_access_frequency": 1835,
+        "last_accessed_date": "2026-02-18T18:37:20.222854",
+        "tags": {
+            "Environment": "Production",
+            "Project": "HighFreqTrading",
+            "DataClassification": "Hot"
+        }
+    },
+    {
+        "resource_id": "aws::hot-bucket-ac59fdc6",
+        "provider": "aws",
+        "region": "us-east-1",
+        "tier_class": "Standard",
+        "size_bytes": 15191992214,
+        "object_count": 31523,
+        "last_30d_access_frequency": 1603,
+        "last_accessed_date": "2026-02-18T18:37:20.222874",
+        "tags": {
+            "Environment": "Production",
+            "Project": "HighFreqTrading",
+            "DataClassification": "Hot"
+        }
+    },
+    {
+        "resource_id": "aws::hot-bucket-407ed1a3",
+        "provider": "aws",
+        "region": "us-east-1",
+        "tier_class": "Standard",
+        "size_bytes": 8693316022,
+        "object_count": 16791,
+        "last_30d_access_frequency": 1440,
+        "last_accessed_date": "2026-02-18T12:37:20.222882",
+        "tags": {
+            "Environment": "Production",
+            "Project": "HighFreqTrading",
+            "DataClassification": "Hot"
+        }
+    },
+    {
+        "resource_id": "aws::hot-bucket-cdb71380",
+        "provider": "aws",
+        "region": "us-east-1",
+        "tier_class": "Standard",
+        "size_bytes": 4200017325,
+        "object_count": 38053,
+        "last_30d_access_frequency": 206,
+        "last_accessed_date": "2026-02-18T09:37:20.222890",
+        "tags": {
+            "Environment": "Production",
+            "Project": "HighFreqTrading",
+            "DataClassification": "Hot"
+        }
+    },
+    {
+        "resource_id": "aws::hot-bucket-53c26a4c",
+        "provider": "aws",
+        "region": "us-east-1",
+        "tier_class": "Standard",
+        "size_bytes": 46408951939,
+        "object_count": 42441,
+        "last_30d_access_frequency": 1468,
+        "last_accessed_date": "2026-02-17T19:37:20.222896",
+        "tags": {
+            "Environment": "Production",
+            "Project": "HighFreqTrading",
+            "DataClassification": "Hot"
+        }
+    },
+    {
+        "resource_id": "aws::hot-bucket-a4b5c84d",
+        "provider": "aws",
+        "region": "us-east-1",
+        "tier_class": "Standard",
+        "size_bytes": 9186494384,
+        "object_count": 29486,
+        "last_30d_access_frequency": 935,
+        "last_accessed_date": "2026-02-17T22:37:20.222903",
+        "tags": {
+            "Environment": "Production",
+            "Project": "HighFreqTrading",
+            "DataClassification": "Hot"
+        }
+    },
+    {
+        "resource_id": "aws::hot-bucket-831a406d",
+        "provider": "aws",
+        "region": "us-east-1",
+        "tier_class": "Standard",
+        "size_bytes": 31250731600,
+        "object_count": 4556,
+        "last_30d_access_frequency": 1808,
+        "last_accessed_date": "2026-02-18T06:37:20.222910",
+        "tags": {
+            "Environment": "Production",
+            "Project": "HighFreqTrading",
+            "DataClassification": "Hot"
+        }
+    },
+    {
+        "resource_id": "aws::hot-bucket-fc013aa8",
+        "provider": "aws",
+        "region": "us-east-1",
+        "tier_class": "Standard",
+        "size_bytes": 45028379722,
+        "object_count": 14513,
+        "last_30d_access_frequency": 1021,
+        "last_accessed_date": "2026-02-18T02:37:20.222916",
+        "tags": {
+            "Environment": "Production",
+            "Project": "HighFreqTrading",
+            "DataClassification": "Hot"
+        }
+    },
+    {
+        "resource_id": "aws::hot-bucket-e8b2c460",
+        "provider": "aws",
+        "region": "us-east-1",
+        "tier_class": "Standard",
+        "size_bytes": 38791212528,
+        "object_count": 12506,
+        "last_30d_access_frequency": 1185,
+        "last_accessed_date": "2026-02-18T03:37:20.222923",
+        "tags": {
+            "Environment": "Production",
+            "Project": "HighFreqTrading",
+            "DataClassification": "Hot"
+        }
+    },
+    {
+        "resource_id": "aws::hot-bucket-fe6e2f56",
+        "provider": "aws",
+        "region": "us-east-1",
+        "tier_class": "Standard",
+        "size_bytes": 52095495838,
+        "object_count": 36676,
+        "last_30d_access_frequency": 391,
+        "last_accessed_date": "2026-02-18T01:37:20.222929",
+        "tags": {
+            "Environment": "Production",
+            "Project": "HighFreqTrading",
+            "DataClassification": "Hot"
+        }
+    },
+    {
+        "resource_id": "aws::hot-bucket-4e513d4a",
+        "provider": "aws",
+        "region": "us-east-1",
+        "tier_class": "Standard",
+        "size_bytes": 48625993773,
+        "object_count": 25517,
+        "last_30d_access_frequency": 1284,
+        "last_accessed_date": "2026-02-18T07:37:20.222936",
+        "tags": {
+            "Environment": "Production",
+            "Project": "HighFreqTrading",
+            "DataClassification": "Hot"
+        }
+    },
+    {
+        "resource_id": "aws::hot-bucket-9b89a40d",
+        "provider": "aws",
+        "region": "us-east-1",
+        "tier_class": "Standard",
+        "size_bytes": 29102780078,
+        "object_count": 49297,
+        "last_30d_access_frequency": 712,
+        "last_accessed_date": "2026-02-18T13:37:20.222942",
+        "tags": {
+            "Environment": "Production",
+            "Project": "HighFreqTrading",
+            "DataClassification": "Hot"
+        }
+    },
+    {
+        "resource_id": "aws::hot-bucket-52f707b1",
+        "provider": "aws",
+        "region": "us-east-1",
+        "tier_class": "Standard",
+        "size_bytes": 13834728807,
+        "object_count": 20776,
+        "last_30d_access_frequency": 757,
+        "last_accessed_date": "2026-02-18T00:37:20.222949",
+        "tags": {
+            "Environment": "Production",
+            "Project": "HighFreqTrading",
+            "DataClassification": "Hot"
+        }
+    },
+    {
+        "resource_id": "aws::hot-bucket-6e7336ae",
+        "provider": "aws",
+        "region": "us-east-1",
+        "tier_class": "Standard",
+        "size_bytes": 24164077131,
+        "object_count": 12304,
+        "last_30d_access_frequency": 1099,
+        "last_accessed_date": "2026-02-18T07:37:20.222955",
+        "tags": {
+            "Environment": "Production",
+            "Project": "HighFreqTrading",
+            "DataClassification": "Hot"
+        }
+    },
+    {
+        "resource_id": "aws::hot-bucket-cfaee74f",
+        "provider": "aws",
+        "region": "us-east-1",
+        "tier_class": "Standard",
+        "size_bytes": 40825008097,
+        "object_count": 44491,
+        "last_30d_access_frequency": 817,
+        "last_accessed_date": "2026-02-18T07:37:20.222961",
+        "tags": {
+            "Environment": "Production",
+            "Project": "HighFreqTrading",
+            "DataClassification": "Hot"
+        }
+    },
+    {
+        "resource_id": "aws::hot-bucket-0781bb1c",
+        "provider": "aws",
+        "region": "us-east-1",
+        "tier_class": "Standard",
+        "size_bytes": 15300440292,
+        "object_count": 32789,
+        "last_30d_access_frequency": 652,
+        "last_accessed_date": "2026-02-18T15:37:20.222968",
+        "tags": {
+            "Environment": "Production",
+            "Project": "HighFreqTrading",
+            "DataClassification": "Hot"
+        }
+    },
+    {
+        "resource_id": "aws::hot-bucket-03104cb6",
+        "provider": "aws",
+        "region": "us-east-1",
+        "tier_class": "Standard",
+        "size_bytes": 10785635544,
+        "object_count": 15075,
+        "last_30d_access_frequency": 572,
+        "last_accessed_date": "2026-02-17T22:37:20.222974",
+        "tags": {
+            "Environment": "Production",
+            "Project": "HighFreqTrading",
+            "DataClassification": "Hot"
+        }
+    },
+    {
+        "resource_id": "aws::hot-bucket-3a84a096",
+        "provider": "aws",
+        "region": "us-east-1",
+        "tier_class": "Standard",
+        "size_bytes": 40350313724,
+        "object_count": 49412,
+        "last_30d_access_frequency": 820,
+        "last_accessed_date": "2026-02-17T19:37:20.222981",
+        "tags": {
+            "Environment": "Production",
+            "Project": "HighFreqTrading",
+            "DataClassification": "Hot"
+        }
+    },
+    {
+        "resource_id": "aws::hot-bucket-3e09fe3e",
+        "provider": "aws",
+        "region": "us-east-1",
+        "tier_class": "Standard",
+        "size_bytes": 24571043376,
+        "object_count": 12850,
+        "last_30d_access_frequency": 1944,
+        "last_accessed_date": "2026-02-18T15:37:20.222987",
+        "tags": {
+            "Environment": "Production",
+            "Project": "HighFreqTrading",
+            "DataClassification": "Hot"
+        }
+    },
+    {
+        "resource_id": "aws::hot-bucket-457fe44c",
+        "provider": "aws",
+        "region": "us-east-1",
+        "tier_class": "Standard",
+        "size_bytes": 24755359745,
+        "object_count": 44478,
+        "last_30d_access_frequency": 1312,
+        "last_accessed_date": "2026-02-18T13:37:20.222994",
+        "tags": {
+            "Environment": "Production",
+            "Project": "HighFreqTrading",
+            "DataClassification": "Hot"
+        }
+    },
+    {
+        "resource_id": "aws::hot-bucket-f1411ba3",
+        "provider": "aws",
+        "region": "us-east-1",
+        "tier_class": "Standard",
+        "size_bytes": 35860947527,
+        "object_count": 25917,
+        "last_30d_access_frequency": 1519,
+        "last_accessed_date": "2026-02-18T10:37:20.223000",
+        "tags": {
+            "Environment": "Production",
+            "Project": "HighFreqTrading",
+            "DataClassification": "Hot"
+        }
+    },
+    {
+        "resource_id": "aws::hot-bucket-d3c3a764",
+        "provider": "aws",
+        "region": "us-east-1",
+        "tier_class": "Standard",
+        "size_bytes": 11042454886,
+        "object_count": 34125,
+        "last_30d_access_frequency": 1138,
+        "last_accessed_date": "2026-02-18T18:37:20.223006",
+        "tags": {
+            "Environment": "Production",
+            "Project": "HighFreqTrading",
+            "DataClassification": "Hot"
+        }
+    },
+    {
+        "resource_id": "aws::hot-bucket-4b2080a8",
+        "provider": "aws",
+        "region": "us-east-1",
+        "tier_class": "Standard",
+        "size_bytes": 35630216241,
+        "object_count": 28714,
+        "last_30d_access_frequency": 826,
+        "last_accessed_date": "2026-02-18T08:37:20.223012",
+        "tags": {
+            "Environment": "Production",
+            "Project": "HighFreqTrading",
+            "DataClassification": "Hot"
+        }
+    },
+    {
+        "resource_id": "aws::hot-bucket-55555dbc",
+        "provider": "aws",
+        "region": "us-east-1",
+        "tier_class": "Standard",
+        "size_bytes": 49279102110,
+        "object_count": 32150,
+        "last_30d_access_frequency": 960,
+        "last_accessed_date": "2026-02-18T05:37:20.223018",
+        "tags": {
+            "Environment": "Production",
+            "Project": "HighFreqTrading",
+            "DataClassification": "Hot"
+        }
+    },
+    {
+        "resource_id": "aws::hot-bucket-e10f524d",
+        "provider": "aws",
+        "region": "us-east-1",
+        "tier_class": "Standard",
+        "size_bytes": 33746145008,
+        "object_count": 19444,
+        "last_30d_access_frequency": 404,
+        "last_accessed_date": "2026-02-18T07:37:20.223025",
+        "tags": {
+            "Environment": "Production",
+            "Project": "HighFreqTrading",
+            "DataClassification": "Hot"
+        }
+    },
+    {
+        "resource_id": "aws::hot-bucket-4cb187a6",
+        "provider": "aws",
+        "region": "us-east-1",
+        "tier_class": "Standard",
+        "size_bytes": 34885934916,
+        "object_count": 18559,
+        "last_30d_access_frequency": 1080,
+        "last_accessed_date": "2026-02-18T08:37:20.223033",
+        "tags": {
+            "Environment": "Production",
+            "Project": "HighFreqTrading",
+            "DataClassification": "Hot"
+        }
+    },
+    {
+        "resource_id": "aws::hot-bucket-06a0951d",
+        "provider": "aws",
+        "region": "us-east-1",
+        "tier_class": "Standard",
+        "size_bytes": 16852605567,
+        "object_count": 12477,
+        "last_30d_access_frequency": 1400,
+        "last_accessed_date": "2026-02-17T23:37:20.223040",
+        "tags": {
+            "Environment": "Production",
+            "Project": "HighFreqTrading",
+            "DataClassification": "Hot"
+        }
+    },
+    {
+        "resource_id": "aws::hot-bucket-dcad0887",
+        "provider": "aws",
+        "region": "us-east-1",
+        "tier_class": "Standard",
+        "size_bytes": 25799333670,
+        "object_count": 13815,
+        "last_30d_access_frequency": 1776,
+        "last_accessed_date": "2026-02-18T17:37:20.223046",
+        "tags": {
+            "Environment": "Production",
+            "Project": "HighFreqTrading",
+            "DataClassification": "Hot"
+        }
+    },
+    {
+        "resource_id": "aws::hot-bucket-1972bbb2",
+        "provider": "aws",
+        "region": "us-east-1",
+        "tier_class": "Standard",
+        "size_bytes": 49202815858,
+        "object_count": 36772,
+        "last_30d_access_frequency": 1272,
+        "last_accessed_date": "2026-02-18T18:37:20.223052",
+        "tags": {
+            "Environment": "Production",
+            "Project": "HighFreqTrading",
+            "DataClassification": "Hot"
+        }
+    },
+    {
+        "resource_id": "aws::hot-bucket-c2ba7a88",
+        "provider": "aws",
+        "region": "us-east-1",
+        "tier_class": "Standard",
+        "size_bytes": 9261729232,
+        "object_count": 38277,
+        "last_30d_access_frequency": 1466,
+        "last_accessed_date": "2026-02-18T00:37:20.223058",
+        "tags": {
+            "Environment": "Production",
+            "Project": "HighFreqTrading",
+            "DataClassification": "Hot"
+        }
+    },
+    {
+        "resource_id": "aws::hot-bucket-39d7e2c2",
+        "provider": "aws",
+        "region": "us-east-1",
+        "tier_class": "Standard",
+        "size_bytes": 43783918519,
+        "object_count": 29196,
+        "last_30d_access_frequency": 590,
+        "last_accessed_date": "2026-02-18T04:37:20.223065",
+        "tags": {
+            "Environment": "Production",
+            "Project": "HighFreqTrading",
+            "DataClassification": "Hot"
+        }
+    },
+    {
+        "resource_id": "aws::hot-bucket-16c8c868",
+        "provider": "aws",
+        "region": "us-east-1",
+        "tier_class": "Standard",
+        "size_bytes": 44347526547,
+        "object_count": 18664,
+        "last_30d_access_frequency": 217,
+        "last_accessed_date": "2026-02-17T20:37:20.223071",
+        "tags": {
+            "Environment": "Production",
+            "Project": "HighFreqTrading",
+            "DataClassification": "Hot"
+        }
+    },
+    {
+        "resource_id": "aws::hot-bucket-966ccd9f",
+        "provider": "aws",
+        "region": "us-east-1",
+        "tier_class": "Standard",
+        "size_bytes": 37902810528,
+        "object_count": 43255,
+        "last_30d_access_frequency": 928,
+        "last_accessed_date": "2026-02-18T15:37:20.223077",
+        "tags": {
+            "Environment": "Production",
+            "Project": "HighFreqTrading",
+            "DataClassification": "Hot"
+        }
+    },
+    {
+        "resource_id": "aws::hot-bucket-175033a2",
+        "provider": "aws",
+        "region": "us-east-1",
+        "tier_class": "Standard",
+        "size_bytes": 14786352136,
+        "object_count": 27608,
+        "last_30d_access_frequency": 1042,
+        "last_accessed_date": "2026-02-18T07:37:20.223083",
+        "tags": {
+            "Environment": "Production",
+            "Project": "HighFreqTrading",
+            "DataClassification": "Hot"
+        }
+    },
+    {
+        "resource_id": "aws::hot-bucket-37b8e72f",
+        "provider": "aws",
+        "region": "us-east-1",
+        "tier_class": "Standard",
+        "size_bytes": 17466063558,
+        "object_count": 42335,
+        "last_30d_access_frequency": 1517,
+        "last_accessed_date": "2026-02-18T12:37:20.223089",
+        "tags": {
+            "Environment": "Production",
+            "Project": "HighFreqTrading",
+            "DataClassification": "Hot"
+        }
+    },
+    {
+        "resource_id": "aws::hot-bucket-0aa2f980",
+        "provider": "aws",
+        "region": "us-east-1",
+        "tier_class": "Standard",
+        "size_bytes": 52848845057,
+        "object_count": 27806,
+        "last_30d_access_frequency": 1660,
+        "last_accessed_date": "2026-02-18T01:37:20.223096",
+        "tags": {
+            "Environment": "Production",
+            "Project": "HighFreqTrading",
+            "DataClassification": "Hot"
+        }
+    },
+    {
+        "resource_id": "aws::hot-bucket-4b537104",
+        "provider": "aws",
+        "region": "us-east-1",
+        "tier_class": "Standard",
+        "size_bytes": 25700656438,
+        "object_count": 19582,
+        "last_30d_access_frequency": 841,
+        "last_accessed_date": "2026-02-18T09:37:20.223102",
+        "tags": {
+            "Environment": "Production",
+            "Project": "HighFreqTrading",
+            "DataClassification": "Hot"
+        }
+    },
+    {
+        "resource_id": "aws::hot-bucket-a64aad2e",
+        "provider": "aws",
+        "region": "us-east-1",
+        "tier_class": "Standard",
+        "size_bytes": 17420042333,
+        "object_count": 40466,
+        "last_30d_access_frequency": 601,
+        "last_accessed_date": "2026-02-18T08:37:20.223108",
+        "tags": {
+            "Environment": "Production",
+            "Project": "HighFreqTrading",
+            "DataClassification": "Hot"
+        }
+    },
+    {
+        "resource_id": "aws::hot-bucket-fa947bf7",
+        "provider": "aws",
+        "region": "us-east-1",
+        "tier_class": "Standard",
+        "size_bytes": 20368595678,
+        "object_count": 31797,
+        "last_30d_access_frequency": 1557,
+        "last_accessed_date": "2026-02-18T03:37:20.223114",
+        "tags": {
+            "Environment": "Production",
+            "Project": "HighFreqTrading",
+            "DataClassification": "Hot"
+        }
+    },
+    {
+        "resource_id": "aws::hot-bucket-2d4cb4c1",
+        "provider": "aws",
+        "region": "us-east-1",
+        "tier_class": "Standard",
+        "size_bytes": 53455967375,
+        "object_count": 4920,
+        "last_30d_access_frequency": 1165,
+        "last_accessed_date": "2026-02-18T01:37:20.223120",
+        "tags": {
+            "Environment": "Production",
+            "Project": "HighFreqTrading",
+            "DataClassification": "Hot"
+        }
+    },
+    {
+        "resource_id": "aws::hot-bucket-673ec747",
+        "provider": "aws",
+        "region": "us-east-1",
+        "tier_class": "Standard",
+        "size_bytes": 1846621685,
+        "object_count": 47908,
+        "last_30d_access_frequency": 1938,
+        "last_accessed_date": "2026-02-18T11:37:20.223127",
+        "tags": {
+            "Environment": "Production",
+            "Project": "HighFreqTrading",
+            "DataClassification": "Hot"
+        }
+    },
+    {
+        "resource_id": "aws::hot-bucket-350e9b46",
+        "provider": "aws",
+        "region": "us-east-1",
+        "tier_class": "Standard",
+        "size_bytes": 50705157969,
+        "object_count": 10034,
+        "last_30d_access_frequency": 1562,
+        "last_accessed_date": "2026-02-17T20:37:20.223133",
+        "tags": {
+            "Environment": "Production",
+            "Project": "HighFreqTrading",
+            "DataClassification": "Hot"
+        }
+    },
+    {
+        "resource_id": "aws::hot-bucket-63e63a3e",
+        "provider": "aws",
+        "region": "us-east-1",
+        "tier_class": "Standard",
+        "size_bytes": 40308802473,
+        "object_count": 46988,
+        "last_30d_access_frequency": 745,
+        "last_accessed_date": "2026-02-18T08:37:20.223139",
+        "tags": {
+            "Environment": "Production",
+            "Project": "HighFreqTrading",
+            "DataClassification": "Hot"
+        }
+    },
+    {
+        "resource_id": "aws::hot-bucket-02e43a7f",
+        "provider": "aws",
+        "region": "us-east-1",
+        "tier_class": "Standard",
+        "size_bytes": 29262102401,
+        "object_count": 14088,
+        "last_30d_access_frequency": 1184,
+        "last_accessed_date": "2026-02-18T02:37:20.223145",
+        "tags": {
+            "Environment": "Production",
+            "Project": "HighFreqTrading",
+            "DataClassification": "Hot"
+        }
+    },
+    {
+        "resource_id": "aws::hot-bucket-ecb5ee85",
+        "provider": "aws",
+        "region": "us-east-1",
+        "tier_class": "Standard",
+        "size_bytes": 44049780038,
+        "object_count": 43671,
+        "last_30d_access_frequency": 784,
+        "last_accessed_date": "2026-02-18T17:37:20.223152",
+        "tags": {
+            "Environment": "Production",
+            "Project": "HighFreqTrading",
+            "DataClassification": "Hot"
+        }
+    },
+    {
+        "resource_id": "aws::hot-bucket-ef483a9f",
+        "provider": "aws",
+        "region": "us-east-1",
+        "tier_class": "Standard",
+        "size_bytes": 33598870096,
+        "object_count": 6358,
+        "last_30d_access_frequency": 634,
+        "last_accessed_date": "2026-02-17T19:37:20.223158",
+        "tags": {
+            "Environment": "Production",
+            "Project": "HighFreqTrading",
+            "DataClassification": "Hot"
+        }
+    },
+    {
+        "resource_id": "aws::hot-bucket-ca0615a9",
+        "provider": "aws",
+        "region": "us-east-1",
+        "tier_class": "Standard",
+        "size_bytes": 9721214602,
+        "object_count": 35557,
+        "last_30d_access_frequency": 564,
+        "last_accessed_date": "2026-02-18T01:37:20.223164",
+        "tags": {
+            "Environment": "Production",
+            "Project": "HighFreqTrading",
+            "DataClassification": "Hot"
+        }
+    },
+    {
+        "resource_id": "aws::hot-bucket-339014ea",
+        "provider": "aws",
+        "region": "us-east-1",
+        "tier_class": "Standard",
+        "size_bytes": 13499160796,
+        "object_count": 46128,
+        "last_30d_access_frequency": 1308,
+        "last_accessed_date": "2026-02-18T07:37:20.223170",
+        "tags": {
+            "Environment": "Production",
+            "Project": "HighFreqTrading",
+            "DataClassification": "Hot"
+        }
+    },
+    {
+        "resource_id": "aws::hot-bucket-c8f30eb1",
+        "provider": "aws",
+        "region": "us-east-1",
+        "tier_class": "Standard",
+        "size_bytes": 51138815863,
+        "object_count": 13429,
+        "last_30d_access_frequency": 826,
+        "last_accessed_date": "2026-02-17T20:37:20.223176",
+        "tags": {
+            "Environment": "Production",
+            "Project": "HighFreqTrading",
+            "DataClassification": "Hot"
+        }
+    },
+    {
+        "resource_id": "aws::hot-bucket-5e55833c",
+        "provider": "aws",
+        "region": "us-east-1",
+        "tier_class": "Standard",
+        "size_bytes": 40065746076,
+        "object_count": 35276,
+        "last_30d_access_frequency": 1707,
+        "last_accessed_date": "2026-02-18T06:37:20.223182",
+        "tags": {
+            "Environment": "Production",
+            "Project": "HighFreqTrading",
+            "DataClassification": "Hot"
+        }
+    },
+    {
+        "resource_id": "azure::cold-blob-e3c15fdf",
+        "provider": "azure",
+        "region": "eastus",
+        "tier_class": "Hot",
+        "size_bytes": 7865523031,
+        "object_count": 2645,
+        "last_30d_access_frequency": 8,
+        "last_accessed_date": "2026-02-03T19:37:20.223195",
+        "tags": {
+            "Environment": "Staging",
+            "Project": "MonthlyReports",
+            "DataClassification": "Cold"
+        }
+    },
+    {
+        "resource_id": "azure::cold-blob-e28fa4cd",
+        "provider": "azure",
+        "region": "eastus",
+        "tier_class": "Hot",
+        "size_bytes": 4894955611,
+        "object_count": 501,
+        "last_30d_access_frequency": 5,
+        "last_accessed_date": "2026-01-28T19:37:20.223202",
+        "tags": {
+            "Environment": "Staging",
+            "Project": "MonthlyReports",
+            "DataClassification": "Cold"
+        }
+    },
+    {
+        "resource_id": "azure::cold-blob-493c34be",
+        "provider": "azure",
+        "region": "eastus",
+        "tier_class": "Hot",
+        "size_bytes": 9347565819,
+        "object_count": 4554,
+        "last_30d_access_frequency": 40,
+        "last_accessed_date": "2026-02-05T19:37:20.223208",
+        "tags": {
+            "Environment": "Staging",
+            "Project": "MonthlyReports",
+            "DataClassification": "Cold"
+        }
+    },
+    {
+        "resource_id": "azure::cold-blob-3ed366b7",
+        "provider": "azure",
+        "region": "eastus",
+        "tier_class": "Hot",
+        "size_bytes": 5453152831,
+        "object_count": 4015,
+        "last_30d_access_frequency": 19,
+        "last_accessed_date": "2026-01-24T19:37:20.223215",
+        "tags": {
+            "Environment": "Staging",
+            "Project": "MonthlyReports",
+            "DataClassification": "Cold"
+        }
+    },
+    {
+        "resource_id": "azure::cold-blob-16661f84",
+        "provider": "azure",
+        "region": "eastus",
+        "tier_class": "Hot",
+        "size_bytes": 3880667604,
+        "object_count": 2787,
+        "last_30d_access_frequency": 22,
+        "last_accessed_date": "2026-01-29T19:37:20.223221",
+        "tags": {
+            "Environment": "Staging",
+            "Project": "MonthlyReports",
+            "DataClassification": "Cold"
+        }
+    },
+    {
+        "resource_id": "azure::cold-blob-0f265d19",
+        "provider": "azure",
+        "region": "eastus",
+        "tier_class": "Hot",
+        "size_bytes": 3912665301,
+        "object_count": 2711,
+        "last_30d_access_frequency": 12,
+        "last_accessed_date": "2026-02-11T19:37:20.223227",
+        "tags": {
+            "Environment": "Staging",
+            "Project": "MonthlyReports",
+            "DataClassification": "Cold"
+        }
+    },
+    {
+        "resource_id": "azure::cold-blob-c9637eba",
+        "provider": "azure",
+        "region": "eastus",
+        "tier_class": "Hot",
+        "size_bytes": 5808357286,
+        "object_count": 3858,
+        "last_30d_access_frequency": 24,
+        "last_accessed_date": "2026-02-06T19:37:20.223233",
+        "tags": {
+            "Environment": "Staging",
+            "Project": "MonthlyReports",
+            "DataClassification": "Cold"
+        }
+    },
+    {
+        "resource_id": "azure::cold-blob-e0d24efa",
+        "provider": "azure",
+        "region": "eastus",
+        "tier_class": "Hot",
+        "size_bytes": 6908477517,
+        "object_count": 3081,
+        "last_30d_access_frequency": 20,
+        "last_accessed_date": "2026-02-05T19:37:20.223239",
+        "tags": {
+            "Environment": "Staging",
+            "Project": "MonthlyReports",
+            "DataClassification": "Cold"
+        }
+    },
+    {
+        "resource_id": "azure::cold-blob-5d8da8d4",
+        "provider": "azure",
+        "region": "eastus",
+        "tier_class": "Hot",
+        "size_bytes": 6747327791,
+        "object_count": 738,
+        "last_30d_access_frequency": 11,
+        "last_accessed_date": "2026-02-08T19:37:20.223245",
+        "tags": {
+            "Environment": "Staging",
+            "Project": "MonthlyReports",
+            "DataClassification": "Cold"
+        }
+    },
+    {
+        "resource_id": "azure::cold-blob-fc6ae3f3",
+        "provider": "azure",
+        "region": "eastus",
+        "tier_class": "Hot",
+        "size_bytes": 729995413,
+        "object_count": 315,
+        "last_30d_access_frequency": 11,
+        "last_accessed_date": "2026-01-28T19:37:20.223251",
+        "tags": {
+            "Environment": "Staging",
+            "Project": "MonthlyReports",
+            "DataClassification": "Cold"
+        }
+    },
+    {
+        "resource_id": "azure::cold-blob-a1fdeb0a",
+        "provider": "azure",
+        "region": "eastus",
+        "tier_class": "Hot",
+        "size_bytes": 7983584348,
+        "object_count": 788,
+        "last_30d_access_frequency": 21,
+        "last_accessed_date": "2026-01-27T19:37:20.223257",
+        "tags": {
+            "Environment": "Staging",
+            "Project": "MonthlyReports",
+            "DataClassification": "Cold"
+        }
+    },
+    {
+        "resource_id": "azure::cold-blob-35d83c14",
+        "provider": "azure",
+        "region": "eastus",
+        "tier_class": "Hot",
+        "size_bytes": 5796856703,
+        "object_count": 1578,
+        "last_30d_access_frequency": 31,
+        "last_accessed_date": "2026-02-13T19:37:20.223263",
+        "tags": {
+            "Environment": "Staging",
+            "Project": "MonthlyReports",
+            "DataClassification": "Cold"
+        }
+    },
+    {
+        "resource_id": "azure::cold-blob-36aefb2f",
+        "provider": "azure",
+        "region": "eastus",
+        "tier_class": "Hot",
+        "size_bytes": 2109484164,
+        "object_count": 4305,
+        "last_30d_access_frequency": 40,
+        "last_accessed_date": "2026-02-09T19:37:20.223269",
+        "tags": {
+            "Environment": "Staging",
+            "Project": "MonthlyReports",
+            "DataClassification": "Cold"
+        }
+    },
+    {
+        "resource_id": "azure::cold-blob-88b6fb3d",
+        "provider": "azure",
+        "region": "eastus",
+        "tier_class": "Hot",
+        "size_bytes": 8265742091,
+        "object_count": 1769,
+        "last_30d_access_frequency": 22,
+        "last_accessed_date": "2026-01-28T19:37:20.223275",
+        "tags": {
+            "Environment": "Staging",
+            "Project": "MonthlyReports",
+            "DataClassification": "Cold"
+        }
+    },
+    {
+        "resource_id": "azure::cold-blob-25684c72",
+        "provider": "azure",
+        "region": "eastus",
+        "tier_class": "Hot",
+        "size_bytes": 3690656589,
+        "object_count": 1934,
+        "last_30d_access_frequency": 34,
+        "last_accessed_date": "2026-02-02T19:37:20.223281",
+        "tags": {
+            "Environment": "Staging",
+            "Project": "MonthlyReports",
+            "DataClassification": "Cold"
+        }
+    },
+    {
+        "resource_id": "azure::cold-blob-cce895a1",
+        "provider": "azure",
+        "region": "eastus",
+        "tier_class": "Hot",
+        "size_bytes": 9189140355,
+        "object_count": 4332,
+        "last_30d_access_frequency": 22,
+        "last_accessed_date": "2026-02-07T19:37:20.223287",
+        "tags": {
+            "Environment": "Staging",
+            "Project": "MonthlyReports",
+            "DataClassification": "Cold"
+        }
+    },
+    {
+        "resource_id": "azure::cold-blob-e63543bb",
+        "provider": "azure",
+        "region": "eastus",
+        "tier_class": "Hot",
+        "size_bytes": 2571858354,
+        "object_count": 1473,
+        "last_30d_access_frequency": 30,
+        "last_accessed_date": "2026-02-09T19:37:20.223293",
+        "tags": {
+            "Environment": "Staging",
+            "Project": "MonthlyReports",
+            "DataClassification": "Cold"
+        }
+    },
+    {
+        "resource_id": "azure::cold-blob-6832a57c",
+        "provider": "azure",
+        "region": "eastus",
+        "tier_class": "Hot",
+        "size_bytes": 3302690654,
+        "object_count": 1747,
+        "last_30d_access_frequency": 7,
+        "last_accessed_date": "2026-02-03T19:37:20.223300",
+        "tags": {
+            "Environment": "Staging",
+            "Project": "MonthlyReports",
+            "DataClassification": "Cold"
+        }
+    },
+    {
+        "resource_id": "azure::cold-blob-0dd0a04d",
+        "provider": "azure",
+        "region": "eastus",
+        "tier_class": "Hot",
+        "size_bytes": 983866733,
+        "object_count": 2933,
+        "last_30d_access_frequency": 14,
+        "last_accessed_date": "2026-02-10T19:37:20.223307",
+        "tags": {
+            "Environment": "Staging",
+            "Project": "MonthlyReports",
+            "DataClassification": "Cold"
+        }
+    },
+    {
+        "resource_id": "azure::cold-blob-e3f9a617",
+        "provider": "azure",
+        "region": "eastus",
+        "tier_class": "Hot",
+        "size_bytes": 10640069527,
+        "object_count": 4103,
+        "last_30d_access_frequency": 19,
+        "last_accessed_date": "2026-02-05T19:37:20.223313",
+        "tags": {
+            "Environment": "Staging",
+            "Project": "MonthlyReports",
+            "DataClassification": "Cold"
+        }
+    },
+    {
+        "resource_id": "azure::cold-blob-4af645fe",
+        "provider": "azure",
+        "region": "eastus",
+        "tier_class": "Hot",
+        "size_bytes": 765687546,
+        "object_count": 3962,
+        "last_30d_access_frequency": 31,
+        "last_accessed_date": "2026-02-08T19:37:20.223319",
+        "tags": {
+            "Environment": "Staging",
+            "Project": "MonthlyReports",
+            "DataClassification": "Cold"
+        }
+    },
+    {
+        "resource_id": "azure::cold-blob-39f0924f",
+        "provider": "azure",
+        "region": "eastus",
+        "tier_class": "Hot",
+        "size_bytes": 7001617464,
+        "object_count": 1849,
+        "last_30d_access_frequency": 18,
+        "last_accessed_date": "2026-02-05T19:37:20.223326",
+        "tags": {
+            "Environment": "Staging",
+            "Project": "MonthlyReports",
+            "DataClassification": "Cold"
+        }
+    },
+    {
+        "resource_id": "azure::cold-blob-ae9c2ed2",
+        "provider": "azure",
+        "region": "eastus",
+        "tier_class": "Hot",
+        "size_bytes": 5870986117,
+        "object_count": 824,
+        "last_30d_access_frequency": 8,
+        "last_accessed_date": "2026-02-01T19:37:20.223332",
+        "tags": {
+            "Environment": "Staging",
+            "Project": "MonthlyReports",
+            "DataClassification": "Cold"
+        }
+    },
+    {
+        "resource_id": "azure::cold-blob-24514fa1",
+        "provider": "azure",
+        "region": "eastus",
+        "tier_class": "Hot",
+        "size_bytes": 8698539010,
+        "object_count": 803,
+        "last_30d_access_frequency": 30,
+        "last_accessed_date": "2026-01-25T19:37:20.223337",
+        "tags": {
+            "Environment": "Staging",
+            "Project": "MonthlyReports",
+            "DataClassification": "Cold"
+        }
+    },
+    {
+        "resource_id": "azure::cold-blob-56916e1e",
+        "provider": "azure",
+        "region": "eastus",
+        "tier_class": "Hot",
+        "size_bytes": 889057580,
+        "object_count": 4797,
+        "last_30d_access_frequency": 26,
+        "last_accessed_date": "2026-02-01T19:37:20.223343",
+        "tags": {
+            "Environment": "Staging",
+            "Project": "MonthlyReports",
+            "DataClassification": "Cold"
+        }
+    },
+    {
+        "resource_id": "azure::cold-blob-ce413daa",
+        "provider": "azure",
+        "region": "eastus",
+        "tier_class": "Hot",
+        "size_bytes": 4907211039,
+        "object_count": 3794,
+        "last_30d_access_frequency": 36,
+        "last_accessed_date": "2026-02-04T19:37:20.223349",
+        "tags": {
+            "Environment": "Staging",
+            "Project": "MonthlyReports",
+            "DataClassification": "Cold"
+        }
+    },
+    {
+        "resource_id": "azure::cold-blob-5ddd407c",
+        "provider": "azure",
+        "region": "eastus",
+        "tier_class": "Hot",
+        "size_bytes": 10460314213,
+        "object_count": 1567,
+        "last_30d_access_frequency": 14,
+        "last_accessed_date": "2026-02-03T19:37:20.223355",
+        "tags": {
+            "Environment": "Staging",
+            "Project": "MonthlyReports",
+            "DataClassification": "Cold"
+        }
+    },
+    {
+        "resource_id": "azure::cold-blob-f9053fa9",
+        "provider": "azure",
+        "region": "eastus",
+        "tier_class": "Hot",
+        "size_bytes": 4292072055,
+        "object_count": 2474,
+        "last_30d_access_frequency": 23,
+        "last_accessed_date": "2026-02-05T19:37:20.223365",
+        "tags": {
+            "Environment": "Staging",
+            "Project": "MonthlyReports",
+            "DataClassification": "Cold"
+        }
+    },
+    {
+        "resource_id": "azure::cold-blob-8990d32b",
+        "provider": "azure",
+        "region": "eastus",
+        "tier_class": "Hot",
+        "size_bytes": 2315199478,
+        "object_count": 1393,
+        "last_30d_access_frequency": 22,
+        "last_accessed_date": "2026-02-04T19:37:20.223371",
+        "tags": {
+            "Environment": "Staging",
+            "Project": "MonthlyReports",
+            "DataClassification": "Cold"
+        }
+    },
+    {
+        "resource_id": "azure::cold-blob-44dd1e0e",
+        "provider": "azure",
+        "region": "eastus",
+        "tier_class": "Hot",
+        "size_bytes": 4982162382,
+        "object_count": 1253,
+        "last_30d_access_frequency": 35,
+        "last_accessed_date": "2026-01-24T19:37:20.223377",
+        "tags": {
+            "Environment": "Staging",
+            "Project": "MonthlyReports",
+            "DataClassification": "Cold"
+        }
+    },
+    {
+        "resource_id": "azure::cold-blob-b23ca01a",
+        "provider": "azure",
+        "region": "eastus",
+        "tier_class": "Hot",
+        "size_bytes": 1739918188,
+        "object_count": 4204,
+        "last_30d_access_frequency": 10,
+        "last_accessed_date": "2026-02-10T19:37:20.223384",
+        "tags": {
+            "Environment": "Staging",
+            "Project": "MonthlyReports",
+            "DataClassification": "Cold"
+        }
+    },
+    {
+        "resource_id": "azure::cold-blob-4cc181f8",
+        "provider": "azure",
+        "region": "eastus",
+        "tier_class": "Hot",
+        "size_bytes": 9651612181,
+        "object_count": 1377,
+        "last_30d_access_frequency": 35,
+        "last_accessed_date": "2026-01-29T19:37:20.223390",
+        "tags": {
+            "Environment": "Staging",
+            "Project": "MonthlyReports",
+            "DataClassification": "Cold"
+        }
+    },
+    {
+        "resource_id": "azure::cold-blob-3b423524",
+        "provider": "azure",
+        "region": "eastus",
+        "tier_class": "Hot",
+        "size_bytes": 8372959522,
+        "object_count": 4166,
+        "last_30d_access_frequency": 9,
+        "last_accessed_date": "2026-01-24T19:37:20.223396",
+        "tags": {
+            "Environment": "Staging",
+            "Project": "MonthlyReports",
+            "DataClassification": "Cold"
+        }
+    },
+    {
+        "resource_id": "azure::cold-blob-9518380a",
+        "provider": "azure",
+        "region": "eastus",
+        "tier_class": "Hot",
+        "size_bytes": 3615748686,
+        "object_count": 3615,
+        "last_30d_access_frequency": 34,
+        "last_accessed_date": "2026-02-06T19:37:20.223402",
+        "tags": {
+            "Environment": "Staging",
+            "Project": "MonthlyReports",
+            "DataClassification": "Cold"
+        }
+    },
+    {
+        "resource_id": "azure::cold-blob-ee9992e3",
+        "provider": "azure",
+        "region": "eastus",
+        "tier_class": "Hot",
+        "size_bytes": 3696657376,
+        "object_count": 1102,
+        "last_30d_access_frequency": 10,
+        "last_accessed_date": "2026-02-01T19:37:20.223407",
+        "tags": {
+            "Environment": "Staging",
+            "Project": "MonthlyReports",
+            "DataClassification": "Cold"
+        }
+    },
+    {
+        "resource_id": "azure::cold-blob-0ea8927b",
+        "provider": "azure",
+        "region": "eastus",
+        "tier_class": "Hot",
+        "size_bytes": 4869046648,
+        "object_count": 2684,
+        "last_30d_access_frequency": 22,
+        "last_accessed_date": "2026-02-12T19:37:20.223414",
+        "tags": {
+            "Environment": "Staging",
+            "Project": "MonthlyReports",
+            "DataClassification": "Cold"
+        }
+    },
+    {
+        "resource_id": "azure::cold-blob-8aabf817",
+        "provider": "azure",
+        "region": "eastus",
+        "tier_class": "Hot",
+        "size_bytes": 6844318755,
+        "object_count": 2202,
+        "last_30d_access_frequency": 26,
+        "last_accessed_date": "2026-02-02T19:37:20.223420",
+        "tags": {
+            "Environment": "Staging",
+            "Project": "MonthlyReports",
+            "DataClassification": "Cold"
+        }
+    },
+    {
+        "resource_id": "azure::cold-blob-6cc8b779",
+        "provider": "azure",
+        "region": "eastus",
+        "tier_class": "Hot",
+        "size_bytes": 6079146022,
+        "object_count": 1831,
+        "last_30d_access_frequency": 11,
+        "last_accessed_date": "2026-02-12T19:37:20.223426",
+        "tags": {
+            "Environment": "Staging",
+            "Project": "MonthlyReports",
+            "DataClassification": "Cold"
+        }
+    },
+    {
+        "resource_id": "azure::cold-blob-9c8adc1b",
+        "provider": "azure",
+        "region": "eastus",
+        "tier_class": "Hot",
+        "size_bytes": 5958746034,
+        "object_count": 2447,
+        "last_30d_access_frequency": 34,
+        "last_accessed_date": "2026-01-27T19:37:20.223432",
+        "tags": {
+            "Environment": "Staging",
+            "Project": "MonthlyReports",
+            "DataClassification": "Cold"
+        }
+    },
+    {
+        "resource_id": "azure::cold-blob-81138751",
+        "provider": "azure",
+        "region": "eastus",
+        "tier_class": "Hot",
+        "size_bytes": 9957447498,
+        "object_count": 3064,
+        "last_30d_access_frequency": 36,
+        "last_accessed_date": "2026-01-25T19:37:20.223438",
+        "tags": {
+            "Environment": "Staging",
+            "Project": "MonthlyReports",
+            "DataClassification": "Cold"
+        }
+    },
+    {
+        "resource_id": "azure::cold-blob-61e13e71",
+        "provider": "azure",
+        "region": "eastus",
+        "tier_class": "Hot",
+        "size_bytes": 8039013805,
+        "object_count": 1891,
+        "last_30d_access_frequency": 18,
+        "last_accessed_date": "2026-01-26T19:37:20.223444",
+        "tags": {
+            "Environment": "Staging",
+            "Project": "MonthlyReports",
+            "DataClassification": "Cold"
+        }
+    },
+    {
+        "resource_id": "azure::cold-blob-fb8f323f",
+        "provider": "azure",
+        "region": "eastus",
+        "tier_class": "Hot",
+        "size_bytes": 1796872442,
+        "object_count": 2082,
+        "last_30d_access_frequency": 38,
+        "last_accessed_date": "2026-02-02T19:37:20.223449",
+        "tags": {
+            "Environment": "Staging",
+            "Project": "MonthlyReports",
+            "DataClassification": "Cold"
+        }
+    },
+    {
+        "resource_id": "azure::cold-blob-79bdffcc",
+        "provider": "azure",
+        "region": "eastus",
+        "tier_class": "Hot",
+        "size_bytes": 8504056248,
+        "object_count": 2826,
+        "last_30d_access_frequency": 31,
+        "last_accessed_date": "2026-02-08T19:37:20.223456",
+        "tags": {
+            "Environment": "Staging",
+            "Project": "MonthlyReports",
+            "DataClassification": "Cold"
+        }
+    },
+    {
+        "resource_id": "azure::cold-blob-42db92f3",
+        "provider": "azure",
+        "region": "eastus",
+        "tier_class": "Hot",
+        "size_bytes": 1175604962,
+        "object_count": 1167,
+        "last_30d_access_frequency": 9,
+        "last_accessed_date": "2026-02-07T19:37:20.223462",
+        "tags": {
+            "Environment": "Staging",
+            "Project": "MonthlyReports",
+            "DataClassification": "Cold"
+        }
+    },
+    {
+        "resource_id": "azure::cold-blob-6ddbb9d4",
+        "provider": "azure",
+        "region": "eastus",
+        "tier_class": "Hot",
+        "size_bytes": 9931540005,
+        "object_count": 3357,
+        "last_30d_access_frequency": 39,
+        "last_accessed_date": "2026-02-06T19:37:20.223468",
+        "tags": {
+            "Environment": "Staging",
+            "Project": "MonthlyReports",
+            "DataClassification": "Cold"
+        }
+    },
+    {
+        "resource_id": "azure::cold-blob-f8952bab",
+        "provider": "azure",
+        "region": "eastus",
+        "tier_class": "Hot",
+        "size_bytes": 9114384103,
+        "object_count": 147,
+        "last_30d_access_frequency": 15,
+        "last_accessed_date": "2026-01-24T19:37:20.223474",
+        "tags": {
+            "Environment": "Staging",
+            "Project": "MonthlyReports",
+            "DataClassification": "Cold"
+        }
+    },
+    {
+        "resource_id": "azure::cold-blob-2a59c353",
+        "provider": "azure",
+        "region": "eastus",
+        "tier_class": "Hot",
+        "size_bytes": 4005326888,
+        "object_count": 2443,
+        "last_30d_access_frequency": 9,
+        "last_accessed_date": "2026-02-12T19:37:20.223480",
+        "tags": {
+            "Environment": "Staging",
+            "Project": "MonthlyReports",
+            "DataClassification": "Cold"
+        }
+    },
+    {
+        "resource_id": "azure::cold-blob-ecef525d",
+        "provider": "azure",
+        "region": "eastus",
+        "tier_class": "Hot",
+        "size_bytes": 5675498624,
+        "object_count": 3783,
+        "last_30d_access_frequency": 26,
+        "last_accessed_date": "2026-02-05T19:37:20.223486",
+        "tags": {
+            "Environment": "Staging",
+            "Project": "MonthlyReports",
+            "DataClassification": "Cold"
+        }
+    },
+    {
+        "resource_id": "azure::cold-blob-4a5ac9fb",
+        "provider": "azure",
+        "region": "eastus",
+        "tier_class": "Hot",
+        "size_bytes": 1653698533,
+        "object_count": 2941,
+        "last_30d_access_frequency": 20,
+        "last_accessed_date": "2026-02-06T19:37:20.223492",
+        "tags": {
+            "Environment": "Staging",
+            "Project": "MonthlyReports",
+            "DataClassification": "Cold"
+        }
+    },
+    {
+        "resource_id": "azure::cold-blob-31f13381",
+        "provider": "azure",
+        "region": "eastus",
+        "tier_class": "Hot",
+        "size_bytes": 4152541521,
+        "object_count": 3128,
+        "last_30d_access_frequency": 5,
+        "last_accessed_date": "2026-01-28T19:37:20.223498",
+        "tags": {
+            "Environment": "Staging",
+            "Project": "MonthlyReports",
+            "DataClassification": "Cold"
+        }
+    },
+    {
+        "resource_id": "gcp::archive-bucket-97394dd4",
+        "provider": "gcp",
+        "region": "us-central1",
+        "tier_class": "Standard",
+        "size_bytes": 3969181528463,
+        "object_count": 208384,
+        "last_30d_access_frequency": 0,
+        "last_accessed_date": "2025-07-23T19:37:20.223510",
+        "tags": {
+            "Environment": "Backup",
+            "Project": "LegacyLogs",
+            "DataClassification": "Archive"
+        }
+    },
+    {
+        "resource_id": "gcp::archive-bucket-6293e08e",
+        "provider": "gcp",
+        "region": "us-central1",
+        "tier_class": "Standard",
+        "size_bytes": 4885742583758,
+        "object_count": 200936,
+        "last_30d_access_frequency": 0,
+        "last_accessed_date": "2025-02-19T19:37:20.223517",
+        "tags": {
+            "Environment": "Backup",
+            "Project": "LegacyLogs",
+            "DataClassification": "Archive"
+        }
+    },
+    {
+        "resource_id": "gcp::archive-bucket-66a76e4b",
+        "provider": "gcp",
+        "region": "us-central1",
+        "tier_class": "Standard",
+        "size_bytes": 3561965497834,
+        "object_count": 691130,
+        "last_30d_access_frequency": 1,
+        "last_accessed_date": "2025-08-31T19:37:20.223523",
+        "tags": {
+            "Environment": "Backup",
+            "Project": "LegacyLogs",
+            "DataClassification": "Archive"
+        }
+    },
+    {
+        "resource_id": "gcp::archive-bucket-cd7816ba",
+        "provider": "gcp",
+        "region": "us-central1",
+        "tier_class": "Standard",
+        "size_bytes": 1633724313296,
+        "object_count": 771361,
+        "last_30d_access_frequency": 1,
+        "last_accessed_date": "2025-11-20T19:37:20.223529",
+        "tags": {
+            "Environment": "Backup",
+            "Project": "LegacyLogs",
+            "DataClassification": "Archive"
+        }
+    },
+    {
+        "resource_id": "gcp::archive-bucket-457853f6",
+        "provider": "gcp",
+        "region": "us-central1",
+        "tier_class": "Standard",
+        "size_bytes": 1540903909632,
+        "object_count": 263285,
+        "last_30d_access_frequency": 0,
+        "last_accessed_date": "2025-06-18T19:37:20.223535",
+        "tags": {
+            "Environment": "Backup",
+            "Project": "LegacyLogs",
+            "DataClassification": "Archive"
+        }
+    },
+    {
+        "resource_id": "gcp::archive-bucket-f0d49ebf",
+        "provider": "gcp",
+        "region": "us-central1",
+        "tier_class": "Standard",
+        "size_bytes": 4535066213438,
+        "object_count": 586380,
+        "last_30d_access_frequency": 0,
+        "last_accessed_date": "2025-09-06T19:37:20.223541",
+        "tags": {
+            "Environment": "Backup",
+            "Project": "LegacyLogs",
+            "DataClassification": "Archive"
+        }
+    },
+    {
+        "resource_id": "gcp::archive-bucket-734fe42b",
+        "provider": "gcp",
+        "region": "us-central1",
+        "tier_class": "Standard",
+        "size_bytes": 3012208360551,
+        "object_count": 468902,
+        "last_30d_access_frequency": 1,
+        "last_accessed_date": "2025-05-01T19:37:20.223547",
+        "tags": {
+            "Environment": "Backup",
+            "Project": "LegacyLogs",
+            "DataClassification": "Archive"
+        }
+    },
+    {
+        "resource_id": "gcp::archive-bucket-ac8a0984",
+        "provider": "gcp",
+        "region": "us-central1",
+        "tier_class": "Standard",
+        "size_bytes": 3421451952311,
+        "object_count": 273556,
+        "last_30d_access_frequency": 1,
+        "last_accessed_date": "2025-09-18T19:37:20.223554",
+        "tags": {
+            "Environment": "Backup",
+            "Project": "LegacyLogs",
+            "DataClassification": "Archive"
+        }
+    },
+    {
+        "resource_id": "gcp::archive-bucket-8fffa38e",
+        "provider": "gcp",
+        "region": "us-central1",
+        "tier_class": "Standard",
+        "size_bytes": 3846481166705,
+        "object_count": 346691,
+        "last_30d_access_frequency": 1,
+        "last_accessed_date": "2025-07-12T19:37:20.223559",
+        "tags": {
+            "Environment": "Backup",
+            "Project": "LegacyLogs",
+            "DataClassification": "Archive"
+        }
+    },
+    {
+        "resource_id": "gcp::archive-bucket-39b7879c",
+        "provider": "gcp",
+        "region": "us-central1",
+        "tier_class": "Standard",
+        "size_bytes": 3468973653452,
+        "object_count": 725191,
+        "last_30d_access_frequency": 0,
+        "last_accessed_date": "2025-09-09T19:37:20.223566",
+        "tags": {
+            "Environment": "Backup",
+            "Project": "LegacyLogs",
+            "DataClassification": "Archive"
+        }
+    },
+    {
+        "resource_id": "gcp::archive-bucket-d898b453",
+        "provider": "gcp",
+        "region": "us-central1",
+        "tier_class": "Standard",
+        "size_bytes": 1176914209468,
+        "object_count": 783924,
+        "last_30d_access_frequency": 0,
+        "last_accessed_date": "2025-10-22T19:37:20.223572",
+        "tags": {
+            "Environment": "Backup",
+            "Project": "LegacyLogs",
+            "DataClassification": "Archive"
+        }
+    },
+    {
+        "resource_id": "gcp::archive-bucket-0fcdcd5d",
+        "provider": "gcp",
+        "region": "us-central1",
+        "tier_class": "Standard",
+        "size_bytes": 5040969314219,
+        "object_count": 870341,
+        "last_30d_access_frequency": 0,
+        "last_accessed_date": "2025-09-16T19:37:20.223578",
+        "tags": {
+            "Environment": "Backup",
+            "Project": "LegacyLogs",
+            "DataClassification": "Archive"
+        }
+    },
+    {
+        "resource_id": "gcp::archive-bucket-d9c3ffe7",
+        "provider": "gcp",
+        "region": "us-central1",
+        "tier_class": "Standard",
+        "size_bytes": 3407787202187,
+        "object_count": 643550,
+        "last_30d_access_frequency": 0,
+        "last_accessed_date": "2025-09-13T19:37:20.223584",
+        "tags": {
+            "Environment": "Backup",
+            "Project": "LegacyLogs",
+            "DataClassification": "Archive"
+        }
+    },
+    {
+        "resource_id": "gcp::archive-bucket-37e1762d",
+        "provider": "gcp",
+        "region": "us-central1",
+        "tier_class": "Standard",
+        "size_bytes": 3357722673477,
+        "object_count": 528566,
+        "last_30d_access_frequency": 1,
+        "last_accessed_date": "2025-04-03T19:37:20.223590",
+        "tags": {
+            "Environment": "Backup",
+            "Project": "LegacyLogs",
+            "DataClassification": "Archive"
+        }
+    },
+    {
+        "resource_id": "gcp::archive-bucket-1a39d99e",
+        "provider": "gcp",
+        "region": "us-central1",
+        "tier_class": "Standard",
+        "size_bytes": 2690711127720,
+        "object_count": 734195,
+        "last_30d_access_frequency": 1,
+        "last_accessed_date": "2025-07-04T19:37:20.223596",
+        "tags": {
+            "Environment": "Backup",
+            "Project": "LegacyLogs",
+            "DataClassification": "Archive"
+        }
+    },
+    {
+        "resource_id": "gcp::archive-bucket-2fd6d274",
+        "provider": "gcp",
+        "region": "us-central1",
+        "tier_class": "Standard",
+        "size_bytes": 2405809291952,
+        "object_count": 762213,
+        "last_30d_access_frequency": 1,
+        "last_accessed_date": "2025-05-28T19:37:20.223602",
+        "tags": {
+            "Environment": "Backup",
+            "Project": "LegacyLogs",
+            "DataClassification": "Archive"
+        }
+    },
+    {
+        "resource_id": "gcp::archive-bucket-0f7e973a",
+        "provider": "gcp",
+        "region": "us-central1",
+        "tier_class": "Standard",
+        "size_bytes": 5209270101914,
+        "object_count": 238874,
+        "last_30d_access_frequency": 1,
+        "last_accessed_date": "2025-05-22T19:37:20.223608",
+        "tags": {
+            "Environment": "Backup",
+            "Project": "LegacyLogs",
+            "DataClassification": "Archive"
+        }
+    },
+    {
+        "resource_id": "gcp::archive-bucket-f26b0d3f",
+        "provider": "gcp",
+        "region": "us-central1",
+        "tier_class": "Standard",
+        "size_bytes": 1242485658145,
+        "object_count": 203171,
+        "last_30d_access_frequency": 1,
+        "last_accessed_date": "2025-03-20T19:37:20.223614",
+        "tags": {
+            "Environment": "Backup",
+            "Project": "LegacyLogs",
+            "DataClassification": "Archive"
+        }
+    },
+    {
+        "resource_id": "gcp::archive-bucket-f1f1af07",
+        "provider": "gcp",
+        "region": "us-central1",
+        "tier_class": "Standard",
+        "size_bytes": 4672136162053,
+        "object_count": 682599,
+        "last_30d_access_frequency": 0,
+        "last_accessed_date": "2025-02-27T19:37:20.223620",
+        "tags": {
+            "Environment": "Backup",
+            "Project": "LegacyLogs",
+            "DataClassification": "Archive"
+        }
+    },
+    {
+        "resource_id": "gcp::archive-bucket-d0fa7ebc",
+        "provider": "gcp",
+        "region": "us-central1",
+        "tier_class": "Standard",
+        "size_bytes": 1973155299425,
+        "object_count": 566380,
+        "last_30d_access_frequency": 1,
+        "last_accessed_date": "2025-03-21T19:37:20.223626",
+        "tags": {
+            "Environment": "Backup",
+            "Project": "LegacyLogs",
+            "DataClassification": "Archive"
+        }
+    },
+    {
+        "resource_id": "gcp::archive-bucket-15bf1e94",
+        "provider": "gcp",
+        "region": "us-central1",
+        "tier_class": "Standard",
+        "size_bytes": 3597393044027,
+        "object_count": 452054,
+        "last_30d_access_frequency": 0,
+        "last_accessed_date": "2025-06-19T19:37:20.223633",
+        "tags": {
+            "Environment": "Backup",
+            "Project": "LegacyLogs",
+            "DataClassification": "Archive"
+        }
+    },
+    {
+        "resource_id": "gcp::archive-bucket-3d9d4191",
+        "provider": "gcp",
+        "region": "us-central1",
+        "tier_class": "Standard",
+        "size_bytes": 3437521038656,
+        "object_count": 976177,
+        "last_30d_access_frequency": 1,
+        "last_accessed_date": "2025-02-26T19:37:20.223640",
+        "tags": {
+            "Environment": "Backup",
+            "Project": "LegacyLogs",
+            "DataClassification": "Archive"
+        }
+    },
+    {
+        "resource_id": "gcp::archive-bucket-4b90efb9",
+        "provider": "gcp",
+        "region": "us-central1",
+        "tier_class": "Standard",
+        "size_bytes": 4050533901965,
+        "object_count": 526968,
+        "last_30d_access_frequency": 0,
+        "last_accessed_date": "2025-02-20T19:37:20.223646",
+        "tags": {
+            "Environment": "Backup",
+            "Project": "LegacyLogs",
+            "DataClassification": "Archive"
+        }
+    },
+    {
+        "resource_id": "gcp::archive-bucket-eea861b4",
+        "provider": "gcp",
+        "region": "us-central1",
+        "tier_class": "Standard",
+        "size_bytes": 2630296776917,
+        "object_count": 748813,
+        "last_30d_access_frequency": 0,
+        "last_accessed_date": "2025-05-12T19:37:20.223652",
+        "tags": {
+            "Environment": "Backup",
+            "Project": "LegacyLogs",
+            "DataClassification": "Archive"
+        }
+    },
+    {
+        "resource_id": "gcp::archive-bucket-9bbc0de3",
+        "provider": "gcp",
+        "region": "us-central1",
+        "tier_class": "Standard",
+        "size_bytes": 1942599908797,
+        "object_count": 229341,
+        "last_30d_access_frequency": 1,
+        "last_accessed_date": "2025-06-26T19:37:20.223658",
+        "tags": {
+            "Environment": "Backup",
+            "Project": "LegacyLogs",
+            "DataClassification": "Archive"
+        }
+    },
+    {
+        "resource_id": "gcp::archive-bucket-11ebb1f6",
+        "provider": "gcp",
+        "region": "us-central1",
+        "tier_class": "Standard",
+        "size_bytes": 4458739696270,
+        "object_count": 220860,
+        "last_30d_access_frequency": 1,
+        "last_accessed_date": "2025-05-10T19:37:20.223664",
+        "tags": {
+            "Environment": "Backup",
+            "Project": "LegacyLogs",
+            "DataClassification": "Archive"
+        }
+    },
+    {
+        "resource_id": "gcp::archive-bucket-2716405a",
+        "provider": "gcp",
+        "region": "us-central1",
+        "tier_class": "Standard",
+        "size_bytes": 2815936706495,
+        "object_count": 710022,
+        "last_30d_access_frequency": 0,
+        "last_accessed_date": "2025-05-18T19:37:20.223670",
+        "tags": {
+            "Environment": "Backup",
+            "Project": "LegacyLogs",
+            "DataClassification": "Archive"
+        }
+    },
+    {
+        "resource_id": "gcp::archive-bucket-1f2726a2",
+        "provider": "gcp",
+        "region": "us-central1",
+        "tier_class": "Standard",
+        "size_bytes": 3152371163279,
+        "object_count": 206452,
+        "last_30d_access_frequency": 1,
+        "last_accessed_date": "2025-03-23T19:37:20.223676",
+        "tags": {
+            "Environment": "Backup",
+            "Project": "LegacyLogs",
+            "DataClassification": "Archive"
+        }
+    },
+    {
+        "resource_id": "gcp::archive-bucket-6bc2fd3e",
+        "provider": "gcp",
+        "region": "us-central1",
+        "tier_class": "Standard",
+        "size_bytes": 1558997401751,
+        "object_count": 798693,
+        "last_30d_access_frequency": 0,
+        "last_accessed_date": "2025-07-28T19:37:20.223682",
+        "tags": {
+            "Environment": "Backup",
+            "Project": "LegacyLogs",
+            "DataClassification": "Archive"
+        }
+    },
+    {
+        "resource_id": "gcp::archive-bucket-1cc8e056",
+        "provider": "gcp",
+        "region": "us-central1",
+        "tier_class": "Standard",
+        "size_bytes": 1727607219532,
+        "object_count": 594955,
+        "last_30d_access_frequency": 0,
+        "last_accessed_date": "2025-09-07T19:37:20.223688",
+        "tags": {
+            "Environment": "Backup",
+            "Project": "LegacyLogs",
+            "DataClassification": "Archive"
+        }
+    },
+    {
+        "resource_id": "gcp::archive-bucket-0cca0fda",
+        "provider": "gcp",
+        "region": "us-central1",
+        "tier_class": "Standard",
+        "size_bytes": 2684011676162,
+        "object_count": 89962,
+        "last_30d_access_frequency": 0,
+        "last_accessed_date": "2025-03-08T19:37:20.223694",
+        "tags": {
+            "Environment": "Backup",
+            "Project": "LegacyLogs",
+            "DataClassification": "Archive"
+        }
+    },
+    {
+        "resource_id": "gcp::archive-bucket-fd9d5c90",
+        "provider": "gcp",
+        "region": "us-central1",
+        "tier_class": "Standard",
+        "size_bytes": 3925143877726,
+        "object_count": 269419,
+        "last_30d_access_frequency": 1,
+        "last_accessed_date": "2025-06-30T19:37:20.223700",
+        "tags": {
+            "Environment": "Backup",
+            "Project": "LegacyLogs",
+            "DataClassification": "Archive"
+        }
+    },
+    {
+        "resource_id": "gcp::archive-bucket-7c77dc3b",
+        "provider": "gcp",
+        "region": "us-central1",
+        "tier_class": "Standard",
+        "size_bytes": 3379766129373,
+        "object_count": 685063,
+        "last_30d_access_frequency": 1,
+        "last_accessed_date": "2025-08-10T19:37:20.223706",
+        "tags": {
+            "Environment": "Backup",
+            "Project": "LegacyLogs",
+            "DataClassification": "Archive"
+        }
+    },
+    {
+        "resource_id": "gcp::archive-bucket-7a7e23f5",
+        "provider": "gcp",
+        "region": "us-central1",
+        "tier_class": "Standard",
+        "size_bytes": 4528458840071,
+        "object_count": 838218,
+        "last_30d_access_frequency": 0,
+        "last_accessed_date": "2025-11-05T19:37:20.223712",
+        "tags": {
+            "Environment": "Backup",
+            "Project": "LegacyLogs",
+            "DataClassification": "Archive"
+        }
+    },
+    {
+        "resource_id": "gcp::archive-bucket-eaf0fc8b",
+        "provider": "gcp",
+        "region": "us-central1",
+        "tier_class": "Standard",
+        "size_bytes": 1989238165061,
+        "object_count": 681562,
+        "last_30d_access_frequency": 1,
+        "last_accessed_date": "2025-06-03T19:37:20.223718",
+        "tags": {
+            "Environment": "Backup",
+            "Project": "LegacyLogs",
+            "DataClassification": "Archive"
+        }
+    },
+    {
+        "resource_id": "gcp::archive-bucket-9b5a38c4",
+        "provider": "gcp",
+        "region": "us-central1",
+        "tier_class": "Standard",
+        "size_bytes": 3037722291562,
+        "object_count": 814757,
+        "last_30d_access_frequency": 1,
+        "last_accessed_date": "2025-07-28T19:37:20.223724",
+        "tags": {
+            "Environment": "Backup",
+            "Project": "LegacyLogs",
+            "DataClassification": "Archive"
+        }
+    },
+    {
+        "resource_id": "gcp::archive-bucket-3b2eff76",
+        "provider": "gcp",
+        "region": "us-central1",
+        "tier_class": "Standard",
+        "size_bytes": 5163374541677,
+        "object_count": 213996,
+        "last_30d_access_frequency": 0,
+        "last_accessed_date": "2025-08-13T19:37:20.223730",
+        "tags": {
+            "Environment": "Backup",
+            "Project": "LegacyLogs",
+            "DataClassification": "Archive"
+        }
+    },
+    {
+        "resource_id": "gcp::archive-bucket-6fd133c3",
+        "provider": "gcp",
+        "region": "us-central1",
+        "tier_class": "Standard",
+        "size_bytes": 1283455725228,
+        "object_count": 651222,
+        "last_30d_access_frequency": 1,
+        "last_accessed_date": "2025-08-21T19:37:20.223736",
+        "tags": {
+            "Environment": "Backup",
+            "Project": "LegacyLogs",
+            "DataClassification": "Archive"
+        }
+    },
+    {
+        "resource_id": "gcp::archive-bucket-382ee150",
+        "provider": "gcp",
+        "region": "us-central1",
+        "tier_class": "Standard",
+        "size_bytes": 5240278264878,
+        "object_count": 571874,
+        "last_30d_access_frequency": 1,
+        "last_accessed_date": "2025-09-21T19:37:20.223742",
+        "tags": {
+            "Environment": "Backup",
+            "Project": "LegacyLogs",
+            "DataClassification": "Archive"
+        }
+    },
+    {
+        "resource_id": "gcp::archive-bucket-c0e770c5",
+        "provider": "gcp",
+        "region": "us-central1",
+        "tier_class": "Standard",
+        "size_bytes": 1403863196084,
+        "object_count": 701070,
+        "last_30d_access_frequency": 1,
+        "last_accessed_date": "2025-09-12T19:37:20.223748",
+        "tags": {
+            "Environment": "Backup",
+            "Project": "LegacyLogs",
+            "DataClassification": "Archive"
+        }
+    },
+    {
+        "resource_id": "gcp::archive-bucket-a7f463c0",
+        "provider": "gcp",
+        "region": "us-central1",
+        "tier_class": "Standard",
+        "size_bytes": 1734414078195,
+        "object_count": 927350,
+        "last_30d_access_frequency": 1,
+        "last_accessed_date": "2025-11-11T19:37:20.223754",
+        "tags": {
+            "Environment": "Backup",
+            "Project": "LegacyLogs",
+            "DataClassification": "Archive"
+        }
+    },
+    {
+        "resource_id": "gcp::archive-bucket-bc38d4ee",
+        "provider": "gcp",
+        "region": "us-central1",
+        "tier_class": "Standard",
+        "size_bytes": 4748533066949,
+        "object_count": 118962,
+        "last_30d_access_frequency": 1,
+        "last_accessed_date": "2025-04-01T19:37:20.223760",
+        "tags": {
+            "Environment": "Backup",
+            "Project": "LegacyLogs",
+            "DataClassification": "Archive"
+        }
+    },
+    {
+        "resource_id": "gcp::archive-bucket-5ff0f720",
+        "provider": "gcp",
+        "region": "us-central1",
+        "tier_class": "Standard",
+        "size_bytes": 2956601380771,
+        "object_count": 333853,
+        "last_30d_access_frequency": 1,
+        "last_accessed_date": "2025-09-10T19:37:20.223767",
+        "tags": {
+            "Environment": "Backup",
+            "Project": "LegacyLogs",
+            "DataClassification": "Archive"
+        }
+    },
+    {
+        "resource_id": "gcp::archive-bucket-76a96edd",
+        "provider": "gcp",
+        "region": "us-central1",
+        "tier_class": "Standard",
+        "size_bytes": 1310047938059,
+        "object_count": 293565,
+        "last_30d_access_frequency": 0,
+        "last_accessed_date": "2025-11-07T19:37:20.223773",
+        "tags": {
+            "Environment": "Backup",
+            "Project": "LegacyLogs",
+            "DataClassification": "Archive"
+        }
+    },
+    {
+        "resource_id": "gcp::archive-bucket-ed49aae9",
+        "provider": "gcp",
+        "region": "us-central1",
+        "tier_class": "Standard",
+        "size_bytes": 4545936248736,
+        "object_count": 249675,
+        "last_30d_access_frequency": 1,
+        "last_accessed_date": "2025-07-23T19:37:20.223779",
+        "tags": {
+            "Environment": "Backup",
+            "Project": "LegacyLogs",
+            "DataClassification": "Archive"
+        }
+    },
+    {
+        "resource_id": "gcp::archive-bucket-93a13ac0",
+        "provider": "gcp",
+        "region": "us-central1",
+        "tier_class": "Standard",
+        "size_bytes": 3841680269246,
+        "object_count": 359134,
+        "last_30d_access_frequency": 1,
+        "last_accessed_date": "2025-08-16T19:37:20.223786",
+        "tags": {
+            "Environment": "Backup",
+            "Project": "LegacyLogs",
+            "DataClassification": "Archive"
+        }
+    },
+    {
+        "resource_id": "gcp::archive-bucket-8fcdcab9",
+        "provider": "gcp",
+        "region": "us-central1",
+        "tier_class": "Standard",
+        "size_bytes": 5403563599822,
+        "object_count": 806498,
+        "last_30d_access_frequency": 1,
+        "last_accessed_date": "2025-10-04T19:37:20.223792",
+        "tags": {
+            "Environment": "Backup",
+            "Project": "LegacyLogs",
+            "DataClassification": "Archive"
+        }
+    },
+    {
+        "resource_id": "gcp::archive-bucket-e46b291c",
+        "provider": "gcp",
+        "region": "us-central1",
+        "tier_class": "Standard",
+        "size_bytes": 4030679128599,
+        "object_count": 833144,
+        "last_30d_access_frequency": 0,
+        "last_accessed_date": "2025-03-29T19:37:20.223799",
+        "tags": {
+            "Environment": "Backup",
+            "Project": "LegacyLogs",
+            "DataClassification": "Archive"
+        }
+    },
+    {
+        "resource_id": "gcp::archive-bucket-19c72aae",
+        "provider": "gcp",
+        "region": "us-central1",
+        "tier_class": "Standard",
+        "size_bytes": 2584945049490,
+        "object_count": 158286,
+        "last_30d_access_frequency": 0,
+        "last_accessed_date": "2025-08-03T19:37:20.223805",
+        "tags": {
+            "Environment": "Backup",
+            "Project": "LegacyLogs",
+            "DataClassification": "Archive"
+        }
+    },
+    {
+        "resource_id": "gcp::archive-bucket-a6945da7",
+        "provider": "gcp",
+        "region": "us-central1",
+        "tier_class": "Standard",
+        "size_bytes": 2230771851561,
+        "object_count": 702341,
+        "last_30d_access_frequency": 1,
+        "last_accessed_date": "2025-05-14T19:37:20.223811",
+        "tags": {
+            "Environment": "Backup",
+            "Project": "LegacyLogs",
+            "DataClassification": "Archive"
+        }
+    }
+]

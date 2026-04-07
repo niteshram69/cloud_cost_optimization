@@ -1,0 +1,44 @@
+[
+  {
+    "resource_id": "aws::hot-bucket-0001",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "current_tier": "STANDARD",
+    "requests_30d": 85000,
+    "requests_90d": 240000,
+    "last_access_days": 1,
+    "object_age_days": 12,
+    "read_write_ratio": 7.5,
+    "access_std_dev": 1500,
+    "object_size_mb": 42000,
+    "estimated_monthly_cost_usd": 28.50
+  },
+  {
+    "resource_id": "aws::hot-bucket-0002",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "current_tier": "STANDARD",
+    "requests_30d": 62000,
+    "requests_90d": 190000,
+    "last_access_days": 2,
+    "object_age_days": 15,
+    "read_write_ratio": 6.2,
+    "access_std_dev": 1200,
+    "object_size_mb": 51000,
+    "estimated_monthly_cost_usd": 31.20
+  },
+  {
+    "resource_id": "aws::hot-bucket-0003",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "current_tier": "STANDARD",
+    "requests_30d": 71000,
+    "requests_90d": 210000,
+    "last_access_days": 3,
+    "object_age_days": 10,
+    "read_write_ratio": 5.9,
+    "access_std_dev": 1350,
+    "object_size_mb": 38000,
+    "estimated_monthly_cost_usd": 24.90
+  }
+]

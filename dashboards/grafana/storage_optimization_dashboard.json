@@ -1,0 +1,161 @@
+{
+  "id": null,
+  "uid": "costintel-storage-v2",
+  "title": "Multi-Cloud Storage Optimization",
+  "tags": [
+    "costintel",
+    "finops",
+    "storage"
+  ],
+  "timezone": "browser",
+  "schemaVersion": 39,
+  "version": 1,
+  "refresh": "30s",
+  "time": {
+    "from": "now-30d",
+    "to": "now"
+  },
+  "templating": {
+    "list": [
+      {
+        "name": "tenant",
+        "type": "query",
+        "datasource": "Prometheus",
+        "query": "label_values(costintel_savings_usd_total, tenant_id)",
+        "refresh": 1,
+        "includeAll": true,
+        "multi": true
+      }
+    ]
+  },
+  "panels": [
+    {
+      "id": 1,
+      "type": "timeseries",
+      "title": "Storage Cost by Provider/Region (USD)",
+      "datasource": "Prometheus",
+      "targets": [
+        {
+          "expr": "costintel_storage_cost_usd",
+          "legendFormat": "{{provider}}/{{region}}"
+        }
+      ],
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": 2,
+      "type": "timeseries",
+      "title": "Savings Over Time (USD)",
+      "datasource": "Prometheus",
+      "targets": [
+        {
+          "expr": "sum by (tenant_id) (increase(costintel_savings_usd_total[30d]))",
+          "legendFormat": "{{tenant_id}}"
+        }
+      ],
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 12,
+        "y": 0
+      }
+    },
+    {
+      "id": 3,
+      "type": "bargauge",
+      "title": "Objects per Data Class",
+      "datasource": "Prometheus",
+      "targets": [
+        {
+          "expr": "costintel_objects_per_data_class",
+          "legendFormat": "{{data_class}}"
+        }
+      ],
+      "gridPos": {
+        "h": 8,
+        "w": 8,
+        "x": 0,
+        "y": 8
+      }
+    },
+    {
+      "id": 4,
+      "type": "piechart",
+      "title": "Migration Outcomes",
+      "datasource": "Prometheus",
+      "targets": [
+        {
+          "expr": "sum by (status) (increase(costintel_migration_operations_total[30d]))",
+          "legendFormat": "{{status}}"
+        }
+      ],
+      "gridPos": {
+        "h": 8,
+        "w": 8,
+        "x": 8,
+        "y": 8
+      }
+    },
+    {
+      "id": 5,
+      "type": "histogram",
+      "title": "ML Confidence Distribution",
+      "datasource": "Prometheus",
+      "targets": [
+        {
+          "expr": "sum(rate(costintel_ml_confidence_score_bucket[5m])) by (le)",
+          "legendFormat": "confidence"
+        }
+      ],
+      "gridPos": {
+        "h": 8,
+        "w": 8,
+        "x": 16,
+        "y": 8
+      }
+    },
+    {
+      "id": 6,
+      "type": "stat",
+      "title": "Classification Drift",
+      "datasource": "Prometheus",
+      "targets": [
+        {
+          "expr": "costintel_classification_drift_score"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "yellow",
+                "value": 0.2
+              },
+              {
+                "color": "red",
+                "value": 0.4
+              }
+            ]
+          }
+        }
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 6,
+        "x": 0,
+        "y": 16
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "resource_id": "missing-lat-1",
+    "provider": "AWS",
+    "region": "ap-south-1",
+    "storage_class": "S3 Standard",
+    "usage_metrics": {"requests_30d": 9000},
+    "cost_metrics": {"monthly_cost_usd": 66.5},
+    "storage_metrics": {"object_count": 340000}
+  },
+  {
+    "resource_id": "missing-lat-2",
+    "provider": "AWS",
+    "region": "ap-south-1",
+    "storage_class": "S3 Standard",
+    "requests_30d": 70,
+    "monthly_cost": 15.2,
+    "object_count": 12000
+  }
+]

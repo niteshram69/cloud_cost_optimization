@@ -1,0 +1,165 @@
+version: "3.8"
+
+services:
+  # MySQL Database
+  mysql:
+    image: mysql:8.0
+    container_name: costintel-mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: costintel
+      MYSQL_USER: costintel
+      MYSQL_PASSWORD: costintel_dev_password
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-prootpassword"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - costintel-network
+
+  # Redis (Cache + Message Broker)
+  redis:
+    image: redis:7-alpine
+    container_name: costintel-redis
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - costintel-network
+
+  # FastAPI Application
+  api:
+    build:
+      context: .
+      dockerfile: docker/app.Dockerfile
+    container_name: costintel-api
+    restart: unless-stopped
+    environment:
+      APP_ENVIRONMENT: development
+      DEBUG: "true"
+      SECRET_KEY: dev-secret-key-change-in-production-32-chars-long
+      DATABASE_URL: mysql+aiomysql://costintel:costintel_dev_password@mysql:3306/costintel
+      REDIS_URL: redis://redis:6379/0
+      CELERY_BROKER_URL: redis://redis:6379/0
+      CELERY_RESULT_BACKEND: redis://redis:6379/0
+      UPLOAD_DIR: /app/uploads
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./uploads:/app/uploads
+    depends_on:
+      mysql:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    networks:
+      - costintel-network
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+
+  # Celery Worker
+  worker:
+    build:
+      context: .
+      dockerfile: docker/app.Dockerfile
+    container_name: costintel-worker
+    restart: unless-stopped
+    command: celery -A backend.app.workers.celery_app.celery_app worker --loglevel=info --concurrency=4
+    environment:
+      APP_ENVIRONMENT: development
+      DEBUG: "true"
+      SECRET_KEY: dev-secret-key-change-in-production-32-chars-long
+      DATABASE_URL: mysql+aiomysql://costintel:costintel_dev_password@mysql:3306/costintel
+      REDIS_URL: redis://redis:6379/0
+      CELERY_BROKER_URL: redis://redis:6379/0
+      CELERY_RESULT_BACKEND: redis://redis:6379/0
+      UPLOAD_DIR: /app/uploads
+    volumes:
+      - ./uploads:/app/uploads
+    depends_on:
+      mysql:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    networks:
+      - costintel-network
+
+  # Celery Beat (Scheduler)
+  beat:
+    build:
+      context: .
+      dockerfile: docker/app.Dockerfile
+    container_name: costintel-beat
+    restart: unless-stopped
+    command: celery -A backend.app.workers.celery_app.celery_app beat --loglevel=info
+    environment:
+      APP_ENVIRONMENT: development
+      DEBUG: "true"
+      SECRET_KEY: dev-secret-key-change-in-production-32-chars-long
+      DATABASE_URL: mysql+aiomysql://costintel:costintel_dev_password@mysql:3306/costintel
+      REDIS_URL: redis://redis:6379/0
+      CELERY_BROKER_URL: redis://redis:6379/0
+      CELERY_RESULT_BACKEND: redis://redis:6379/0
+    depends_on:
+      - redis
+      - worker
+    networks:
+      - costintel-network
+
+  # Flower (Celery Monitoring)
+  flower:
+    build:
+      context: .
+      dockerfile: docker/app.Dockerfile
+    container_name: costintel-flower
+    restart: unless-stopped
+    command: celery -A backend.app.workers.celery_app.celery_app flower --port=5555 --url_prefix=flower
+    environment:
+      CELERY_BROKER_URL: redis://redis:6379/0
+      CELERY_RESULT_BACKEND: redis://redis:6379/0
+    ports:
+      - "5555:5555"
+    depends_on:
+      - redis
+      - worker
+    networks:
+      - costintel-network
+
+  # Nginx Reverse Proxy
+  nginx:
+    build:
+      context: ./docker
+      dockerfile: nginx.Dockerfile
+    container_name: costintel-nginx
+    restart: unless-stopped
+    ports:
+      - "80:80"
+    depends_on:
+      - api
+    networks:
+      - costintel-network
+
+volumes:
+  mysql_data:
+  redis_data:
+
+networks:
+  costintel-network:
+    driver: bridge

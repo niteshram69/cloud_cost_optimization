@@ -1,0 +1,6752 @@
+[
+  {
+    "resource_id": "aws::hot-bucket-0000",
+    "provider": "aws",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 79984698090,
+    "object_count": 13397,
+    "requests_30d": 1601,
+    "last_accessed_date": "2026-02-15T23:48:49.744766",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::hot-bucket-0001",
+    "provider": "aws",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 52365113049,
+    "object_count": 42052,
+    "requests_30d": 1963,
+    "last_accessed_date": "2026-02-16T04:48:49.744926",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::hot-bucket-0002",
+    "provider": "aws",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 61822986137,
+    "object_count": 34573,
+    "requests_30d": 891,
+    "last_accessed_date": "2026-02-18T09:48:49.744932",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::hot-bucket-0003",
+    "provider": "aws",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 55357705763,
+    "object_count": 45095,
+    "requests_30d": 1370,
+    "last_accessed_date": "2026-02-18T00:48:49.744938",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::hot-bucket-0004",
+    "provider": "aws",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 34507865323,
+    "object_count": 41186,
+    "requests_30d": 1428,
+    "last_accessed_date": "2026-02-16T22:48:49.744944",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::hot-bucket-0005",
+    "provider": "aws",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 74039445352,
+    "object_count": 9950,
+    "requests_30d": 1456,
+    "last_accessed_date": "2026-02-17T01:48:49.744949",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::hot-bucket-0006",
+    "provider": "aws",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 47880120492,
+    "object_count": 12161,
+    "requests_30d": 1497,
+    "last_accessed_date": "2026-02-18T06:48:49.744954",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::hot-bucket-0007",
+    "provider": "aws",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 56839245429,
+    "object_count": 47477,
+    "requests_30d": 869,
+    "last_accessed_date": "2026-02-18T01:48:49.744959",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::hot-bucket-0008",
+    "provider": "aws",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 63916986045,
+    "object_count": 35190,
+    "requests_30d": 1068,
+    "last_accessed_date": "2026-02-16T09:48:49.744964",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::hot-bucket-0009",
+    "provider": "aws",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 59762923813,
+    "object_count": 17996,
+    "requests_30d": 1567,
+    "last_accessed_date": "2026-02-17T07:48:49.744969",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::hot-bucket-0010",
+    "provider": "aws",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 11001082822,
+    "object_count": 15704,
+    "requests_30d": 1925,
+    "last_accessed_date": "2026-02-16T10:48:49.744974",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::hot-bucket-0011",
+    "provider": "aws",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 16489036075,
+    "object_count": 16277,
+    "requests_30d": 1441,
+    "last_accessed_date": "2026-02-15T20:48:49.744979",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::hot-bucket-0012",
+    "provider": "aws",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 41704362090,
+    "object_count": 47472,
+    "requests_30d": 1927,
+    "last_accessed_date": "2026-02-17T22:48:49.744984",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::hot-bucket-0013",
+    "provider": "aws",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 26784667109,
+    "object_count": 47016,
+    "requests_30d": 1734,
+    "last_accessed_date": "2026-02-18T03:48:49.744989",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::hot-bucket-0014",
+    "provider": "aws",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 31931965107,
+    "object_count": 49586,
+    "requests_30d": 1667,
+    "last_accessed_date": "2026-02-16T11:48:49.744994",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::hot-bucket-0015",
+    "provider": "aws",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 41740084255,
+    "object_count": 6246,
+    "requests_30d": 1363,
+    "last_accessed_date": "2026-02-18T07:48:49.744999",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::hot-bucket-0016",
+    "provider": "aws",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 80598031494,
+    "object_count": 33483,
+    "requests_30d": 1730,
+    "last_accessed_date": "2026-02-18T11:48:49.745003",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::hot-bucket-0017",
+    "provider": "aws",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 66388764458,
+    "object_count": 10669,
+    "requests_30d": 1103,
+    "last_accessed_date": "2026-02-16T08:48:49.745008",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::hot-bucket-0018",
+    "provider": "aws",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 60316357164,
+    "object_count": 34383,
+    "requests_30d": 968,
+    "last_accessed_date": "2026-02-16T10:48:49.745013",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::hot-bucket-0019",
+    "provider": "aws",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 51582898079,
+    "object_count": 18068,
+    "requests_30d": 866,
+    "last_accessed_date": "2026-02-15T19:48:49.745018",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::hot-bucket-0020",
+    "provider": "aws",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 70755338045,
+    "object_count": 6772,
+    "requests_30d": 1828,
+    "last_accessed_date": "2026-02-18T00:48:49.745023",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::hot-bucket-0021",
+    "provider": "aws",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 57027339158,
+    "object_count": 21527,
+    "requests_30d": 1142,
+    "last_accessed_date": "2026-02-16T02:48:49.745028",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::hot-bucket-0022",
+    "provider": "aws",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 29745033806,
+    "object_count": 22946,
+    "requests_30d": 1222,
+    "last_accessed_date": "2026-02-16T14:48:49.745033",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::hot-bucket-0023",
+    "provider": "aws",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 53288411254,
+    "object_count": 44203,
+    "requests_30d": 1735,
+    "last_accessed_date": "2026-02-18T15:48:49.745038",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::hot-bucket-0024",
+    "provider": "aws",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 14356153616,
+    "object_count": 7633,
+    "requests_30d": 864,
+    "last_accessed_date": "2026-02-16T18:48:49.745043",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::hot-bucket-0025",
+    "provider": "aws",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 18342981982,
+    "object_count": 13959,
+    "requests_30d": 1419,
+    "last_accessed_date": "2026-02-17T03:48:49.745048",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::hot-bucket-0026",
+    "provider": "aws",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 85069615162,
+    "object_count": 1198,
+    "requests_30d": 1156,
+    "last_accessed_date": "2026-02-16T19:48:49.745053",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::hot-bucket-0027",
+    "provider": "aws",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 14796762788,
+    "object_count": 23006,
+    "requests_30d": 1902,
+    "last_accessed_date": "2026-02-16T00:48:49.745058",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::hot-bucket-0028",
+    "provider": "aws",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 32471847887,
+    "object_count": 30233,
+    "requests_30d": 1561,
+    "last_accessed_date": "2026-02-17T19:48:49.745063",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::hot-bucket-0029",
+    "provider": "aws",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 36960170669,
+    "object_count": 12916,
+    "requests_30d": 1711,
+    "last_accessed_date": "2026-02-17T22:48:49.745067",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::hot-bucket-0030",
+    "provider": "aws",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 67926785095,
+    "object_count": 49233,
+    "requests_30d": 1043,
+    "last_accessed_date": "2026-02-18T08:48:49.745072",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::hot-bucket-0031",
+    "provider": "aws",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 53275367249,
+    "object_count": 12112,
+    "requests_30d": 926,
+    "last_accessed_date": "2026-02-16T09:48:49.745077",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::hot-bucket-0032",
+    "provider": "aws",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 49772751080,
+    "object_count": 44131,
+    "requests_30d": 1059,
+    "last_accessed_date": "2026-02-16T23:48:49.745082",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::hot-bucket-0033",
+    "provider": "aws",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 83644625794,
+    "object_count": 23860,
+    "requests_30d": 1502,
+    "last_accessed_date": "2026-02-15T22:48:49.745087",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::hot-bucket-0034",
+    "provider": "aws",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 15986488046,
+    "object_count": 17806,
+    "requests_30d": 1075,
+    "last_accessed_date": "2026-02-17T07:48:49.745092",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::hot-bucket-0035",
+    "provider": "aws",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 82255698213,
+    "object_count": 38399,
+    "requests_30d": 1270,
+    "last_accessed_date": "2026-02-16T14:48:49.745097",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::hot-bucket-0036",
+    "provider": "aws",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 41414879531,
+    "object_count": 23339,
+    "requests_30d": 1537,
+    "last_accessed_date": "2026-02-17T05:48:49.745101",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::hot-bucket-0037",
+    "provider": "aws",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 59624996194,
+    "object_count": 1210,
+    "requests_30d": 1058,
+    "last_accessed_date": "2026-02-16T12:48:49.745106",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::hot-bucket-0038",
+    "provider": "aws",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 12897893588,
+    "object_count": 46720,
+    "requests_30d": 1470,
+    "last_accessed_date": "2026-02-16T21:48:49.745111",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::hot-bucket-0039",
+    "provider": "aws",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 50572290213,
+    "object_count": 46394,
+    "requests_30d": 918,
+    "last_accessed_date": "2026-02-16T21:48:49.745116",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::hot-bucket-0040",
+    "provider": "aws",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 71231211856,
+    "object_count": 49353,
+    "requests_30d": 1897,
+    "last_accessed_date": "2026-02-18T14:48:49.745121",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::hot-bucket-0041",
+    "provider": "aws",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 78432018479,
+    "object_count": 32565,
+    "requests_30d": 1115,
+    "last_accessed_date": "2026-02-18T02:48:49.745128",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::hot-bucket-0042",
+    "provider": "aws",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 74386373785,
+    "object_count": 15372,
+    "requests_30d": 1254,
+    "last_accessed_date": "2026-02-15T21:48:49.745133",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::hot-bucket-0043",
+    "provider": "aws",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 39986602641,
+    "object_count": 3921,
+    "requests_30d": 1532,
+    "last_accessed_date": "2026-02-18T05:48:49.745138",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::hot-bucket-0044",
+    "provider": "aws",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 55334203049,
+    "object_count": 17232,
+    "requests_30d": 1733,
+    "last_accessed_date": "2026-02-17T05:48:49.745143",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::hot-bucket-0045",
+    "provider": "aws",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 61412608060,
+    "object_count": 46652,
+    "requests_30d": 1968,
+    "last_accessed_date": "2026-02-15T21:48:49.745148",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::hot-bucket-0046",
+    "provider": "aws",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 83525718163,
+    "object_count": 38042,
+    "requests_30d": 1273,
+    "last_accessed_date": "2026-02-17T12:48:49.745152",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::hot-bucket-0047",
+    "provider": "aws",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 17176054736,
+    "object_count": 32893,
+    "requests_30d": 990,
+    "last_accessed_date": "2026-02-17T07:48:49.745157",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::hot-bucket-0048",
+    "provider": "aws",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 83927705176,
+    "object_count": 15967,
+    "requests_30d": 1215,
+    "last_accessed_date": "2026-02-17T22:48:49.745162",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::hot-bucket-0049",
+    "provider": "aws",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 51548183619,
+    "object_count": 18049,
+    "requests_30d": 901,
+    "last_accessed_date": "2026-02-17T22:48:49.745167",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::cold-bucket-0000",
+    "provider": "aws",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 621088222532,
+    "object_count": 36986,
+    "requests_30d": 594,
+    "last_accessed_date": "2026-02-17T21:48:49.745173",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::cold-bucket-0001",
+    "provider": "aws",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 216758685069,
+    "object_count": 48989,
+    "requests_30d": 649,
+    "last_accessed_date": "2026-02-17T09:48:49.745178",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::cold-bucket-0002",
+    "provider": "aws",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 600210067639,
+    "object_count": 28244,
+    "requests_30d": 263,
+    "last_accessed_date": "2026-02-16T08:48:49.745183",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::cold-bucket-0003",
+    "provider": "aws",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 496021503304,
+    "object_count": 12018,
+    "requests_30d": 699,
+    "last_accessed_date": "2026-02-18T02:48:49.745188",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::cold-bucket-0004",
+    "provider": "aws",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 309533270764,
+    "object_count": 38881,
+    "requests_30d": 431,
+    "last_accessed_date": "2026-02-16T14:48:49.745193",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::cold-bucket-0005",
+    "provider": "aws",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 392665277851,
+    "object_count": 41307,
+    "requests_30d": 191,
+    "last_accessed_date": "2026-02-15T19:48:49.745197",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::cold-bucket-0006",
+    "provider": "aws",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 146802750863,
+    "object_count": 36849,
+    "requests_30d": 598,
+    "last_accessed_date": "2026-02-17T11:48:49.745202",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::cold-bucket-0007",
+    "provider": "aws",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 315207946363,
+    "object_count": 32132,
+    "requests_30d": 331,
+    "last_accessed_date": "2026-02-17T05:48:49.745207",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::cold-bucket-0008",
+    "provider": "aws",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 180612521231,
+    "object_count": 2258,
+    "requests_30d": 237,
+    "last_accessed_date": "2026-02-17T02:48:49.745213",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::cold-bucket-0009",
+    "provider": "aws",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 434591640782,
+    "object_count": 4560,
+    "requests_30d": 299,
+    "last_accessed_date": "2026-02-18T17:48:49.745218",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::cold-bucket-0010",
+    "provider": "aws",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 281621840888,
+    "object_count": 40411,
+    "requests_30d": 170,
+    "last_accessed_date": "2026-02-17T16:48:49.745223",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::cold-bucket-0011",
+    "provider": "aws",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 109136171333,
+    "object_count": 39331,
+    "requests_30d": 651,
+    "last_accessed_date": "2026-02-17T10:48:49.745228",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::cold-bucket-0012",
+    "provider": "aws",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 123241093786,
+    "object_count": 22370,
+    "requests_30d": 631,
+    "last_accessed_date": "2026-02-15T23:48:49.745233",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::cold-bucket-0013",
+    "provider": "aws",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 385614083663,
+    "object_count": 36981,
+    "requests_30d": 368,
+    "last_accessed_date": "2026-02-18T11:48:49.745237",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::cold-bucket-0014",
+    "provider": "aws",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 345528175539,
+    "object_count": 5281,
+    "requests_30d": 159,
+    "last_accessed_date": "2026-02-16T23:48:49.745242",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::cold-bucket-0015",
+    "provider": "aws",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 413355135404,
+    "object_count": 15038,
+    "requests_30d": 511,
+    "last_accessed_date": "2026-02-18T15:48:49.745247",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::cold-bucket-0016",
+    "provider": "aws",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 590366782054,
+    "object_count": 29531,
+    "requests_30d": 189,
+    "last_accessed_date": "2026-02-17T12:48:49.745252",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::cold-bucket-0017",
+    "provider": "aws",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 325225057017,
+    "object_count": 1404,
+    "requests_30d": 460,
+    "last_accessed_date": "2026-02-18T11:48:49.745257",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::cold-bucket-0018",
+    "provider": "aws",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 429546871331,
+    "object_count": 4413,
+    "requests_30d": 337,
+    "last_accessed_date": "2026-02-18T09:48:49.745262",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::cold-bucket-0019",
+    "provider": "aws",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 605259385655,
+    "object_count": 11244,
+    "requests_30d": 663,
+    "last_accessed_date": "2026-02-15T21:48:49.745267",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::cold-bucket-0020",
+    "provider": "aws",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 376197499893,
+    "object_count": 22674,
+    "requests_30d": 107,
+    "last_accessed_date": "2026-02-15T18:48:49.745272",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::cold-bucket-0021",
+    "provider": "aws",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 523267606228,
+    "object_count": 12269,
+    "requests_30d": 426,
+    "last_accessed_date": "2026-02-18T09:48:49.745276",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::cold-bucket-0022",
+    "provider": "aws",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 393240907453,
+    "object_count": 19409,
+    "requests_30d": 454,
+    "last_accessed_date": "2026-02-15T18:48:49.745281",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::cold-bucket-0023",
+    "provider": "aws",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 166233776133,
+    "object_count": 43637,
+    "requests_30d": 438,
+    "last_accessed_date": "2026-02-17T16:48:49.745286",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::cold-bucket-0024",
+    "provider": "aws",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 166462743231,
+    "object_count": 47066,
+    "requests_30d": 273,
+    "last_accessed_date": "2026-02-17T10:48:49.745291",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::cold-bucket-0025",
+    "provider": "aws",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 254448946347,
+    "object_count": 13935,
+    "requests_30d": 382,
+    "last_accessed_date": "2026-02-16T05:48:49.745296",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::cold-bucket-0026",
+    "provider": "aws",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 603604384268,
+    "object_count": 47403,
+    "requests_30d": 584,
+    "last_accessed_date": "2026-02-17T04:48:49.745301",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::cold-bucket-0027",
+    "provider": "aws",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 618774704326,
+    "object_count": 7445,
+    "requests_30d": 473,
+    "last_accessed_date": "2026-02-16T19:48:49.745306",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::cold-bucket-0028",
+    "provider": "aws",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 488827393439,
+    "object_count": 23642,
+    "requests_30d": 385,
+    "last_accessed_date": "2026-02-16T15:48:49.745311",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::cold-bucket-0029",
+    "provider": "aws",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 554754031254,
+    "object_count": 27338,
+    "requests_30d": 230,
+    "last_accessed_date": "2026-02-17T14:48:49.745315",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::cold-bucket-0030",
+    "provider": "aws",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 555460466884,
+    "object_count": 24492,
+    "requests_30d": 183,
+    "last_accessed_date": "2026-02-17T23:48:49.745320",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::cold-bucket-0031",
+    "provider": "aws",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 467991852736,
+    "object_count": 33678,
+    "requests_30d": 264,
+    "last_accessed_date": "2026-02-16T18:48:49.745325",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::cold-bucket-0032",
+    "provider": "aws",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 486164997495,
+    "object_count": 966,
+    "requests_30d": 671,
+    "last_accessed_date": "2026-02-16T20:48:49.745329",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::cold-bucket-0033",
+    "provider": "aws",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 364299123552,
+    "object_count": 16144,
+    "requests_30d": 349,
+    "last_accessed_date": "2026-02-18T11:48:49.745336",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::cold-bucket-0034",
+    "provider": "aws",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 326451716207,
+    "object_count": 25307,
+    "requests_30d": 480,
+    "last_accessed_date": "2026-02-17T15:48:49.745341",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::cold-bucket-0035",
+    "provider": "aws",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 118039770226,
+    "object_count": 4536,
+    "requests_30d": 216,
+    "last_accessed_date": "2026-02-16T17:48:49.745345",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::cold-bucket-0036",
+    "provider": "aws",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 566918952818,
+    "object_count": 24933,
+    "requests_30d": 269,
+    "last_accessed_date": "2026-02-16T11:48:49.745350",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::cold-bucket-0037",
+    "provider": "aws",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 511232258200,
+    "object_count": 46710,
+    "requests_30d": 279,
+    "last_accessed_date": "2026-02-16T13:48:49.745355",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::cold-bucket-0038",
+    "provider": "aws",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 289643374275,
+    "object_count": 43993,
+    "requests_30d": 185,
+    "last_accessed_date": "2026-02-15T21:48:49.745360",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::cold-bucket-0039",
+    "provider": "aws",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 389085369151,
+    "object_count": 1540,
+    "requests_30d": 642,
+    "last_accessed_date": "2026-02-16T20:48:49.745365",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::cold-bucket-0040",
+    "provider": "aws",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 504371705853,
+    "object_count": 27692,
+    "requests_30d": 437,
+    "last_accessed_date": "2026-02-16T21:48:49.745370",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::cold-bucket-0041",
+    "provider": "aws",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 330351610737,
+    "object_count": 48601,
+    "requests_30d": 583,
+    "last_accessed_date": "2026-02-18T13:48:49.745375",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::cold-bucket-0042",
+    "provider": "aws",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 273902411912,
+    "object_count": 11091,
+    "requests_30d": 467,
+    "last_accessed_date": "2026-02-16T05:48:49.745379",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::cold-bucket-0043",
+    "provider": "aws",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 299196762866,
+    "object_count": 26676,
+    "requests_30d": 528,
+    "last_accessed_date": "2026-02-15T20:48:49.745384",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::cold-bucket-0044",
+    "provider": "aws",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 606291621887,
+    "object_count": 13036,
+    "requests_30d": 482,
+    "last_accessed_date": "2026-02-15T22:48:49.745389",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::cold-bucket-0045",
+    "provider": "aws",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 281143332373,
+    "object_count": 3353,
+    "requests_30d": 280,
+    "last_accessed_date": "2026-02-17T02:48:49.745393",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::cold-bucket-0046",
+    "provider": "aws",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 223728333343,
+    "object_count": 33983,
+    "requests_30d": 254,
+    "last_accessed_date": "2026-02-16T19:48:49.745400",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::cold-bucket-0047",
+    "provider": "aws",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 322482563229,
+    "object_count": 22836,
+    "requests_30d": 591,
+    "last_accessed_date": "2026-02-17T12:48:49.745404",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::cold-bucket-0048",
+    "provider": "aws",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 537040699478,
+    "object_count": 3914,
+    "requests_30d": 141,
+    "last_accessed_date": "2026-02-17T11:48:49.745409",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::cold-bucket-0049",
+    "provider": "aws",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 203924735981,
+    "object_count": 7054,
+    "requests_30d": 572,
+    "last_accessed_date": "2026-02-17T09:48:49.745413",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::archive-bucket-0000",
+    "provider": "aws",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 5060875896574,
+    "object_count": 37967,
+    "requests_30d": 22,
+    "last_accessed_date": "2026-02-18T05:48:49.745418",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::archive-bucket-0001",
+    "provider": "aws",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 4904514562807,
+    "object_count": 34852,
+    "requests_30d": 8,
+    "last_accessed_date": "2026-02-17T01:48:49.745423",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::archive-bucket-0002",
+    "provider": "aws",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 2351995502277,
+    "object_count": 32497,
+    "requests_30d": 15,
+    "last_accessed_date": "2026-02-17T19:48:49.745428",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::archive-bucket-0003",
+    "provider": "aws",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 1977986614289,
+    "object_count": 29523,
+    "requests_30d": 11,
+    "last_accessed_date": "2026-02-17T13:48:49.745433",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::archive-bucket-0004",
+    "provider": "aws",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 1576405526439,
+    "object_count": 43462,
+    "requests_30d": 1,
+    "last_accessed_date": "2026-02-16T03:48:49.745437",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::archive-bucket-0005",
+    "provider": "aws",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 1871584838710,
+    "object_count": 40103,
+    "requests_30d": 1,
+    "last_accessed_date": "2026-02-16T00:48:49.745442",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::archive-bucket-0006",
+    "provider": "aws",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 4726837450330,
+    "object_count": 19430,
+    "requests_30d": 19,
+    "last_accessed_date": "2026-02-16T02:48:49.745447",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::archive-bucket-0007",
+    "provider": "aws",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 1486739674679,
+    "object_count": 16979,
+    "requests_30d": 14,
+    "last_accessed_date": "2026-02-17T11:48:49.745451",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::archive-bucket-0008",
+    "provider": "aws",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 5042190370279,
+    "object_count": 35708,
+    "requests_30d": 12,
+    "last_accessed_date": "2026-02-16T00:48:49.745456",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::archive-bucket-0009",
+    "provider": "aws",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 2361516539174,
+    "object_count": 25050,
+    "requests_30d": 6,
+    "last_accessed_date": "2026-02-17T20:48:49.745461",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::archive-bucket-0010",
+    "provider": "aws",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 3344854871514,
+    "object_count": 46033,
+    "requests_30d": 21,
+    "last_accessed_date": "2026-02-16T04:48:49.745466",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::archive-bucket-0011",
+    "provider": "aws",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 2538315371801,
+    "object_count": 27488,
+    "requests_30d": 14,
+    "last_accessed_date": "2026-02-17T15:48:49.745471",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::archive-bucket-0012",
+    "provider": "aws",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 744531382818,
+    "object_count": 22237,
+    "requests_30d": 26,
+    "last_accessed_date": "2026-02-17T05:48:49.745475",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::archive-bucket-0013",
+    "provider": "aws",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 2482935683491,
+    "object_count": 10391,
+    "requests_30d": 28,
+    "last_accessed_date": "2026-02-17T04:48:49.745480",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::archive-bucket-0014",
+    "provider": "aws",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 1877481396879,
+    "object_count": 33336,
+    "requests_30d": 15,
+    "last_accessed_date": "2026-02-17T23:48:49.745485",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::archive-bucket-0015",
+    "provider": "aws",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 1362901206554,
+    "object_count": 26326,
+    "requests_30d": 26,
+    "last_accessed_date": "2026-02-15T23:48:49.745490",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::archive-bucket-0016",
+    "provider": "aws",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 690942152373,
+    "object_count": 19978,
+    "requests_30d": 22,
+    "last_accessed_date": "2026-02-17T20:48:49.745494",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::archive-bucket-0017",
+    "provider": "aws",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 2443628623261,
+    "object_count": 32824,
+    "requests_30d": 28,
+    "last_accessed_date": "2026-02-18T00:48:49.745499",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::archive-bucket-0018",
+    "provider": "aws",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 3951912200443,
+    "object_count": 27305,
+    "requests_30d": 7,
+    "last_accessed_date": "2026-02-18T00:48:49.745504",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::archive-bucket-0019",
+    "provider": "aws",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 2080264418007,
+    "object_count": 27792,
+    "requests_30d": 25,
+    "last_accessed_date": "2026-02-16T04:48:49.745510",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::archive-bucket-0020",
+    "provider": "aws",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 2505921318230,
+    "object_count": 36112,
+    "requests_30d": 18,
+    "last_accessed_date": "2026-02-17T22:48:49.745515",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::archive-bucket-0021",
+    "provider": "aws",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 3789593638702,
+    "object_count": 40169,
+    "requests_30d": 9,
+    "last_accessed_date": "2026-02-15T21:48:49.745519",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::archive-bucket-0022",
+    "provider": "aws",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 2259485391030,
+    "object_count": 998,
+    "requests_30d": 18,
+    "last_accessed_date": "2026-02-18T09:48:49.745524",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::archive-bucket-0023",
+    "provider": "aws",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 1116592809368,
+    "object_count": 38440,
+    "requests_30d": 24,
+    "last_accessed_date": "2026-02-17T17:48:49.745529",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::archive-bucket-0024",
+    "provider": "aws",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 1453164934130,
+    "object_count": 38570,
+    "requests_30d": 17,
+    "last_accessed_date": "2026-02-18T09:48:49.745533",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::archive-bucket-0025",
+    "provider": "aws",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 4478901786621,
+    "object_count": 44539,
+    "requests_30d": 7,
+    "last_accessed_date": "2026-02-17T08:48:49.745538",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::archive-bucket-0026",
+    "provider": "aws",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 1223511725738,
+    "object_count": 31638,
+    "requests_30d": 0,
+    "last_accessed_date": "2026-02-16T16:48:49.745543",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::archive-bucket-0027",
+    "provider": "aws",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 4225566311067,
+    "object_count": 43509,
+    "requests_30d": 26,
+    "last_accessed_date": "2026-02-15T18:48:49.745548",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::archive-bucket-0028",
+    "provider": "aws",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 1772489387895,
+    "object_count": 37837,
+    "requests_30d": 7,
+    "last_accessed_date": "2026-02-17T04:48:49.745552",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::archive-bucket-0029",
+    "provider": "aws",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 1846816378660,
+    "object_count": 34757,
+    "requests_30d": 8,
+    "last_accessed_date": "2026-02-16T02:48:49.745557",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::archive-bucket-0030",
+    "provider": "aws",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 4146827038043,
+    "object_count": 10090,
+    "requests_30d": 14,
+    "last_accessed_date": "2026-02-17T12:48:49.745562",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::archive-bucket-0031",
+    "provider": "aws",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 1898028787724,
+    "object_count": 14194,
+    "requests_30d": 7,
+    "last_accessed_date": "2026-02-17T02:48:49.745566",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::archive-bucket-0032",
+    "provider": "aws",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 3810521701092,
+    "object_count": 46287,
+    "requests_30d": 4,
+    "last_accessed_date": "2026-02-16T08:48:49.745571",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::archive-bucket-0033",
+    "provider": "aws",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 3258657007405,
+    "object_count": 47888,
+    "requests_30d": 5,
+    "last_accessed_date": "2026-02-18T13:48:49.745576",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::archive-bucket-0034",
+    "provider": "aws",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 3451119728320,
+    "object_count": 21380,
+    "requests_30d": 27,
+    "last_accessed_date": "2026-02-17T07:48:49.745581",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::archive-bucket-0035",
+    "provider": "aws",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 4866649696854,
+    "object_count": 31113,
+    "requests_30d": 13,
+    "last_accessed_date": "2026-02-18T02:48:49.745585",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::archive-bucket-0036",
+    "provider": "aws",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 3278548319375,
+    "object_count": 3333,
+    "requests_30d": 26,
+    "last_accessed_date": "2026-02-16T19:48:49.745590",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::archive-bucket-0037",
+    "provider": "aws",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 3675797417683,
+    "object_count": 24370,
+    "requests_30d": 18,
+    "last_accessed_date": "2026-02-18T08:48:49.745595",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::archive-bucket-0038",
+    "provider": "aws",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 2707262315536,
+    "object_count": 15374,
+    "requests_30d": 18,
+    "last_accessed_date": "2026-02-17T04:48:49.745600",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::archive-bucket-0039",
+    "provider": "aws",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 2010572665953,
+    "object_count": 4162,
+    "requests_30d": 20,
+    "last_accessed_date": "2026-02-15T22:48:49.745604",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::archive-bucket-0040",
+    "provider": "aws",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 1877761195227,
+    "object_count": 47895,
+    "requests_30d": 6,
+    "last_accessed_date": "2026-02-17T18:48:49.745609",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::archive-bucket-0041",
+    "provider": "aws",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 730529721761,
+    "object_count": 2402,
+    "requests_30d": 17,
+    "last_accessed_date": "2026-02-15T19:48:49.745615",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::archive-bucket-0042",
+    "provider": "aws",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 3314275767727,
+    "object_count": 7757,
+    "requests_30d": 14,
+    "last_accessed_date": "2026-02-16T02:48:49.745620",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::archive-bucket-0043",
+    "provider": "aws",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 3818270717351,
+    "object_count": 15068,
+    "requests_30d": 9,
+    "last_accessed_date": "2026-02-17T12:48:49.745625",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::archive-bucket-0044",
+    "provider": "aws",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 3036613913738,
+    "object_count": 46281,
+    "requests_30d": 14,
+    "last_accessed_date": "2026-02-15T21:48:49.745676",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::archive-bucket-0045",
+    "provider": "aws",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 3611339534025,
+    "object_count": 14470,
+    "requests_30d": 11,
+    "last_accessed_date": "2026-02-18T01:48:49.745682",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::archive-bucket-0046",
+    "provider": "aws",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 3865471250281,
+    "object_count": 32205,
+    "requests_30d": 26,
+    "last_accessed_date": "2026-02-17T10:48:49.745686",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::archive-bucket-0047",
+    "provider": "aws",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 3838107147202,
+    "object_count": 3352,
+    "requests_30d": 23,
+    "last_accessed_date": "2026-02-18T00:48:49.745691",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::archive-bucket-0048",
+    "provider": "aws",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 4139570464740,
+    "object_count": 29773,
+    "requests_30d": 10,
+    "last_accessed_date": "2026-02-15T18:48:49.745696",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "aws::archive-bucket-0049",
+    "provider": "aws",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 4637465479803,
+    "object_count": 45340,
+    "requests_30d": 22,
+    "last_accessed_date": "2026-02-18T17:48:49.745701",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::hot-bucket-0000",
+    "provider": "gcp",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 77269927877,
+    "object_count": 12152,
+    "requests_30d": 1907,
+    "last_accessed_date": "2026-02-17T13:48:49.745706",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::hot-bucket-0001",
+    "provider": "gcp",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 35007090076,
+    "object_count": 4753,
+    "requests_30d": 1704,
+    "last_accessed_date": "2026-02-16T00:48:49.745711",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::hot-bucket-0002",
+    "provider": "gcp",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 65623709223,
+    "object_count": 33309,
+    "requests_30d": 1045,
+    "last_accessed_date": "2026-02-18T12:48:49.745715",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::hot-bucket-0003",
+    "provider": "gcp",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 44265722882,
+    "object_count": 30544,
+    "requests_30d": 865,
+    "last_accessed_date": "2026-02-17T15:48:49.745720",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::hot-bucket-0004",
+    "provider": "gcp",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 39891559778,
+    "object_count": 44991,
+    "requests_30d": 1657,
+    "last_accessed_date": "2026-02-17T15:48:49.745725",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::hot-bucket-0005",
+    "provider": "gcp",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 57765098784,
+    "object_count": 16601,
+    "requests_30d": 1307,
+    "last_accessed_date": "2026-02-18T12:48:49.745729",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::hot-bucket-0006",
+    "provider": "gcp",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 48740221640,
+    "object_count": 2423,
+    "requests_30d": 1818,
+    "last_accessed_date": "2026-02-16T13:48:49.745734",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::hot-bucket-0007",
+    "provider": "gcp",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 83245924694,
+    "object_count": 38096,
+    "requests_30d": 1775,
+    "last_accessed_date": "2026-02-18T08:48:49.745738",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::hot-bucket-0008",
+    "provider": "gcp",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 32870419980,
+    "object_count": 26224,
+    "requests_30d": 1405,
+    "last_accessed_date": "2026-02-15T23:48:49.745743",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::hot-bucket-0009",
+    "provider": "gcp",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 44783476595,
+    "object_count": 8224,
+    "requests_30d": 1537,
+    "last_accessed_date": "2026-02-17T16:48:49.745748",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::hot-bucket-0010",
+    "provider": "gcp",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 69131572320,
+    "object_count": 17845,
+    "requests_30d": 1596,
+    "last_accessed_date": "2026-02-17T11:48:49.745752",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::hot-bucket-0011",
+    "provider": "gcp",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 13468576244,
+    "object_count": 29422,
+    "requests_30d": 911,
+    "last_accessed_date": "2026-02-18T14:48:49.745757",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::hot-bucket-0012",
+    "provider": "gcp",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 67423235256,
+    "object_count": 10115,
+    "requests_30d": 1509,
+    "last_accessed_date": "2026-02-17T21:48:49.745762",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::hot-bucket-0013",
+    "provider": "gcp",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 30341391991,
+    "object_count": 26305,
+    "requests_30d": 1544,
+    "last_accessed_date": "2026-02-15T20:48:49.745766",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::hot-bucket-0014",
+    "provider": "gcp",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 31869168947,
+    "object_count": 15694,
+    "requests_30d": 1790,
+    "last_accessed_date": "2026-02-17T06:48:49.745771",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::hot-bucket-0015",
+    "provider": "gcp",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 61637129098,
+    "object_count": 18239,
+    "requests_30d": 1664,
+    "last_accessed_date": "2026-02-17T19:48:49.745776",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::hot-bucket-0016",
+    "provider": "gcp",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 28308204812,
+    "object_count": 27970,
+    "requests_30d": 1668,
+    "last_accessed_date": "2026-02-15T18:48:49.745781",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::hot-bucket-0017",
+    "provider": "gcp",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 73596484766,
+    "object_count": 23160,
+    "requests_30d": 1746,
+    "last_accessed_date": "2026-02-18T06:48:49.745785",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::hot-bucket-0018",
+    "provider": "gcp",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 15374095178,
+    "object_count": 40084,
+    "requests_30d": 1615,
+    "last_accessed_date": "2026-02-16T06:48:49.745790",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::hot-bucket-0019",
+    "provider": "gcp",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 74238413735,
+    "object_count": 44098,
+    "requests_30d": 1128,
+    "last_accessed_date": "2026-02-15T19:48:49.745794",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::hot-bucket-0020",
+    "provider": "gcp",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 75882847886,
+    "object_count": 38052,
+    "requests_30d": 1272,
+    "last_accessed_date": "2026-02-17T10:48:49.745799",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::hot-bucket-0021",
+    "provider": "gcp",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 63241872093,
+    "object_count": 30188,
+    "requests_30d": 1735,
+    "last_accessed_date": "2026-02-17T04:48:49.745804",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::hot-bucket-0022",
+    "provider": "gcp",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 49392777807,
+    "object_count": 10557,
+    "requests_30d": 1369,
+    "last_accessed_date": "2026-02-18T11:48:49.745808",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::hot-bucket-0023",
+    "provider": "gcp",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 81541893338,
+    "object_count": 27950,
+    "requests_30d": 1093,
+    "last_accessed_date": "2026-02-17T03:48:49.745813",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::hot-bucket-0024",
+    "provider": "gcp",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 77646991005,
+    "object_count": 5595,
+    "requests_30d": 962,
+    "last_accessed_date": "2026-02-17T08:48:49.745818",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::hot-bucket-0025",
+    "provider": "gcp",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 44358080105,
+    "object_count": 20793,
+    "requests_30d": 1579,
+    "last_accessed_date": "2026-02-18T00:48:49.745823",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::hot-bucket-0026",
+    "provider": "gcp",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 72547870362,
+    "object_count": 14670,
+    "requests_30d": 1194,
+    "last_accessed_date": "2026-02-17T17:48:49.745827",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::hot-bucket-0027",
+    "provider": "gcp",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 46346257978,
+    "object_count": 39127,
+    "requests_30d": 1347,
+    "last_accessed_date": "2026-02-18T02:48:49.745832",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::hot-bucket-0028",
+    "provider": "gcp",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 11617412296,
+    "object_count": 16844,
+    "requests_30d": 1653,
+    "last_accessed_date": "2026-02-17T06:48:49.745836",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::hot-bucket-0029",
+    "provider": "gcp",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 85812981265,
+    "object_count": 48358,
+    "requests_30d": 1621,
+    "last_accessed_date": "2026-02-16T11:48:49.745841",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::hot-bucket-0030",
+    "provider": "gcp",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 50859855105,
+    "object_count": 26941,
+    "requests_30d": 1741,
+    "last_accessed_date": "2026-02-16T12:48:49.745846",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::hot-bucket-0031",
+    "provider": "gcp",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 18000358427,
+    "object_count": 8070,
+    "requests_30d": 1798,
+    "last_accessed_date": "2026-02-15T20:48:49.745851",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::hot-bucket-0032",
+    "provider": "gcp",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 63636718884,
+    "object_count": 3775,
+    "requests_30d": 1294,
+    "last_accessed_date": "2026-02-16T01:48:49.745855",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::hot-bucket-0033",
+    "provider": "gcp",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 25349763035,
+    "object_count": 33825,
+    "requests_30d": 1590,
+    "last_accessed_date": "2026-02-16T13:48:49.745860",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::hot-bucket-0034",
+    "provider": "gcp",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 60703963856,
+    "object_count": 25146,
+    "requests_30d": 1745,
+    "last_accessed_date": "2026-02-16T01:48:49.745864",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::hot-bucket-0035",
+    "provider": "gcp",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 54282509095,
+    "object_count": 8123,
+    "requests_30d": 1742,
+    "last_accessed_date": "2026-02-18T10:48:49.745869",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::hot-bucket-0036",
+    "provider": "gcp",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 14647557419,
+    "object_count": 4802,
+    "requests_30d": 1432,
+    "last_accessed_date": "2026-02-16T18:48:49.745874",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::hot-bucket-0037",
+    "provider": "gcp",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 70924549133,
+    "object_count": 24254,
+    "requests_30d": 1348,
+    "last_accessed_date": "2026-02-18T13:48:49.745878",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::hot-bucket-0038",
+    "provider": "gcp",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 54843961458,
+    "object_count": 14642,
+    "requests_30d": 1708,
+    "last_accessed_date": "2026-02-16T14:48:49.745883",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::hot-bucket-0039",
+    "provider": "gcp",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 48383412691,
+    "object_count": 25729,
+    "requests_30d": 1630,
+    "last_accessed_date": "2026-02-16T21:48:49.745888",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::hot-bucket-0040",
+    "provider": "gcp",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 66413943303,
+    "object_count": 4226,
+    "requests_30d": 1631,
+    "last_accessed_date": "2026-02-16T20:48:49.745892",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::hot-bucket-0041",
+    "provider": "gcp",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 48220105985,
+    "object_count": 37928,
+    "requests_30d": 1538,
+    "last_accessed_date": "2026-02-18T10:48:49.745897",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::hot-bucket-0042",
+    "provider": "gcp",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 31061259299,
+    "object_count": 44037,
+    "requests_30d": 1037,
+    "last_accessed_date": "2026-02-18T17:48:49.745902",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::hot-bucket-0043",
+    "provider": "gcp",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 54934640564,
+    "object_count": 40434,
+    "requests_30d": 1230,
+    "last_accessed_date": "2026-02-16T08:48:49.745907",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::hot-bucket-0044",
+    "provider": "gcp",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 34034541401,
+    "object_count": 42107,
+    "requests_30d": 1659,
+    "last_accessed_date": "2026-02-16T04:48:49.745911",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::hot-bucket-0045",
+    "provider": "gcp",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 56471547950,
+    "object_count": 41889,
+    "requests_30d": 1202,
+    "last_accessed_date": "2026-02-16T13:48:49.745916",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::hot-bucket-0046",
+    "provider": "gcp",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 46746359076,
+    "object_count": 27711,
+    "requests_30d": 1933,
+    "last_accessed_date": "2026-02-18T07:48:49.745921",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::hot-bucket-0047",
+    "provider": "gcp",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 67226712001,
+    "object_count": 48504,
+    "requests_30d": 1556,
+    "last_accessed_date": "2026-02-18T10:48:49.745925",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::hot-bucket-0048",
+    "provider": "gcp",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 50046251501,
+    "object_count": 8868,
+    "requests_30d": 1943,
+    "last_accessed_date": "2026-02-17T07:48:49.745930",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::hot-bucket-0049",
+    "provider": "gcp",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 67172444964,
+    "object_count": 20005,
+    "requests_30d": 1411,
+    "last_accessed_date": "2026-02-16T13:48:49.745935",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::cold-bucket-0000",
+    "provider": "gcp",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 146012105022,
+    "object_count": 11612,
+    "requests_30d": 461,
+    "last_accessed_date": "2026-02-18T13:48:49.745939",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::cold-bucket-0001",
+    "provider": "gcp",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 629882797255,
+    "object_count": 45043,
+    "requests_30d": 504,
+    "last_accessed_date": "2026-02-16T18:48:49.745944",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::cold-bucket-0002",
+    "provider": "gcp",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 307218525818,
+    "object_count": 45570,
+    "requests_30d": 101,
+    "last_accessed_date": "2026-02-17T17:48:49.745949",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::cold-bucket-0003",
+    "provider": "gcp",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 619207234269,
+    "object_count": 20323,
+    "requests_30d": 325,
+    "last_accessed_date": "2026-02-16T00:48:49.745953",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::cold-bucket-0004",
+    "provider": "gcp",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 448858689167,
+    "object_count": 12534,
+    "requests_30d": 350,
+    "last_accessed_date": "2026-02-17T15:48:49.745958",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::cold-bucket-0005",
+    "provider": "gcp",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 470918971734,
+    "object_count": 24142,
+    "requests_30d": 349,
+    "last_accessed_date": "2026-02-16T20:48:49.745963",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::cold-bucket-0006",
+    "provider": "gcp",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 634305701165,
+    "object_count": 12631,
+    "requests_30d": 184,
+    "last_accessed_date": "2026-02-16T08:48:49.745968",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::cold-bucket-0007",
+    "provider": "gcp",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 501865276360,
+    "object_count": 24109,
+    "requests_30d": 638,
+    "last_accessed_date": "2026-02-16T02:48:49.745972",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::cold-bucket-0008",
+    "provider": "gcp",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 564775135447,
+    "object_count": 18041,
+    "requests_30d": 552,
+    "last_accessed_date": "2026-02-17T13:48:49.745977",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::cold-bucket-0009",
+    "provider": "gcp",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 336164642054,
+    "object_count": 6244,
+    "requests_30d": 412,
+    "last_accessed_date": "2026-02-16T13:48:49.745982",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::cold-bucket-0010",
+    "provider": "gcp",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 463588261578,
+    "object_count": 30656,
+    "requests_30d": 536,
+    "last_accessed_date": "2026-02-16T03:48:49.745986",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::cold-bucket-0011",
+    "provider": "gcp",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 234075390548,
+    "object_count": 38495,
+    "requests_30d": 197,
+    "last_accessed_date": "2026-02-16T22:48:49.745991",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::cold-bucket-0012",
+    "provider": "gcp",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 394471731792,
+    "object_count": 2964,
+    "requests_30d": 132,
+    "last_accessed_date": "2026-02-17T00:48:49.745995",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::cold-bucket-0013",
+    "provider": "gcp",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 640236448031,
+    "object_count": 13352,
+    "requests_30d": 184,
+    "last_accessed_date": "2026-02-17T23:48:49.746000",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::cold-bucket-0014",
+    "provider": "gcp",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 480864018647,
+    "object_count": 5403,
+    "requests_30d": 261,
+    "last_accessed_date": "2026-02-16T03:48:49.746005",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::cold-bucket-0015",
+    "provider": "gcp",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 186407947941,
+    "object_count": 37803,
+    "requests_30d": 672,
+    "last_accessed_date": "2026-02-16T08:48:49.746009",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::cold-bucket-0016",
+    "provider": "gcp",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 411021517102,
+    "object_count": 38108,
+    "requests_30d": 548,
+    "last_accessed_date": "2026-02-18T12:48:49.746014",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::cold-bucket-0017",
+    "provider": "gcp",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 275326887828,
+    "object_count": 30951,
+    "requests_30d": 361,
+    "last_accessed_date": "2026-02-17T05:48:49.746018",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::cold-bucket-0018",
+    "provider": "gcp",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 437872098780,
+    "object_count": 15666,
+    "requests_30d": 329,
+    "last_accessed_date": "2026-02-18T15:48:49.746023",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::cold-bucket-0019",
+    "provider": "gcp",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 378488365852,
+    "object_count": 24244,
+    "requests_30d": 397,
+    "last_accessed_date": "2026-02-16T10:48:49.746027",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::cold-bucket-0020",
+    "provider": "gcp",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 640682817664,
+    "object_count": 35509,
+    "requests_30d": 482,
+    "last_accessed_date": "2026-02-16T18:48:49.746032",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::cold-bucket-0021",
+    "provider": "gcp",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 117685659999,
+    "object_count": 33203,
+    "requests_30d": 665,
+    "last_accessed_date": "2026-02-18T07:48:49.746036",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::cold-bucket-0022",
+    "provider": "gcp",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 185640125315,
+    "object_count": 6983,
+    "requests_30d": 129,
+    "last_accessed_date": "2026-02-16T19:48:49.746041",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::cold-bucket-0023",
+    "provider": "gcp",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 254581019031,
+    "object_count": 539,
+    "requests_30d": 337,
+    "last_accessed_date": "2026-02-15T18:48:49.746045",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::cold-bucket-0024",
+    "provider": "gcp",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 628087367831,
+    "object_count": 35483,
+    "requests_30d": 420,
+    "last_accessed_date": "2026-02-15T23:48:49.746050",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::cold-bucket-0025",
+    "provider": "gcp",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 207317993920,
+    "object_count": 41559,
+    "requests_30d": 459,
+    "last_accessed_date": "2026-02-16T08:48:49.746054",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::cold-bucket-0026",
+    "provider": "gcp",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 642364044800,
+    "object_count": 48429,
+    "requests_30d": 138,
+    "last_accessed_date": "2026-02-18T06:48:49.746059",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::cold-bucket-0027",
+    "provider": "gcp",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 168717856197,
+    "object_count": 46085,
+    "requests_30d": 147,
+    "last_accessed_date": "2026-02-18T07:48:49.746063",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::cold-bucket-0028",
+    "provider": "gcp",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 258144939677,
+    "object_count": 25004,
+    "requests_30d": 539,
+    "last_accessed_date": "2026-02-18T05:48:49.746068",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::cold-bucket-0029",
+    "provider": "gcp",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 118449014961,
+    "object_count": 29366,
+    "requests_30d": 579,
+    "last_accessed_date": "2026-02-17T22:48:49.746072",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::cold-bucket-0030",
+    "provider": "gcp",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 203709469618,
+    "object_count": 15714,
+    "requests_30d": 634,
+    "last_accessed_date": "2026-02-18T15:48:49.746077",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::cold-bucket-0031",
+    "provider": "gcp",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 133903172182,
+    "object_count": 7117,
+    "requests_30d": 544,
+    "last_accessed_date": "2026-02-16T07:48:49.746082",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::cold-bucket-0032",
+    "provider": "gcp",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 598463923388,
+    "object_count": 8341,
+    "requests_30d": 362,
+    "last_accessed_date": "2026-02-15T21:48:49.746086",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::cold-bucket-0033",
+    "provider": "gcp",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 283221521301,
+    "object_count": 6387,
+    "requests_30d": 696,
+    "last_accessed_date": "2026-02-17T22:48:49.746091",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::cold-bucket-0034",
+    "provider": "gcp",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 169039295334,
+    "object_count": 6660,
+    "requests_30d": 602,
+    "last_accessed_date": "2026-02-16T02:48:49.746095",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::cold-bucket-0035",
+    "provider": "gcp",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 180785423609,
+    "object_count": 35513,
+    "requests_30d": 324,
+    "last_accessed_date": "2026-02-18T16:48:49.746100",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::cold-bucket-0036",
+    "provider": "gcp",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 346177551800,
+    "object_count": 43547,
+    "requests_30d": 484,
+    "last_accessed_date": "2026-02-18T02:48:49.746105",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::cold-bucket-0037",
+    "provider": "gcp",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 325153905293,
+    "object_count": 46644,
+    "requests_30d": 450,
+    "last_accessed_date": "2026-02-18T03:48:49.746111",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::cold-bucket-0038",
+    "provider": "gcp",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 470783695369,
+    "object_count": 29643,
+    "requests_30d": 360,
+    "last_accessed_date": "2026-02-15T19:48:49.746116",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::cold-bucket-0039",
+    "provider": "gcp",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 306097379160,
+    "object_count": 16324,
+    "requests_30d": 141,
+    "last_accessed_date": "2026-02-18T10:48:49.746120",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::cold-bucket-0040",
+    "provider": "gcp",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 616703107028,
+    "object_count": 30956,
+    "requests_30d": 297,
+    "last_accessed_date": "2026-02-16T18:48:49.746125",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::cold-bucket-0041",
+    "provider": "gcp",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 170887728524,
+    "object_count": 7340,
+    "requests_30d": 647,
+    "last_accessed_date": "2026-02-17T13:48:49.746130",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::cold-bucket-0042",
+    "provider": "gcp",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 469220586055,
+    "object_count": 1458,
+    "requests_30d": 254,
+    "last_accessed_date": "2026-02-17T00:48:49.746134",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::cold-bucket-0043",
+    "provider": "gcp",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 335964470518,
+    "object_count": 40279,
+    "requests_30d": 148,
+    "last_accessed_date": "2026-02-18T10:48:49.746139",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::cold-bucket-0044",
+    "provider": "gcp",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 422916259588,
+    "object_count": 35603,
+    "requests_30d": 241,
+    "last_accessed_date": "2026-02-16T04:48:49.746144",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::cold-bucket-0045",
+    "provider": "gcp",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 494226080978,
+    "object_count": 16213,
+    "requests_30d": 180,
+    "last_accessed_date": "2026-02-18T05:48:49.746148",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::cold-bucket-0046",
+    "provider": "gcp",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 389358916915,
+    "object_count": 44959,
+    "requests_30d": 557,
+    "last_accessed_date": "2026-02-16T05:48:49.746153",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::cold-bucket-0047",
+    "provider": "gcp",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 629922170048,
+    "object_count": 16209,
+    "requests_30d": 132,
+    "last_accessed_date": "2026-02-17T03:48:49.746158",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::cold-bucket-0048",
+    "provider": "gcp",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 273375499558,
+    "object_count": 25045,
+    "requests_30d": 474,
+    "last_accessed_date": "2026-02-18T15:48:49.746162",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::cold-bucket-0049",
+    "provider": "gcp",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 338741581035,
+    "object_count": 13165,
+    "requests_30d": 175,
+    "last_accessed_date": "2026-02-18T12:48:49.746166",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::archive-bucket-0000",
+    "provider": "gcp",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 4851736285896,
+    "object_count": 47898,
+    "requests_30d": 7,
+    "last_accessed_date": "2026-02-16T17:48:49.746171",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::archive-bucket-0001",
+    "provider": "gcp",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 4936349941070,
+    "object_count": 30636,
+    "requests_30d": 22,
+    "last_accessed_date": "2026-02-16T00:48:49.746176",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::archive-bucket-0002",
+    "provider": "gcp",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 4283363311633,
+    "object_count": 15227,
+    "requests_30d": 24,
+    "last_accessed_date": "2026-02-16T16:48:49.746180",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::archive-bucket-0003",
+    "provider": "gcp",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 3932383227716,
+    "object_count": 31068,
+    "requests_30d": 19,
+    "last_accessed_date": "2026-02-16T21:48:49.746185",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::archive-bucket-0004",
+    "provider": "gcp",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 1368813210036,
+    "object_count": 27436,
+    "requests_30d": 28,
+    "last_accessed_date": "2026-02-16T17:48:49.746189",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::archive-bucket-0005",
+    "provider": "gcp",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 5068115185949,
+    "object_count": 26608,
+    "requests_30d": 2,
+    "last_accessed_date": "2026-02-16T19:48:49.746194",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::archive-bucket-0006",
+    "provider": "gcp",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 3634220989954,
+    "object_count": 30130,
+    "requests_30d": 2,
+    "last_accessed_date": "2026-02-18T06:48:49.746199",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::archive-bucket-0007",
+    "provider": "gcp",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 3307887035897,
+    "object_count": 16769,
+    "requests_30d": 0,
+    "last_accessed_date": "2026-02-18T12:48:49.746203",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::archive-bucket-0008",
+    "provider": "gcp",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 4845560554738,
+    "object_count": 1174,
+    "requests_30d": 30,
+    "last_accessed_date": "2026-02-18T04:48:49.746208",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::archive-bucket-0009",
+    "provider": "gcp",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 2969386683630,
+    "object_count": 25404,
+    "requests_30d": 0,
+    "last_accessed_date": "2026-02-17T05:48:49.746213",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::archive-bucket-0010",
+    "provider": "gcp",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 1583379554051,
+    "object_count": 37772,
+    "requests_30d": 12,
+    "last_accessed_date": "2026-02-18T12:48:49.746217",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::archive-bucket-0011",
+    "provider": "gcp",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 5061512722246,
+    "object_count": 34997,
+    "requests_30d": 30,
+    "last_accessed_date": "2026-02-17T19:48:49.746222",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::archive-bucket-0012",
+    "provider": "gcp",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 4562590250721,
+    "object_count": 43291,
+    "requests_30d": 22,
+    "last_accessed_date": "2026-02-15T20:48:49.746226",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::archive-bucket-0013",
+    "provider": "gcp",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 2473913911589,
+    "object_count": 11888,
+    "requests_30d": 17,
+    "last_accessed_date": "2026-02-17T20:48:49.746235",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::archive-bucket-0014",
+    "provider": "gcp",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 2081401377212,
+    "object_count": 36964,
+    "requests_30d": 18,
+    "last_accessed_date": "2026-02-16T10:48:49.746240",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::archive-bucket-0015",
+    "provider": "gcp",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 655863315924,
+    "object_count": 43632,
+    "requests_30d": 28,
+    "last_accessed_date": "2026-02-16T00:48:49.746245",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::archive-bucket-0016",
+    "provider": "gcp",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 1092255277810,
+    "object_count": 37122,
+    "requests_30d": 30,
+    "last_accessed_date": "2026-02-17T15:48:49.746249",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::archive-bucket-0017",
+    "provider": "gcp",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 3795024880696,
+    "object_count": 46141,
+    "requests_30d": 27,
+    "last_accessed_date": "2026-02-16T19:48:49.746254",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::archive-bucket-0018",
+    "provider": "gcp",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 4966461610996,
+    "object_count": 42712,
+    "requests_30d": 16,
+    "last_accessed_date": "2026-02-18T05:48:49.746259",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::archive-bucket-0019",
+    "provider": "gcp",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 1701094094174,
+    "object_count": 23067,
+    "requests_30d": 24,
+    "last_accessed_date": "2026-02-16T20:48:49.746263",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::archive-bucket-0020",
+    "provider": "gcp",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 3155198634564,
+    "object_count": 35602,
+    "requests_30d": 10,
+    "last_accessed_date": "2026-02-16T10:48:49.746267",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::archive-bucket-0021",
+    "provider": "gcp",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 733248752693,
+    "object_count": 27405,
+    "requests_30d": 25,
+    "last_accessed_date": "2026-02-15T21:48:49.746272",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::archive-bucket-0022",
+    "provider": "gcp",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 788578162817,
+    "object_count": 18980,
+    "requests_30d": 18,
+    "last_accessed_date": "2026-02-15T18:48:49.746277",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::archive-bucket-0023",
+    "provider": "gcp",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 4961678441651,
+    "object_count": 49803,
+    "requests_30d": 9,
+    "last_accessed_date": "2026-02-18T09:48:49.746281",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::archive-bucket-0024",
+    "provider": "gcp",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 1061683111961,
+    "object_count": 20155,
+    "requests_30d": 20,
+    "last_accessed_date": "2026-02-18T11:48:49.746286",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::archive-bucket-0025",
+    "provider": "gcp",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 3881473808933,
+    "object_count": 37731,
+    "requests_30d": 21,
+    "last_accessed_date": "2026-02-18T03:48:49.746290",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::archive-bucket-0026",
+    "provider": "gcp",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 2844917527870,
+    "object_count": 20521,
+    "requests_30d": 7,
+    "last_accessed_date": "2026-02-17T20:48:49.746295",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::archive-bucket-0027",
+    "provider": "gcp",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 3490037692744,
+    "object_count": 15637,
+    "requests_30d": 16,
+    "last_accessed_date": "2026-02-15T18:48:49.746300",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::archive-bucket-0028",
+    "provider": "gcp",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 547585508290,
+    "object_count": 36594,
+    "requests_30d": 7,
+    "last_accessed_date": "2026-02-16T20:48:49.746304",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::archive-bucket-0029",
+    "provider": "gcp",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 4919652745741,
+    "object_count": 15208,
+    "requests_30d": 22,
+    "last_accessed_date": "2026-02-16T20:48:49.746309",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::archive-bucket-0030",
+    "provider": "gcp",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 2749031403207,
+    "object_count": 11708,
+    "requests_30d": 12,
+    "last_accessed_date": "2026-02-18T12:48:49.746313",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::archive-bucket-0031",
+    "provider": "gcp",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 4038271739903,
+    "object_count": 27731,
+    "requests_30d": 17,
+    "last_accessed_date": "2026-02-16T21:48:49.746318",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::archive-bucket-0032",
+    "provider": "gcp",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 3042114928627,
+    "object_count": 45315,
+    "requests_30d": 15,
+    "last_accessed_date": "2026-02-15T22:48:49.746322",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::archive-bucket-0033",
+    "provider": "gcp",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 1268637374039,
+    "object_count": 41207,
+    "requests_30d": 1,
+    "last_accessed_date": "2026-02-18T02:48:49.746327",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::archive-bucket-0034",
+    "provider": "gcp",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 3024129267610,
+    "object_count": 22484,
+    "requests_30d": 20,
+    "last_accessed_date": "2026-02-16T23:48:49.746331",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::archive-bucket-0035",
+    "provider": "gcp",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 1580763507086,
+    "object_count": 1363,
+    "requests_30d": 23,
+    "last_accessed_date": "2026-02-16T23:48:49.746336",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::archive-bucket-0036",
+    "provider": "gcp",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 1546367200954,
+    "object_count": 30784,
+    "requests_30d": 19,
+    "last_accessed_date": "2026-02-17T13:48:49.746340",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::archive-bucket-0037",
+    "provider": "gcp",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 964468765615,
+    "object_count": 31646,
+    "requests_30d": 24,
+    "last_accessed_date": "2026-02-18T16:48:49.746345",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::archive-bucket-0038",
+    "provider": "gcp",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 3301106090963,
+    "object_count": 36333,
+    "requests_30d": 27,
+    "last_accessed_date": "2026-02-17T09:48:49.746351",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::archive-bucket-0039",
+    "provider": "gcp",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 617170069062,
+    "object_count": 7078,
+    "requests_30d": 10,
+    "last_accessed_date": "2026-02-17T04:48:49.746356",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::archive-bucket-0040",
+    "provider": "gcp",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 3470811057930,
+    "object_count": 11830,
+    "requests_30d": 13,
+    "last_accessed_date": "2026-02-16T18:48:49.746360",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::archive-bucket-0041",
+    "provider": "gcp",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 2106235171117,
+    "object_count": 1378,
+    "requests_30d": 24,
+    "last_accessed_date": "2026-02-17T02:48:49.746364",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::archive-bucket-0042",
+    "provider": "gcp",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 2453084867666,
+    "object_count": 31098,
+    "requests_30d": 26,
+    "last_accessed_date": "2026-02-16T01:48:49.746369",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::archive-bucket-0043",
+    "provider": "gcp",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 3148775193435,
+    "object_count": 8461,
+    "requests_30d": 19,
+    "last_accessed_date": "2026-02-16T11:48:49.746373",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::archive-bucket-0044",
+    "provider": "gcp",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 2183039913758,
+    "object_count": 25256,
+    "requests_30d": 12,
+    "last_accessed_date": "2026-02-18T12:48:49.746378",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::archive-bucket-0045",
+    "provider": "gcp",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 2282422725440,
+    "object_count": 33127,
+    "requests_30d": 13,
+    "last_accessed_date": "2026-02-17T21:48:49.746383",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::archive-bucket-0046",
+    "provider": "gcp",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 2065856380778,
+    "object_count": 5986,
+    "requests_30d": 10,
+    "last_accessed_date": "2026-02-18T08:48:49.746387",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::archive-bucket-0047",
+    "provider": "gcp",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 3949676033503,
+    "object_count": 42183,
+    "requests_30d": 11,
+    "last_accessed_date": "2026-02-17T02:48:49.746392",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::archive-bucket-0048",
+    "provider": "gcp",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 4334455249895,
+    "object_count": 13220,
+    "requests_30d": 18,
+    "last_accessed_date": "2026-02-18T02:48:49.746396",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "gcp::archive-bucket-0049",
+    "provider": "gcp",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 4239156390351,
+    "object_count": 15298,
+    "requests_30d": 15,
+    "last_accessed_date": "2026-02-17T20:48:49.746400",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::hot-bucket-0000",
+    "provider": "azure",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 56738049433,
+    "object_count": 17818,
+    "requests_30d": 1882,
+    "last_accessed_date": "2026-02-16T04:48:49.746405",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::hot-bucket-0001",
+    "provider": "azure",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 79399325854,
+    "object_count": 31895,
+    "requests_30d": 831,
+    "last_accessed_date": "2026-02-16T20:48:49.746409",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::hot-bucket-0002",
+    "provider": "azure",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 84326215860,
+    "object_count": 30059,
+    "requests_30d": 1161,
+    "last_accessed_date": "2026-02-17T02:48:49.746414",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::hot-bucket-0003",
+    "provider": "azure",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 41217821815,
+    "object_count": 32824,
+    "requests_30d": 1611,
+    "last_accessed_date": "2026-02-18T11:48:49.746419",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::hot-bucket-0004",
+    "provider": "azure",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 69551324651,
+    "object_count": 20468,
+    "requests_30d": 1987,
+    "last_accessed_date": "2026-02-17T16:48:49.746423",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::hot-bucket-0005",
+    "provider": "azure",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 15504854110,
+    "object_count": 32124,
+    "requests_30d": 1922,
+    "last_accessed_date": "2026-02-17T02:48:49.746427",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::hot-bucket-0006",
+    "provider": "azure",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 34247606521,
+    "object_count": 20399,
+    "requests_30d": 1877,
+    "last_accessed_date": "2026-02-15T22:48:49.746433",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::hot-bucket-0007",
+    "provider": "azure",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 57252512231,
+    "object_count": 46145,
+    "requests_30d": 1478,
+    "last_accessed_date": "2026-02-16T09:48:49.746438",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::hot-bucket-0008",
+    "provider": "azure",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 77614618980,
+    "object_count": 29706,
+    "requests_30d": 1285,
+    "last_accessed_date": "2026-02-18T06:48:49.746443",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::hot-bucket-0009",
+    "provider": "azure",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 25215401124,
+    "object_count": 26377,
+    "requests_30d": 1339,
+    "last_accessed_date": "2026-02-16T07:48:49.746447",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::hot-bucket-0010",
+    "provider": "azure",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 82001168460,
+    "object_count": 23443,
+    "requests_30d": 1411,
+    "last_accessed_date": "2026-02-17T09:48:49.746452",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::hot-bucket-0011",
+    "provider": "azure",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 23727476974,
+    "object_count": 25962,
+    "requests_30d": 910,
+    "last_accessed_date": "2026-02-16T17:48:49.746456",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::hot-bucket-0012",
+    "provider": "azure",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 13522658610,
+    "object_count": 27872,
+    "requests_30d": 1999,
+    "last_accessed_date": "2026-02-16T13:48:49.746461",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::hot-bucket-0013",
+    "provider": "azure",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 69634589216,
+    "object_count": 29301,
+    "requests_30d": 1865,
+    "last_accessed_date": "2026-02-17T11:48:49.746465",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::hot-bucket-0014",
+    "provider": "azure",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 21042582134,
+    "object_count": 46352,
+    "requests_30d": 1408,
+    "last_accessed_date": "2026-02-17T23:48:49.746470",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::hot-bucket-0015",
+    "provider": "azure",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 83255371961,
+    "object_count": 33265,
+    "requests_30d": 1547,
+    "last_accessed_date": "2026-02-16T12:48:49.746474",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::hot-bucket-0016",
+    "provider": "azure",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 72616675406,
+    "object_count": 1680,
+    "requests_30d": 1381,
+    "last_accessed_date": "2026-02-16T11:48:49.746479",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::hot-bucket-0017",
+    "provider": "azure",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 19207097494,
+    "object_count": 11242,
+    "requests_30d": 1910,
+    "last_accessed_date": "2026-02-15T18:48:49.746483",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::hot-bucket-0018",
+    "provider": "azure",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 49403994845,
+    "object_count": 14036,
+    "requests_30d": 1220,
+    "last_accessed_date": "2026-02-16T00:48:49.746487",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::hot-bucket-0019",
+    "provider": "azure",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 84132511744,
+    "object_count": 28203,
+    "requests_30d": 1554,
+    "last_accessed_date": "2026-02-17T23:48:49.746492",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::hot-bucket-0020",
+    "provider": "azure",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 24291941381,
+    "object_count": 23501,
+    "requests_30d": 1501,
+    "last_accessed_date": "2026-02-15T22:48:49.746497",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::hot-bucket-0021",
+    "provider": "azure",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 34311819823,
+    "object_count": 27612,
+    "requests_30d": 1649,
+    "last_accessed_date": "2026-02-16T23:48:49.746501",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::hot-bucket-0022",
+    "provider": "azure",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 32119714814,
+    "object_count": 14190,
+    "requests_30d": 1223,
+    "last_accessed_date": "2026-02-17T11:48:49.746506",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::hot-bucket-0023",
+    "provider": "azure",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 21711586050,
+    "object_count": 4078,
+    "requests_30d": 807,
+    "last_accessed_date": "2026-02-17T09:48:49.746510",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::hot-bucket-0024",
+    "provider": "azure",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 79337529613,
+    "object_count": 18230,
+    "requests_30d": 1952,
+    "last_accessed_date": "2026-02-17T01:48:49.746514",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::hot-bucket-0025",
+    "provider": "azure",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 68988273654,
+    "object_count": 14395,
+    "requests_30d": 1666,
+    "last_accessed_date": "2026-02-17T14:48:49.746519",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::hot-bucket-0026",
+    "provider": "azure",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 31841867278,
+    "object_count": 47023,
+    "requests_30d": 1678,
+    "last_accessed_date": "2026-02-18T16:48:49.746523",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::hot-bucket-0027",
+    "provider": "azure",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 14208672277,
+    "object_count": 47641,
+    "requests_30d": 1217,
+    "last_accessed_date": "2026-02-17T01:48:49.746528",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::hot-bucket-0028",
+    "provider": "azure",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 16178360551,
+    "object_count": 39616,
+    "requests_30d": 1214,
+    "last_accessed_date": "2026-02-18T08:48:49.746533",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::hot-bucket-0029",
+    "provider": "azure",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 32547020973,
+    "object_count": 40100,
+    "requests_30d": 1758,
+    "last_accessed_date": "2026-02-16T21:48:49.746538",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::hot-bucket-0030",
+    "provider": "azure",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 53533689446,
+    "object_count": 14141,
+    "requests_30d": 1531,
+    "last_accessed_date": "2026-02-16T22:48:49.746542",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::hot-bucket-0031",
+    "provider": "azure",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 60346423425,
+    "object_count": 4021,
+    "requests_30d": 823,
+    "last_accessed_date": "2026-02-18T15:48:49.746547",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::hot-bucket-0032",
+    "provider": "azure",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 15780922932,
+    "object_count": 38019,
+    "requests_30d": 1221,
+    "last_accessed_date": "2026-02-16T23:48:49.746551",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::hot-bucket-0033",
+    "provider": "azure",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 76438642512,
+    "object_count": 15358,
+    "requests_30d": 1924,
+    "last_accessed_date": "2026-02-16T06:48:49.746556",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::hot-bucket-0034",
+    "provider": "azure",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 67271715474,
+    "object_count": 11499,
+    "requests_30d": 1557,
+    "last_accessed_date": "2026-02-17T23:48:49.746560",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::hot-bucket-0035",
+    "provider": "azure",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 23422506281,
+    "object_count": 27434,
+    "requests_30d": 1833,
+    "last_accessed_date": "2026-02-17T01:48:49.746565",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::hot-bucket-0036",
+    "provider": "azure",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 38571733662,
+    "object_count": 17416,
+    "requests_30d": 1820,
+    "last_accessed_date": "2026-02-17T07:48:49.746569",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::hot-bucket-0037",
+    "provider": "azure",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 48572886886,
+    "object_count": 19574,
+    "requests_30d": 1942,
+    "last_accessed_date": "2026-02-17T02:48:49.746573",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::hot-bucket-0038",
+    "provider": "azure",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 83276220742,
+    "object_count": 35945,
+    "requests_30d": 1285,
+    "last_accessed_date": "2026-02-18T08:48:49.746578",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::hot-bucket-0039",
+    "provider": "azure",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 19310017662,
+    "object_count": 40731,
+    "requests_30d": 1223,
+    "last_accessed_date": "2026-02-17T08:48:49.746583",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::hot-bucket-0040",
+    "provider": "azure",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 31410834238,
+    "object_count": 2022,
+    "requests_30d": 1206,
+    "last_accessed_date": "2026-02-16T06:48:49.746587",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::hot-bucket-0041",
+    "provider": "azure",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 67403315965,
+    "object_count": 21059,
+    "requests_30d": 1839,
+    "last_accessed_date": "2026-02-16T19:48:49.746593",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::hot-bucket-0042",
+    "provider": "azure",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 46691220634,
+    "object_count": 37943,
+    "requests_30d": 1424,
+    "last_accessed_date": "2026-02-18T16:48:49.746598",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::hot-bucket-0043",
+    "provider": "azure",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 57363062256,
+    "object_count": 16594,
+    "requests_30d": 1893,
+    "last_accessed_date": "2026-02-16T14:48:49.746602",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::hot-bucket-0044",
+    "provider": "azure",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 79005767301,
+    "object_count": 18346,
+    "requests_30d": 1139,
+    "last_accessed_date": "2026-02-16T15:48:49.746606",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::hot-bucket-0045",
+    "provider": "azure",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 82920407026,
+    "object_count": 43242,
+    "requests_30d": 1279,
+    "last_accessed_date": "2026-02-18T11:48:49.746611",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::hot-bucket-0046",
+    "provider": "azure",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 85659560796,
+    "object_count": 33375,
+    "requests_30d": 1398,
+    "last_accessed_date": "2026-02-17T16:48:49.746615",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::hot-bucket-0047",
+    "provider": "azure",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 13081875239,
+    "object_count": 13119,
+    "requests_30d": 1919,
+    "last_accessed_date": "2026-02-17T07:48:49.746620",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::hot-bucket-0048",
+    "provider": "azure",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 78263929474,
+    "object_count": 28643,
+    "requests_30d": 1873,
+    "last_accessed_date": "2026-02-17T23:48:49.746624",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::hot-bucket-0049",
+    "provider": "azure",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 43786736395,
+    "object_count": 18210,
+    "requests_30d": 1872,
+    "last_accessed_date": "2026-02-16T18:48:49.746628",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "HOT",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::cold-bucket-0000",
+    "provider": "azure",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 333470745556,
+    "object_count": 21463,
+    "requests_30d": 458,
+    "last_accessed_date": "2026-02-15T22:48:49.746633",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::cold-bucket-0001",
+    "provider": "azure",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 170593405637,
+    "object_count": 14425,
+    "requests_30d": 536,
+    "last_accessed_date": "2026-02-16T01:48:49.746637",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::cold-bucket-0002",
+    "provider": "azure",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 113395976555,
+    "object_count": 37912,
+    "requests_30d": 655,
+    "last_accessed_date": "2026-02-17T02:48:49.746642",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::cold-bucket-0003",
+    "provider": "azure",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 108803778610,
+    "object_count": 10005,
+    "requests_30d": 271,
+    "last_accessed_date": "2026-02-16T01:48:49.746647",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::cold-bucket-0004",
+    "provider": "azure",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 270521154909,
+    "object_count": 24697,
+    "requests_30d": 325,
+    "last_accessed_date": "2026-02-15T23:48:49.746651",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::cold-bucket-0005",
+    "provider": "azure",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 222632024805,
+    "object_count": 18964,
+    "requests_30d": 237,
+    "last_accessed_date": "2026-02-16T14:48:49.746656",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::cold-bucket-0006",
+    "provider": "azure",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 156423779051,
+    "object_count": 18799,
+    "requests_30d": 439,
+    "last_accessed_date": "2026-02-18T17:48:49.746662",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::cold-bucket-0007",
+    "provider": "azure",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 437309850182,
+    "object_count": 10000,
+    "requests_30d": 679,
+    "last_accessed_date": "2026-02-16T10:48:49.746667",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::cold-bucket-0008",
+    "provider": "azure",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 438109218073,
+    "object_count": 31900,
+    "requests_30d": 321,
+    "last_accessed_date": "2026-02-15T21:48:49.746671",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::cold-bucket-0009",
+    "provider": "azure",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 399707915428,
+    "object_count": 8125,
+    "requests_30d": 426,
+    "last_accessed_date": "2026-02-16T13:48:49.746676",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::cold-bucket-0010",
+    "provider": "azure",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 107849925307,
+    "object_count": 35189,
+    "requests_30d": 548,
+    "last_accessed_date": "2026-02-18T11:48:49.746680",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::cold-bucket-0011",
+    "provider": "azure",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 536781811897,
+    "object_count": 43896,
+    "requests_30d": 149,
+    "last_accessed_date": "2026-02-18T03:48:49.746684",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::cold-bucket-0012",
+    "provider": "azure",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 284634134546,
+    "object_count": 34496,
+    "requests_30d": 194,
+    "last_accessed_date": "2026-02-17T07:48:49.746689",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::cold-bucket-0013",
+    "provider": "azure",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 279391349108,
+    "object_count": 41094,
+    "requests_30d": 566,
+    "last_accessed_date": "2026-02-18T05:48:49.746693",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::cold-bucket-0014",
+    "provider": "azure",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 257434373935,
+    "object_count": 2408,
+    "requests_30d": 303,
+    "last_accessed_date": "2026-02-17T14:48:49.746698",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::cold-bucket-0015",
+    "provider": "azure",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 293421006848,
+    "object_count": 21687,
+    "requests_30d": 335,
+    "last_accessed_date": "2026-02-16T04:48:49.746702",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::cold-bucket-0016",
+    "provider": "azure",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 254389924034,
+    "object_count": 25377,
+    "requests_30d": 689,
+    "last_accessed_date": "2026-02-16T02:48:49.746706",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::cold-bucket-0017",
+    "provider": "azure",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 196587098853,
+    "object_count": 33017,
+    "requests_30d": 207,
+    "last_accessed_date": "2026-02-18T00:48:49.746711",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::cold-bucket-0018",
+    "provider": "azure",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 185771331471,
+    "object_count": 30262,
+    "requests_30d": 454,
+    "last_accessed_date": "2026-02-16T02:48:49.746715",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::cold-bucket-0019",
+    "provider": "azure",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 424478142684,
+    "object_count": 47186,
+    "requests_30d": 646,
+    "last_accessed_date": "2026-02-18T12:48:49.746720",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::cold-bucket-0020",
+    "provider": "azure",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 379935105242,
+    "object_count": 47007,
+    "requests_30d": 265,
+    "last_accessed_date": "2026-02-15T19:48:49.746724",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::cold-bucket-0021",
+    "provider": "azure",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 324927468000,
+    "object_count": 16906,
+    "requests_30d": 533,
+    "last_accessed_date": "2026-02-17T05:48:49.746728",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::cold-bucket-0022",
+    "provider": "azure",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 558068233659,
+    "object_count": 980,
+    "requests_30d": 245,
+    "last_accessed_date": "2026-02-17T23:48:49.746733",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::cold-bucket-0023",
+    "provider": "azure",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 177929710177,
+    "object_count": 25037,
+    "requests_30d": 392,
+    "last_accessed_date": "2026-02-17T00:48:49.746737",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::cold-bucket-0024",
+    "provider": "azure",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 141100193652,
+    "object_count": 837,
+    "requests_30d": 630,
+    "last_accessed_date": "2026-02-16T22:48:49.746742",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::cold-bucket-0025",
+    "provider": "azure",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 369565993347,
+    "object_count": 49489,
+    "requests_30d": 121,
+    "last_accessed_date": "2026-02-15T23:48:49.746746",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::cold-bucket-0026",
+    "provider": "azure",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 274565432959,
+    "object_count": 21991,
+    "requests_30d": 349,
+    "last_accessed_date": "2026-02-15T18:48:49.746751",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::cold-bucket-0027",
+    "provider": "azure",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 631328846158,
+    "object_count": 6561,
+    "requests_30d": 580,
+    "last_accessed_date": "2026-02-17T09:48:49.746755",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::cold-bucket-0028",
+    "provider": "azure",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 438354890815,
+    "object_count": 45729,
+    "requests_30d": 659,
+    "last_accessed_date": "2026-02-16T00:48:49.746760",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::cold-bucket-0029",
+    "provider": "azure",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 126181335740,
+    "object_count": 23769,
+    "requests_30d": 692,
+    "last_accessed_date": "2026-02-17T06:48:49.746764",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::cold-bucket-0030",
+    "provider": "azure",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 618532846886,
+    "object_count": 1692,
+    "requests_30d": 655,
+    "last_accessed_date": "2026-02-17T17:48:49.746769",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::cold-bucket-0031",
+    "provider": "azure",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 250053744986,
+    "object_count": 34105,
+    "requests_30d": 582,
+    "last_accessed_date": "2026-02-17T04:48:49.746774",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::cold-bucket-0032",
+    "provider": "azure",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 238984731670,
+    "object_count": 37650,
+    "requests_30d": 437,
+    "last_accessed_date": "2026-02-16T18:48:49.746779",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::cold-bucket-0033",
+    "provider": "azure",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 438302931994,
+    "object_count": 31703,
+    "requests_30d": 585,
+    "last_accessed_date": "2026-02-17T12:48:49.746784",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::cold-bucket-0034",
+    "provider": "azure",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 452441141039,
+    "object_count": 21264,
+    "requests_30d": 421,
+    "last_accessed_date": "2026-02-16T05:48:49.746789",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::cold-bucket-0035",
+    "provider": "azure",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 486223752328,
+    "object_count": 25939,
+    "requests_30d": 117,
+    "last_accessed_date": "2026-02-16T11:48:49.746793",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::cold-bucket-0036",
+    "provider": "azure",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 232939324496,
+    "object_count": 13754,
+    "requests_30d": 153,
+    "last_accessed_date": "2026-02-17T22:48:49.746798",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::cold-bucket-0037",
+    "provider": "azure",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 554651397394,
+    "object_count": 32710,
+    "requests_30d": 641,
+    "last_accessed_date": "2026-02-17T22:48:49.746802",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::cold-bucket-0038",
+    "provider": "azure",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 193443691340,
+    "object_count": 16049,
+    "requests_30d": 206,
+    "last_accessed_date": "2026-02-18T08:48:49.746806",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::cold-bucket-0039",
+    "provider": "azure",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 545594261800,
+    "object_count": 5143,
+    "requests_30d": 360,
+    "last_accessed_date": "2026-02-17T08:48:49.746811",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::cold-bucket-0040",
+    "provider": "azure",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 605305172892,
+    "object_count": 41510,
+    "requests_30d": 664,
+    "last_accessed_date": "2026-02-18T08:48:49.746815",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::cold-bucket-0041",
+    "provider": "azure",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 479353194974,
+    "object_count": 37042,
+    "requests_30d": 531,
+    "last_accessed_date": "2026-02-16T02:48:49.746820",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::cold-bucket-0042",
+    "provider": "azure",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 461202410709,
+    "object_count": 2477,
+    "requests_30d": 201,
+    "last_accessed_date": "2026-02-17T01:48:49.746825",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::cold-bucket-0043",
+    "provider": "azure",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 321524041142,
+    "object_count": 10589,
+    "requests_30d": 260,
+    "last_accessed_date": "2026-02-17T05:48:49.746829",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::cold-bucket-0044",
+    "provider": "azure",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 141257687911,
+    "object_count": 42421,
+    "requests_30d": 270,
+    "last_accessed_date": "2026-02-18T03:48:49.746834",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::cold-bucket-0045",
+    "provider": "azure",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 561932175383,
+    "object_count": 38258,
+    "requests_30d": 519,
+    "last_accessed_date": "2026-02-16T10:48:49.746838",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::cold-bucket-0046",
+    "provider": "azure",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 622470540190,
+    "object_count": 40702,
+    "requests_30d": 375,
+    "last_accessed_date": "2026-02-16T08:48:49.746842",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::cold-bucket-0047",
+    "provider": "azure",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 220834784067,
+    "object_count": 6558,
+    "requests_30d": 139,
+    "last_accessed_date": "2026-02-16T15:48:49.746847",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::cold-bucket-0048",
+    "provider": "azure",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 388986566713,
+    "object_count": 49277,
+    "requests_30d": 532,
+    "last_accessed_date": "2026-02-18T04:48:49.746851",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::cold-bucket-0049",
+    "provider": "azure",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 515639497847,
+    "object_count": 19895,
+    "requests_30d": 218,
+    "last_accessed_date": "2026-02-18T01:48:49.746856",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "COLD",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::archive-bucket-0000",
+    "provider": "azure",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 3693076557409,
+    "object_count": 2859,
+    "requests_30d": 20,
+    "last_accessed_date": "2026-02-18T11:48:49.746862",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::archive-bucket-0001",
+    "provider": "azure",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 3285151937071,
+    "object_count": 15690,
+    "requests_30d": 23,
+    "last_accessed_date": "2026-02-18T04:48:49.746867",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::archive-bucket-0002",
+    "provider": "azure",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 1967959558130,
+    "object_count": 29966,
+    "requests_30d": 18,
+    "last_accessed_date": "2026-02-16T08:48:49.746871",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::archive-bucket-0003",
+    "provider": "azure",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 4028046271787,
+    "object_count": 4732,
+    "requests_30d": 5,
+    "last_accessed_date": "2026-02-17T06:48:49.746876",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::archive-bucket-0004",
+    "provider": "azure",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 4277357100164,
+    "object_count": 11204,
+    "requests_30d": 20,
+    "last_accessed_date": "2026-02-17T11:48:49.746880",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::archive-bucket-0005",
+    "provider": "azure",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 3014794509926,
+    "object_count": 31568,
+    "requests_30d": 12,
+    "last_accessed_date": "2026-02-17T03:48:49.746884",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::archive-bucket-0006",
+    "provider": "azure",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 3171302616709,
+    "object_count": 46199,
+    "requests_30d": 16,
+    "last_accessed_date": "2026-02-16T06:48:49.746889",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::archive-bucket-0007",
+    "provider": "azure",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 2718790144211,
+    "object_count": 17987,
+    "requests_30d": 9,
+    "last_accessed_date": "2026-02-15T20:48:49.746894",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::archive-bucket-0008",
+    "provider": "azure",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 3221296515491,
+    "object_count": 31225,
+    "requests_30d": 12,
+    "last_accessed_date": "2026-02-16T15:48:49.746898",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::archive-bucket-0009",
+    "provider": "azure",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 5154219377730,
+    "object_count": 10320,
+    "requests_30d": 5,
+    "last_accessed_date": "2026-02-16T14:48:49.746903",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::archive-bucket-0010",
+    "provider": "azure",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 3013182836220,
+    "object_count": 20644,
+    "requests_30d": 10,
+    "last_accessed_date": "2026-02-15T20:48:49.746907",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::archive-bucket-0011",
+    "provider": "azure",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 2833504325696,
+    "object_count": 46630,
+    "requests_30d": 18,
+    "last_accessed_date": "2026-02-16T01:48:49.746912",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::archive-bucket-0012",
+    "provider": "azure",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 3056986322457,
+    "object_count": 26908,
+    "requests_30d": 9,
+    "last_accessed_date": "2026-02-18T12:48:49.746916",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::archive-bucket-0013",
+    "provider": "azure",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 734447891796,
+    "object_count": 1596,
+    "requests_30d": 13,
+    "last_accessed_date": "2026-02-17T14:48:49.746920",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::archive-bucket-0014",
+    "provider": "azure",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 4948277194592,
+    "object_count": 34151,
+    "requests_30d": 30,
+    "last_accessed_date": "2026-02-17T17:48:49.746925",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::archive-bucket-0015",
+    "provider": "azure",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 2039367278607,
+    "object_count": 23385,
+    "requests_30d": 15,
+    "last_accessed_date": "2026-02-15T18:48:49.746929",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::archive-bucket-0016",
+    "provider": "azure",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 4679465368438,
+    "object_count": 16738,
+    "requests_30d": 16,
+    "last_accessed_date": "2026-02-17T22:48:49.746934",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::archive-bucket-0017",
+    "provider": "azure",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 4585196311232,
+    "object_count": 48726,
+    "requests_30d": 19,
+    "last_accessed_date": "2026-02-18T11:48:49.746939",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::archive-bucket-0018",
+    "provider": "azure",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 3161097140668,
+    "object_count": 11673,
+    "requests_30d": 15,
+    "last_accessed_date": "2026-02-17T12:48:49.746943",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::archive-bucket-0019",
+    "provider": "azure",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 3077357751216,
+    "object_count": 13141,
+    "requests_30d": 23,
+    "last_accessed_date": "2026-02-18T17:48:49.746954",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::archive-bucket-0020",
+    "provider": "azure",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 2624599257923,
+    "object_count": 10999,
+    "requests_30d": 23,
+    "last_accessed_date": "2026-02-18T02:48:49.746959",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::archive-bucket-0021",
+    "provider": "azure",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 5095368910466,
+    "object_count": 34976,
+    "requests_30d": 20,
+    "last_accessed_date": "2026-02-16T08:48:49.746965",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::archive-bucket-0022",
+    "provider": "azure",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 777182889540,
+    "object_count": 30218,
+    "requests_30d": 18,
+    "last_accessed_date": "2026-02-17T19:48:49.746970",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::archive-bucket-0023",
+    "provider": "azure",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 1568005672134,
+    "object_count": 43190,
+    "requests_30d": 24,
+    "last_accessed_date": "2026-02-17T07:48:49.746975",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::archive-bucket-0024",
+    "provider": "azure",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 3217801216761,
+    "object_count": 7740,
+    "requests_30d": 4,
+    "last_accessed_date": "2026-02-17T16:48:49.746981",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::archive-bucket-0025",
+    "provider": "azure",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 1921103215777,
+    "object_count": 17789,
+    "requests_30d": 8,
+    "last_accessed_date": "2026-02-16T09:48:49.746986",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::archive-bucket-0026",
+    "provider": "azure",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 3141418976879,
+    "object_count": 36167,
+    "requests_30d": 15,
+    "last_accessed_date": "2026-02-17T01:48:49.746991",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::archive-bucket-0027",
+    "provider": "azure",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 3626323488690,
+    "object_count": 16378,
+    "requests_30d": 22,
+    "last_accessed_date": "2026-02-16T21:48:49.746995",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::archive-bucket-0028",
+    "provider": "azure",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 3927862891167,
+    "object_count": 11929,
+    "requests_30d": 19,
+    "last_accessed_date": "2026-02-17T23:48:49.747000",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::archive-bucket-0029",
+    "provider": "azure",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 3020470629137,
+    "object_count": 49497,
+    "requests_30d": 3,
+    "last_accessed_date": "2026-02-16T17:48:49.747005",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::archive-bucket-0030",
+    "provider": "azure",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 5344529495989,
+    "object_count": 26302,
+    "requests_30d": 2,
+    "last_accessed_date": "2026-02-17T04:48:49.747010",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::archive-bucket-0031",
+    "provider": "azure",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 3002459016714,
+    "object_count": 20469,
+    "requests_30d": 20,
+    "last_accessed_date": "2026-02-16T00:48:49.747014",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::archive-bucket-0032",
+    "provider": "azure",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 5084976623685,
+    "object_count": 42074,
+    "requests_30d": 7,
+    "last_accessed_date": "2026-02-15T20:48:49.747019",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::archive-bucket-0033",
+    "provider": "azure",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 5312639909592,
+    "object_count": 18308,
+    "requests_30d": 3,
+    "last_accessed_date": "2026-02-17T14:48:49.747024",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::archive-bucket-0034",
+    "provider": "azure",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 3824012233002,
+    "object_count": 681,
+    "requests_30d": 18,
+    "last_accessed_date": "2026-02-16T00:48:49.747029",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::archive-bucket-0035",
+    "provider": "azure",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 2013015585661,
+    "object_count": 45428,
+    "requests_30d": 29,
+    "last_accessed_date": "2026-02-18T07:48:49.747033",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::archive-bucket-0036",
+    "provider": "azure",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 1435557790934,
+    "object_count": 23498,
+    "requests_30d": 16,
+    "last_accessed_date": "2026-02-17T23:48:49.747039",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::archive-bucket-0037",
+    "provider": "azure",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 3329134857542,
+    "object_count": 48210,
+    "requests_30d": 17,
+    "last_accessed_date": "2026-02-15T19:48:49.747043",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::archive-bucket-0038",
+    "provider": "azure",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 4828349843403,
+    "object_count": 11755,
+    "requests_30d": 3,
+    "last_accessed_date": "2026-02-17T19:48:49.747048",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::archive-bucket-0039",
+    "provider": "azure",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 3197880523858,
+    "object_count": 23843,
+    "requests_30d": 22,
+    "last_accessed_date": "2026-02-16T17:48:49.747054",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::archive-bucket-0040",
+    "provider": "azure",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 3253856899253,
+    "object_count": 34937,
+    "requests_30d": 23,
+    "last_accessed_date": "2026-02-17T10:48:49.747059",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::archive-bucket-0041",
+    "provider": "azure",
+    "region": "centralindia",
+    "tier_class": "Standard",
+    "size_bytes": 1327025998739,
+    "object_count": 30951,
+    "requests_30d": 1,
+    "last_accessed_date": "2026-02-17T21:48:49.747064",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::archive-bucket-0042",
+    "provider": "azure",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 4325258736203,
+    "object_count": 28097,
+    "requests_30d": 11,
+    "last_accessed_date": "2026-02-17T08:48:49.747069",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::archive-bucket-0043",
+    "provider": "azure",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 3563586472075,
+    "object_count": 21625,
+    "requests_30d": 3,
+    "last_accessed_date": "2026-02-17T14:48:49.747074",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::archive-bucket-0044",
+    "provider": "azure",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 1838857737423,
+    "object_count": 20237,
+    "requests_30d": 2,
+    "last_accessed_date": "2026-02-17T18:48:49.747078",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::archive-bucket-0045",
+    "provider": "azure",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 2660033513783,
+    "object_count": 49033,
+    "requests_30d": 11,
+    "last_accessed_date": "2026-02-16T01:48:49.747083",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::archive-bucket-0046",
+    "provider": "azure",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 542980130729,
+    "object_count": 44136,
+    "requests_30d": 9,
+    "last_accessed_date": "2026-02-17T12:48:49.747088",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::archive-bucket-0047",
+    "provider": "azure",
+    "region": "europe-west1",
+    "tier_class": "Standard",
+    "size_bytes": 553087558287,
+    "object_count": 35302,
+    "requests_30d": 22,
+    "last_accessed_date": "2026-02-15T19:48:49.747093",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::archive-bucket-0048",
+    "provider": "azure",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 3313910804648,
+    "object_count": 20354,
+    "requests_30d": 5,
+    "last_accessed_date": "2026-02-18T11:48:49.747098",
+    "tags": {
+      "Environment": "Prod",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  },
+  {
+    "resource_id": "azure::archive-bucket-0049",
+    "provider": "azure",
+    "region": "us-east-1",
+    "tier_class": "Standard",
+    "size_bytes": 713456400806,
+    "object_count": 15931,
+    "requests_30d": 12,
+    "last_accessed_date": "2026-02-16T22:48:49.747103",
+    "tags": {
+      "Environment": "Stage",
+      "TierIntent": "ARCHIVE",
+      "Owner": "Cloudteck-Test"
+    }
+  }
+]

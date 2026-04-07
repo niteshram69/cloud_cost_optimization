@@ -1,0 +1,257 @@
+{
+  "aws": {
+    "us-east-1": {
+      "S3_STANDARD": {
+        "storage_cost_gb_month_usd": 0.023,
+        "retrieval_cost_gb_usd": 0.0,
+        "min_retention_days": 0,
+        "early_delete_cost_gb_usd": 0.0,
+        "data_egress_cost_gb_usd": 0.09
+      },
+      "S3_IA": {
+        "storage_cost_gb_month_usd": 0.0125,
+        "retrieval_cost_gb_usd": 0.01,
+        "min_retention_days": 30,
+        "early_delete_cost_gb_usd": 0.01,
+        "data_egress_cost_gb_usd": 0.09
+      },
+      "S3_GLACIER": {
+        "storage_cost_gb_month_usd": 0.004,
+        "retrieval_cost_gb_usd": 0.03,
+        "min_retention_days": 90,
+        "early_delete_cost_gb_usd": 0.03,
+        "data_egress_cost_gb_usd": 0.09
+      },
+      "S3_DEEP_ARCHIVE": {
+        "storage_cost_gb_month_usd": 0.00099,
+        "retrieval_cost_gb_usd": 0.05,
+        "min_retention_days": 180,
+        "early_delete_cost_gb_usd": 0.05,
+        "data_egress_cost_gb_usd": 0.09
+      }
+    },
+    "us-west-2": {
+      "S3_STANDARD": {
+        "storage_cost_gb_month_usd": 0.024,
+        "retrieval_cost_gb_usd": 0.0,
+        "min_retention_days": 0,
+        "early_delete_cost_gb_usd": 0.0,
+        "data_egress_cost_gb_usd": 0.09
+      },
+      "S3_IA": {
+        "storage_cost_gb_month_usd": 0.013,
+        "retrieval_cost_gb_usd": 0.01,
+        "min_retention_days": 30,
+        "early_delete_cost_gb_usd": 0.01,
+        "data_egress_cost_gb_usd": 0.09
+      },
+      "S3_GLACIER": {
+        "storage_cost_gb_month_usd": 0.0042,
+        "retrieval_cost_gb_usd": 0.03,
+        "min_retention_days": 90,
+        "early_delete_cost_gb_usd": 0.03,
+        "data_egress_cost_gb_usd": 0.09
+      },
+      "S3_DEEP_ARCHIVE": {
+        "storage_cost_gb_month_usd": 0.0011,
+        "retrieval_cost_gb_usd": 0.05,
+        "min_retention_days": 180,
+        "early_delete_cost_gb_usd": 0.05,
+        "data_egress_cost_gb_usd": 0.09
+      }
+    },
+    "default": {
+      "S3_STANDARD": {
+        "storage_cost_gb_month_usd": 0.023,
+        "retrieval_cost_gb_usd": 0.0,
+        "min_retention_days": 0,
+        "early_delete_cost_gb_usd": 0.0,
+        "data_egress_cost_gb_usd": 0.09
+      },
+      "S3_IA": {
+        "storage_cost_gb_month_usd": 0.0125,
+        "retrieval_cost_gb_usd": 0.01,
+        "min_retention_days": 30,
+        "early_delete_cost_gb_usd": 0.01,
+        "data_egress_cost_gb_usd": 0.09
+      },
+      "S3_GLACIER": {
+        "storage_cost_gb_month_usd": 0.004,
+        "retrieval_cost_gb_usd": 0.03,
+        "min_retention_days": 90,
+        "early_delete_cost_gb_usd": 0.03,
+        "data_egress_cost_gb_usd": 0.09
+      },
+      "S3_DEEP_ARCHIVE": {
+        "storage_cost_gb_month_usd": 0.00099,
+        "retrieval_cost_gb_usd": 0.05,
+        "min_retention_days": 180,
+        "early_delete_cost_gb_usd": 0.05,
+        "data_egress_cost_gb_usd": 0.09
+      }
+    }
+  },
+  "gcp": {
+    "us-central1": {
+      "STANDARD": {
+        "storage_cost_gb_month_usd": 0.02,
+        "retrieval_cost_gb_usd": 0.0,
+        "min_retention_days": 0,
+        "early_delete_cost_gb_usd": 0.0,
+        "data_egress_cost_gb_usd": 0.12
+      },
+      "NEARLINE": {
+        "storage_cost_gb_month_usd": 0.01,
+        "retrieval_cost_gb_usd": 0.01,
+        "min_retention_days": 30,
+        "early_delete_cost_gb_usd": 0.01,
+        "data_egress_cost_gb_usd": 0.12
+      },
+      "COLDLINE": {
+        "storage_cost_gb_month_usd": 0.004,
+        "retrieval_cost_gb_usd": 0.02,
+        "min_retention_days": 90,
+        "early_delete_cost_gb_usd": 0.02,
+        "data_egress_cost_gb_usd": 0.12
+      },
+      "ARCHIVE": {
+        "storage_cost_gb_month_usd": 0.0012,
+        "retrieval_cost_gb_usd": 0.05,
+        "min_retention_days": 365,
+        "early_delete_cost_gb_usd": 0.05,
+        "data_egress_cost_gb_usd": 0.12
+      }
+    },
+    "europe-west1": {
+      "STANDARD": {
+        "storage_cost_gb_month_usd": 0.021,
+        "retrieval_cost_gb_usd": 0.0,
+        "min_retention_days": 0,
+        "early_delete_cost_gb_usd": 0.0,
+        "data_egress_cost_gb_usd": 0.12
+      },
+      "NEARLINE": {
+        "storage_cost_gb_month_usd": 0.011,
+        "retrieval_cost_gb_usd": 0.01,
+        "min_retention_days": 30,
+        "early_delete_cost_gb_usd": 0.01,
+        "data_egress_cost_gb_usd": 0.12
+      },
+      "COLDLINE": {
+        "storage_cost_gb_month_usd": 0.0044,
+        "retrieval_cost_gb_usd": 0.02,
+        "min_retention_days": 90,
+        "early_delete_cost_gb_usd": 0.02,
+        "data_egress_cost_gb_usd": 0.12
+      },
+      "ARCHIVE": {
+        "storage_cost_gb_month_usd": 0.0014,
+        "retrieval_cost_gb_usd": 0.05,
+        "min_retention_days": 365,
+        "early_delete_cost_gb_usd": 0.05,
+        "data_egress_cost_gb_usd": 0.12
+      }
+    },
+    "default": {
+      "STANDARD": {
+        "storage_cost_gb_month_usd": 0.02,
+        "retrieval_cost_gb_usd": 0.0,
+        "min_retention_days": 0,
+        "early_delete_cost_gb_usd": 0.0,
+        "data_egress_cost_gb_usd": 0.12
+      },
+      "NEARLINE": {
+        "storage_cost_gb_month_usd": 0.01,
+        "retrieval_cost_gb_usd": 0.01,
+        "min_retention_days": 30,
+        "early_delete_cost_gb_usd": 0.01,
+        "data_egress_cost_gb_usd": 0.12
+      },
+      "COLDLINE": {
+        "storage_cost_gb_month_usd": 0.004,
+        "retrieval_cost_gb_usd": 0.02,
+        "min_retention_days": 90,
+        "early_delete_cost_gb_usd": 0.02,
+        "data_egress_cost_gb_usd": 0.12
+      },
+      "ARCHIVE": {
+        "storage_cost_gb_month_usd": 0.0012,
+        "retrieval_cost_gb_usd": 0.05,
+        "min_retention_days": 365,
+        "early_delete_cost_gb_usd": 0.05,
+        "data_egress_cost_gb_usd": 0.12
+      }
+    }
+  },
+  "azure": {
+    "eastus": {
+      "HOT": {
+        "storage_cost_gb_month_usd": 0.0184,
+        "retrieval_cost_gb_usd": 0.0,
+        "min_retention_days": 0,
+        "early_delete_cost_gb_usd": 0.0,
+        "data_egress_cost_gb_usd": 0.087
+      },
+      "COOL": {
+        "storage_cost_gb_month_usd": 0.01,
+        "retrieval_cost_gb_usd": 0.01,
+        "min_retention_days": 30,
+        "early_delete_cost_gb_usd": 0.01,
+        "data_egress_cost_gb_usd": 0.087
+      },
+      "ARCHIVE": {
+        "storage_cost_gb_month_usd": 0.001,
+        "retrieval_cost_gb_usd": 0.02,
+        "min_retention_days": 180,
+        "early_delete_cost_gb_usd": 0.02,
+        "data_egress_cost_gb_usd": 0.087
+      }
+    },
+    "westeurope": {
+      "HOT": {
+        "storage_cost_gb_month_usd": 0.019,
+        "retrieval_cost_gb_usd": 0.0,
+        "min_retention_days": 0,
+        "early_delete_cost_gb_usd": 0.0,
+        "data_egress_cost_gb_usd": 0.087
+      },
+      "COOL": {
+        "storage_cost_gb_month_usd": 0.0105,
+        "retrieval_cost_gb_usd": 0.01,
+        "min_retention_days": 30,
+        "early_delete_cost_gb_usd": 0.01,
+        "data_egress_cost_gb_usd": 0.087
+      },
+      "ARCHIVE": {
+        "storage_cost_gb_month_usd": 0.0011,
+        "retrieval_cost_gb_usd": 0.02,
+        "min_retention_days": 180,
+        "early_delete_cost_gb_usd": 0.02,
+        "data_egress_cost_gb_usd": 0.087
+      }
+    },
+    "default": {
+      "HOT": {
+        "storage_cost_gb_month_usd": 0.0184,
+        "retrieval_cost_gb_usd": 0.0,
+        "min_retention_days": 0,
+        "early_delete_cost_gb_usd": 0.0,
+        "data_egress_cost_gb_usd": 0.087
+      },
+      "COOL": {
+        "storage_cost_gb_month_usd": 0.01,
+        "retrieval_cost_gb_usd": 0.01,
+        "min_retention_days": 30,
+        "early_delete_cost_gb_usd": 0.01,
+        "data_egress_cost_gb_usd": 0.087
+      },
+      "ARCHIVE": {
+        "storage_cost_gb_month_usd": 0.001,
+        "retrieval_cost_gb_usd": 0.02,
+        "min_retention_days": 180,
+        "early_delete_cost_gb_usd": 0.02,
+        "data_egress_cost_gb_usd": 0.087
+      }
+    }
+  }
+}

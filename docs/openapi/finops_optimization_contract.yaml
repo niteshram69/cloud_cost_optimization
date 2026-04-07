@@ -1,0 +1,611 @@
+openapi: 3.1.0
+info:
+  title: FinOps Storage Optimization API
+  version: 1.0.0
+  description: |
+    CloudHealth-class native optimization contracts for multi-cloud storage optimization.
+    Safety-first behavior: if data is insufficient, confidence decays; if pricing is uncertain, savings are clamped; if unsafe, execution is blocked.
+servers:
+  - url: https://api.finops.example.com
+security:
+  - OAuth2ClientCredentials: []
+
+tags:
+  - name: Optimization
+  - name: Migration
+  - name: Pricing
+  - name: Confidence
+
+paths:
+  /optimize/storage:
+    post:
+      tags: [Optimization]
+      summary: Run a storage optimization decision
+      operationId: optimizeStorage
+      security:
+        - OAuth2ClientCredentials: [optimize:write]
+      x-rbac-scopes: [optimize:write]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/OptimizeStorageRequest'
+            examples:
+              bucketOptimization:
+                value:
+                  tenant_id: tnt_123
+                  resource_id: bucket-finance-prod
+                  optimization_unit: BUCKET
+                  cloud_provider: AWS
+                  region: us-east-1
+                  current_tier: STANDARD
+                  object_count: 19234
+                  total_size_gb: 620.3
+                  requests_30d: 154
+                  observation_days: 47
+                  pricing_version_hint: '2026-02-18'
+                  billing_realism: REAL
+      responses:
+        '200':
+          description: Optimization decision generated
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/OptimizationDecisionResponse'
+        '400':
+          description: Bad request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '403':
+          description: Missing RBAC scope
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '409':
+          description: Idempotency conflict
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+  /optimizations/{id}:
+    get:
+      tags: [Optimization]
+      summary: Get optimization by ID
+      operationId: getOptimization
+      security:
+        - OAuth2ClientCredentials: [optimize:read]
+      x-rbac-scopes: [optimize:read]
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Optimization details
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/OptimizationDecisionResponse'
+        '404':
+          description: Not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+  /migrations/{id}/approve:
+    post:
+      tags: [Migration]
+      summary: Approve migration from PLANNED state
+      operationId: approveMigration
+      security:
+        - OAuth2ClientCredentials: [migration:approve]
+      x-rbac-scopes: [migration:approve]
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/MigrationApproveRequest'
+      responses:
+        '200':
+          description: Migration approved
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/MigrationOperationResponse'
+        '409':
+          description: Invalid state transition
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+  /migrations/{id}/execute:
+    post:
+      tags: [Migration]
+      summary: Execute migration from APPROVED state
+      operationId: executeMigration
+      security:
+        - OAuth2ClientCredentials: [migration:execute]
+      x-rbac-scopes: [migration:execute]
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/MigrationExecuteRequest'
+      responses:
+        '200':
+          description: Migration execution started
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/MigrationOperationResponse'
+        '409':
+          description: Execution blocked by policy or state machine
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+  /migrations/{id}/rollback:
+    post:
+      tags: [Migration]
+      summary: Trigger rollback
+      operationId: rollbackMigration
+      security:
+        - OAuth2ClientCredentials: [migration:rollback]
+      x-rbac-scopes: [migration:rollback]
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/MigrationRollbackRequest'
+      responses:
+        '200':
+          description: Rollback started
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/MigrationOperationResponse'
+        '409':
+          description: Rollback not allowed from current state
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+  /pricing/versions:
+    get:
+      tags: [Pricing]
+      summary: List pricing versions and drift status
+      operationId: listPricingVersions
+      security:
+        - OAuth2ClientCredentials: [pricing:read]
+      x-rbac-scopes: [pricing:read]
+      responses:
+        '200':
+          description: Pricing versions
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [latest_version, versions]
+                properties:
+                  latest_version:
+                    type: string
+                    pattern: '^\\d{4}-\\d{2}-\\d{2}$'
+                  versions:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/PricingVersionEntry'
+
+  /confidence/explain/{id}:
+    get:
+      tags: [Confidence]
+      summary: Explain confidence derivation for optimization ID
+      operationId: explainConfidence
+      security:
+        - OAuth2ClientCredentials: [confidence:read]
+      x-rbac-scopes: [confidence:read]
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Confidence explanation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ConfidenceExplainResponse'
+        '404':
+          description: Not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+components:
+  securitySchemes:
+    OAuth2ClientCredentials:
+      type: oauth2
+      flows:
+        clientCredentials:
+          tokenUrl: https://auth.finops.example.com/oauth/token
+          scopes:
+            optimize:read: Read optimization decisions
+            optimize:write: Create optimization decisions
+            migration:approve: Approve migration plans
+            migration:execute: Execute migrations
+            migration:rollback: Roll back migrations
+            pricing:read: Read pricing metadata
+            confidence:read: Read confidence explanations
+
+  schemas:
+    OptimizeStorageRequest:
+      type: object
+      required:
+        - tenant_id
+        - resource_id
+        - optimization_unit
+        - cloud_provider
+        - region
+        - current_tier
+        - object_count
+        - total_size_gb
+        - requests_30d
+        - observation_days
+        - billing_realism
+      properties:
+        tenant_id:
+          type: string
+        resource_id:
+          type: string
+        optimization_unit:
+          type: string
+          enum: [BUCKET, OBJECT]
+        cloud_provider:
+          type: string
+          enum: [AWS, GCP, AZURE]
+        region:
+          type: string
+        current_tier:
+          type: string
+        object_count:
+          type: integer
+          minimum: 1
+        total_size_gb:
+          type: number
+          minimum: 0
+        requests_30d:
+          type: number
+          minimum: 0
+        observation_days:
+          type: integer
+          minimum: 1
+        pricing_version_hint:
+          type: string
+          pattern: '^\\d{4}-\\d{2}-\\d{2}$'
+        billing_realism:
+          type: string
+          enum: [REAL, EXPORT, ESTIMATE]
+
+    OptimizationDecisionResponse:
+      type: object
+      required:
+        - optimization_id
+        - resource_id
+        - decision_state
+        - confidence_final
+        - confidence_trace
+        - pricing_version
+        - pricing_source
+        - pricing_confidence
+        - pricing_trace
+        - guardrail_trace
+        - migration_state
+        - final_decision
+      properties:
+        optimization_id:
+          type: string
+        resource_id:
+          type: string
+        optimization_unit:
+          type: string
+          enum: [BUCKET, OBJECT]
+        ml_prediction:
+          $ref: '#/components/schemas/PredictionSummary'
+        pricing_exploration:
+          $ref: '#/components/schemas/PricingExploration'
+        final_decision:
+          $ref: '#/components/schemas/FinalDecision'
+        decision_state:
+          type: string
+          enum: [EXPLORATORY, PREDICTED, FALLBACK, NO_OP, BLOCKED]
+        confidence_final:
+          type: number
+          minimum: 0
+          maximum: 1
+        confidence_trace:
+          $ref: '#/components/schemas/ConfidenceTrace'
+        guardrail_trace:
+          type: array
+          items:
+            type: string
+        pricing_version:
+          type: string
+          pattern: '^\\d{4}-\\d{2}-\\d{2}$'
+        pricing_source:
+          type: string
+          enum: [AWS, GCP, AZURE]
+        pricing_confidence:
+          type: string
+          enum: [REAL, EXPORT, ESTIMATE]
+        pricing_trace:
+          $ref: '#/components/schemas/PricingTrace'
+        migration_state:
+          type: string
+          enum: [PLANNED, APPROVED, DRY_RUN, EXECUTING, COMPLETED, ROLLED_BACK, BLOCKED]
+        created_at:
+          type: string
+          format: date-time
+
+    PredictionSummary:
+      type: object
+      required: [predicted_provider, predicted_tier, confidence_base]
+      properties:
+        predicted_provider:
+          type: string
+          enum: [AWS, GCP, AZURE]
+        predicted_tier:
+          type: string
+        confidence_base:
+          type: number
+          minimum: 0
+          maximum: 1
+
+    PricingExploration:
+      type: object
+      required: [candidate_count, strategy]
+      properties:
+        candidate_count:
+          type: integer
+          minimum: 0
+        strategy:
+          type: string
+        suppressed:
+          type: boolean
+
+    FinalDecision:
+      type: object
+      required:
+        - recommended_provider
+        - recommended_tier
+        - before_cost_usd
+        - after_cost_usd
+        - savings_usd
+      properties:
+        recommended_provider:
+          type: string
+          enum: [AWS, GCP, AZURE]
+        recommended_tier:
+          type: string
+        before_cost_usd:
+          type: number
+          minimum: 0
+        after_cost_usd:
+          type: number
+          minimum: 0
+        savings_usd:
+          type: number
+          minimum: 0
+        percent_change:
+          type: number
+          nullable: true
+          description: Hidden (null) unless decision_state=PREDICTED
+        rationale:
+          type: string
+
+    ConfidenceTrace:
+      type: object
+      required:
+        - formula
+        - confidence_base
+        - data_window_factor
+        - billing_realism_factor
+        - aggregation_factor
+        - migration_risk_factor
+        - confidence_final
+      properties:
+        formula:
+          type: string
+        confidence_base:
+          type: number
+        data_window_factor:
+          type: number
+        billing_realism_factor:
+          type: number
+        aggregation_factor:
+          type: number
+        migration_risk_factor:
+          type: number
+        confidence_final:
+          type: number
+        downgrade_reasons:
+          type: array
+          items:
+            type: string
+
+    PricingTrace:
+      type: object
+      required:
+        - pricing_version_used
+        - latest_pricing_version
+        - pricing_drift_detected
+        - pricing_confidence
+      properties:
+        pricing_version_used:
+          type: string
+          pattern: '^\\d{4}-\\d{2}-\\d{2}$'
+        latest_pricing_version:
+          type: string
+          pattern: '^\\d{4}-\\d{2}-\\d{2}$'
+        pricing_drift_detected:
+          type: boolean
+        pricing_confidence:
+          type: string
+          enum: [REAL, EXPORT, ESTIMATE]
+        exploration_suppressed:
+          type: boolean
+
+    MigrationApproveRequest:
+      type: object
+      required: [approved_by, reason]
+      properties:
+        approved_by:
+          type: string
+        reason:
+          type: string
+
+    MigrationExecuteRequest:
+      type: object
+      required: [execution_token]
+      properties:
+        execution_token:
+          type: string
+        enforce_confidence_floor:
+          type: number
+          default: 0.8
+
+    MigrationRollbackRequest:
+      type: object
+      required: [rollback_reason]
+      properties:
+        rollback_reason:
+          type: string
+        requested_by:
+          type: string
+
+    MigrationOperationResponse:
+      type: object
+      required:
+        - migration_id
+        - previous_state
+        - migration_state
+        - allowed_next_states
+        - decision_state
+        - guardrail_trace
+      properties:
+        migration_id:
+          type: string
+        previous_state:
+          type: string
+          enum: [PLANNED, APPROVED, DRY_RUN, EXECUTING, COMPLETED, ROLLED_BACK, BLOCKED]
+        migration_state:
+          type: string
+          enum: [PLANNED, APPROVED, DRY_RUN, EXECUTING, COMPLETED, ROLLED_BACK, BLOCKED]
+        allowed_next_states:
+          type: array
+          items:
+            type: string
+        decision_state:
+          type: string
+          enum: [EXPLORATORY, PREDICTED, FALLBACK, NO_OP, BLOCKED]
+        guardrail_trace:
+          type: array
+          items:
+            type: string
+        confidence_final:
+          type: number
+          minimum: 0
+          maximum: 1
+        pricing_confidence:
+          type: string
+          enum: [REAL, EXPORT, ESTIMATE]
+
+    PricingVersionEntry:
+      type: object
+      required: [pricing_version, source, published_at, is_latest, drift_status]
+      properties:
+        pricing_version:
+          type: string
+          pattern: '^\\d{4}-\\d{2}-\\d{2}$'
+        source:
+          type: string
+          enum: [AWS, GCP, AZURE]
+        published_at:
+          type: string
+          format: date-time
+        is_latest:
+          type: boolean
+        drift_status:
+          type: string
+          enum: [IN_SYNC, DRIFTED]
+
+    ConfidenceExplainResponse:
+      type: object
+      required:
+        - optimization_id
+        - decision_state
+        - confidence_final
+        - confidence_trace
+        - migration_state
+      properties:
+        optimization_id:
+          type: string
+        decision_state:
+          type: string
+          enum: [EXPLORATORY, PREDICTED, FALLBACK, NO_OP, BLOCKED]
+        confidence_final:
+          type: number
+          minimum: 0
+          maximum: 1
+        confidence_trace:
+          $ref: '#/components/schemas/ConfidenceTrace'
+        migration_state:
+          type: string
+          enum: [PLANNED, APPROVED, DRY_RUN, EXECUTING, COMPLETED, ROLLED_BACK, BLOCKED]
+
+    ErrorResponse:
+      type: object
+      required: [error_code, message, trace_id]
+      properties:
+        error_code:
+          type: string
+        message:
+          type: string
+        trace_id:
+          type: string
+        details:
+          type: object
+          additionalProperties: true

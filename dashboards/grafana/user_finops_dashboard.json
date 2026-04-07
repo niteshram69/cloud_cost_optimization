@@ -1,0 +1,141 @@
+{
+  "id": null,
+  "uid": "costintel-user-finops-v1",
+  "title": "CostIntel User Dashboard (FinOps)",
+  "tags": ["costintel", "finops", "user"],
+  "schemaVersion": 39,
+  "version": 1,
+  "refresh": "30s",
+  "time": {
+    "from": "now-30d",
+    "to": "now"
+  },
+  "templating": {
+    "list": [
+      {
+        "name": "tenant",
+        "type": "query",
+        "datasource": "Prometheus",
+        "query": "label_values(costintel_estimated_monthly_savings_usd, tenant_id)",
+        "includeAll": true,
+        "multi": true,
+        "refresh": 1
+      }
+    ]
+  },
+  "panels": [
+    {
+      "id": 1,
+      "type": "stat",
+      "title": "Total Monthly Storage Cost (USD)",
+      "datasource": "Prometheus",
+      "targets": [
+        {
+          "expr": "sum(costintel_storage_monthly_cost_usd{tenant_id=~\"$tenant\"})"
+        }
+      ],
+      "gridPos": {"h": 4, "w": 6, "x": 0, "y": 0}
+    },
+    {
+      "id": 2,
+      "type": "stat",
+      "title": "Estimated Monthly Savings (USD)",
+      "datasource": "Prometheus",
+      "targets": [
+        {
+          "expr": "sum(costintel_estimated_monthly_savings_usd{tenant_id=~\"$tenant\"})"
+        }
+      ],
+      "gridPos": {"h": 4, "w": 6, "x": 6, "y": 0}
+    },
+    {
+      "id": 3,
+      "type": "stat",
+      "title": "Optimization Confidence Score",
+      "datasource": "Prometheus",
+      "targets": [
+        {
+          "expr": "avg(costintel_recommendation_confidence_score{tenant_id=~\"$tenant\"})"
+        }
+      ],
+      "gridPos": {"h": 4, "w": 6, "x": 12, "y": 0}
+    },
+    {
+      "id": 4,
+      "type": "stat",
+      "title": "Migration Risk Level (Avg)",
+      "datasource": "Prometheus",
+      "targets": [
+        {
+          "expr": "avg(costintel_migration_risk_score{tenant_id=~\"$tenant\"})"
+        }
+      ],
+      "gridPos": {"h": 4, "w": 6, "x": 18, "y": 0}
+    },
+    {
+      "id": 5,
+      "type": "piechart",
+      "title": "Hot / Cold / Archive Distribution",
+      "datasource": "Prometheus",
+      "targets": [
+        {
+          "expr": "sum(costintel_objects_by_temperature{tenant_id=~\"$tenant\"}) by (temperature)",
+          "legendFormat": "{{temperature}}"
+        }
+      ],
+      "gridPos": {"h": 8, "w": 8, "x": 0, "y": 4}
+    },
+    {
+      "id": 6,
+      "type": "timeseries",
+      "title": "Savings Trend (30d)",
+      "datasource": "Prometheus",
+      "targets": [
+        {
+          "expr": "sum(increase(costintel_estimated_monthly_savings_usd_total{tenant_id=~\"$tenant\"}[30d]))",
+          "legendFormat": "Savings"
+        }
+      ],
+      "gridPos": {"h": 8, "w": 8, "x": 8, "y": 4}
+    },
+    {
+      "id": 7,
+      "type": "table",
+      "title": "Top Savings Opportunities",
+      "datasource": "Prometheus",
+      "targets": [
+        {
+          "expr": "topk(10, costintel_recommendation_savings_usd{tenant_id=~\"$tenant\"})",
+          "legendFormat": "{{resource_id}}"
+        }
+      ],
+      "gridPos": {"h": 8, "w": 8, "x": 16, "y": 4}
+    },
+    {
+      "id": 8,
+      "type": "stat",
+      "title": "Pricing Version In Use",
+      "datasource": "Prometheus",
+      "targets": [
+        {
+          "expr": "max(costintel_pricing_version_info{tenant_id=~\"$tenant\"})",
+          "legendFormat": "{{pricing_version}}"
+        }
+      ],
+      "gridPos": {"h": 4, "w": 12, "x": 0, "y": 12}
+    },
+    {
+      "id": 9,
+      "type": "table",
+      "title": "Recommendation Why (Plain English)",
+      "datasource": "Prometheus",
+      "targets": [
+        {
+          "expr": "topk(10, costintel_recommendation_explainability_score{tenant_id=~\"$tenant\"})",
+          "legendFormat": "{{resource_id}}"
+        }
+      ],
+      "gridPos": {"h": 4, "w": 12, "x": 12, "y": 12}
+    }
+  ]
+}

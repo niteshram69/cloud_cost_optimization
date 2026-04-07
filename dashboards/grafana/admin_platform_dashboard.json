@@ -1,0 +1,149 @@
+{
+  "id": null,
+  "uid": "costintel-admin-platform-v1",
+  "title": "CostIntel Admin Dashboard (Platform Engineering)",
+  "tags": ["costintel", "admin", "platform"],
+  "schemaVersion": 39,
+  "version": 1,
+  "refresh": "30s",
+  "time": {
+    "from": "now-7d",
+    "to": "now"
+  },
+  "templating": {
+    "list": [
+      {
+        "name": "provider",
+        "type": "query",
+        "datasource": "Prometheus",
+        "query": "label_values(costintel_pricing_ingestion_success, provider)",
+        "includeAll": true,
+        "multi": true,
+        "refresh": 1
+      },
+      {
+        "name": "feature",
+        "type": "query",
+        "datasource": "Prometheus",
+        "query": "label_values(costintel_ml_feature_importance, feature)",
+        "includeAll": true,
+        "multi": true,
+        "refresh": 1
+      }
+    ]
+  },
+  "panels": [
+    {
+      "id": 1,
+      "type": "stat",
+      "title": "Classification Accuracy",
+      "datasource": "Prometheus",
+      "targets": [
+        {
+          "expr": "avg(costintel_classification_accuracy_ratio)"
+        }
+      ],
+      "gridPos": {"h": 4, "w": 6, "x": 0, "y": 0}
+    },
+    {
+      "id": 2,
+      "type": "stat",
+      "title": "Rule Override Frequency (24h)",
+      "datasource": "Prometheus",
+      "targets": [
+        {
+          "expr": "sum(increase(costintel_rule_override_total[24h]))"
+        }
+      ],
+      "gridPos": {"h": 4, "w": 6, "x": 6, "y": 0}
+    },
+    {
+      "id": 3,
+      "type": "stat",
+      "title": "Pricing Ingestion Health",
+      "datasource": "Prometheus",
+      "targets": [
+        {
+          "expr": "min(costintel_pricing_ingestion_success{provider=~\"$provider\"})"
+        }
+      ],
+      "gridPos": {"h": 4, "w": 6, "x": 12, "y": 0}
+    },
+    {
+      "id": 4,
+      "type": "stat",
+      "title": "Pricing Drift Score",
+      "datasource": "Prometheus",
+      "targets": [
+        {
+          "expr": "max(costintel_pricing_drift_score{provider=~\"$provider\"})"
+        }
+      ],
+      "gridPos": {"h": 4, "w": 6, "x": 18, "y": 0}
+    },
+    {
+      "id": 5,
+      "type": "histogram",
+      "title": "Confidence Distribution",
+      "datasource": "Prometheus",
+      "targets": [
+        {
+          "expr": "sum(rate(costintel_recommendation_confidence_bucket[5m])) by (le)"
+        }
+      ],
+      "gridPos": {"h": 8, "w": 8, "x": 0, "y": 4}
+    },
+    {
+      "id": 6,
+      "type": "bargauge",
+      "title": "Rule Override by Rule ID (24h)",
+      "datasource": "Prometheus",
+      "targets": [
+        {
+          "expr": "sum(increase(costintel_rule_override_total[24h])) by (rule_id)",
+          "legendFormat": "{{rule_id}}"
+        }
+      ],
+      "gridPos": {"h": 8, "w": 8, "x": 8, "y": 4}
+    },
+    {
+      "id": 7,
+      "type": "timeseries",
+      "title": "ML vs Rule Decision Volume",
+      "datasource": "Prometheus",
+      "targets": [
+        {
+          "expr": "sum(increase(costintel_decision_source_total[1h])) by (source)",
+          "legendFormat": "{{source}}"
+        }
+      ],
+      "gridPos": {"h": 8, "w": 8, "x": 16, "y": 4}
+    },
+    {
+      "id": 8,
+      "type": "timeseries",
+      "title": "Feature Importance Trend",
+      "datasource": "Prometheus",
+      "targets": [
+        {
+          "expr": "avg_over_time(costintel_ml_feature_importance{feature=~\"$feature\"}[1h])",
+          "legendFormat": "{{feature}}"
+        }
+      ],
+      "gridPos": {"h": 8, "w": 12, "x": 0, "y": 12}
+    },
+    {
+      "id": 9,
+      "type": "table",
+      "title": "Migration Lifecycle States",
+      "datasource": "Prometheus",
+      "targets": [
+        {
+          "expr": "sum(costintel_migration_state_total) by (state)",
+          "legendFormat": "{{state}}"
+        }
+      ],
+      "gridPos": {"h": 8, "w": 12, "x": 12, "y": 12}
+    }
+  ]
+}

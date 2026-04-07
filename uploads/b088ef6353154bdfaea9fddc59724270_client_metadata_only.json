@@ -1,0 +1,10 @@
+[
+  {
+    "file_id": "s3-bucket-001",
+    "size_mb": 52804.4,
+    "access_count": 25,
+    "creation_date": "2025-10-14T12:00:00Z",
+    "last_access_date": "2026-01-22T10:00:00Z",
+    "storage_class": "Standard"
+  }
+]

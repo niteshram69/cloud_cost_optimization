@@ -1,0 +1,85 @@
+[
+  {
+    "resource_id": "aws::hot-bucket-0001",
+    "provider": "AWS",
+    "tier_intent": "HOT",
+    "requests_30d": 2800,
+    "read_write_ratio": 2.5,
+    "object_size_mb": 45000,
+    "estimated_monthly_cost_usd": 1.80
+  },
+  {
+    "resource_id": "aws::hot-bucket-0002",
+    "provider": "AWS",
+    "tier_intent": "HOT",
+    "requests_30d": 1999,
+    "read_write_ratio": 2.2,
+    "object_size_mb": 42000,
+    "estimated_monthly_cost_usd": 1.65
+  },
+  {
+    "resource_id": "aws::hot-bucket-0003",
+    "provider": "AWS",
+    "tier_intent": "HOT",
+    "requests_30d": 2300,
+    "read_write_ratio": 2.8,
+    "object_size_mb": 51000,
+    "estimated_monthly_cost_usd": 2.10
+  },
+
+  {
+    "resource_id": "aws::cold-bucket-0001",
+    "provider": "AWS",
+    "tier_intent": "COLD",
+    "requests_30d": 650,
+    "read_write_ratio": 1.3,
+    "object_size_mb": 85000,
+    "estimated_monthly_cost_usd": 3.20
+  },
+  {
+    "resource_id": "aws::cold-bucket-0002",
+    "provider": "AWS",
+    "tier_intent": "COLD",
+    "requests_30d": 540,
+    "read_write_ratio": 1.1,
+    "object_size_mb": 92000,
+    "estimated_monthly_cost_usd": 3.80
+  },
+  {
+    "resource_id": "aws::cold-bucket-0003",
+    "provider": "AWS",
+    "tier_intent": "COLD",
+    "requests_30d": 720,
+    "read_write_ratio": 1.4,
+    "object_size_mb": 88000,
+    "estimated_monthly_cost_usd": 3.45
+  },
+
+  {
+    "resource_id": "aws::archive-bucket-0001",
+    "provider": "AWS",
+    "tier_intent": "ARCHIVE",
+    "requests_30d": 12,
+    "read_write_ratio": 0.3,
+    "object_size_mb": 2100000,
+    "estimated_monthly_cost_usd": 12.40
+  },
+  {
+    "resource_id": "aws::archive-bucket-0002",
+    "provider": "AWS",
+    "tier_intent": "ARCHIVE",
+    "requests_30d": 5,
+    "read_write_ratio": 0.2,
+    "object_size_mb": 2500000,
+    "estimated_monthly_cost_usd": 15.10
+  },
+  {
+    "resource_id": "aws::archive-bucket-0003",
+    "provider": "AWS",
+    "tier_intent": "ARCHIVE",
+    "requests_30d": 20,
+    "read_write_ratio": 0.4,
+    "object_size_mb": 1800000,
+    "estimated_monthly_cost_usd": 10.90
+  }
+]

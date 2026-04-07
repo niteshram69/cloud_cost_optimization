@@ -1,0 +1,12 @@
+[
+  {
+    "resource_id": "bucket-001",
+    "provider": "AWS",
+    "region": "ap-south-1",
+    "storage_class": "STANDARD_IA",
+    "usage_metrics": {"requests_30d": 1800},
+    "performance_metrics": {"avg_latency_ms": 320},
+    "cost_metrics": {"monthly_cost_usd": 142.35},
+    "storage_metrics": {"object_count": 1250000}
+  }
+]

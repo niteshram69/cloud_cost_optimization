@@ -1,0 +1,125 @@
+[tool.poetry]
+name = "costintel-pipeline"
+version = "0.1.0"
+description = "Scalable backend service for cloud cost optimization, classification, and decision-making"
+authors = ["CostIntel Team <team@costintel.io>"]
+readme = "readme.md"
+license = "MIT"
+packages = [{include = "backend"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+# Web Framework
+fastapi = "^0.115.0"
+uvicorn = {extras = ["standard"], version = "^0.34.0"}
+pydantic = "^2.10.0"
+pydantic-settings = "^2.7.0"
+email-validator = "^2.3.0"
+
+# Database
+sqlalchemy = {extras = ["asyncio"], version = "^2.0.36"}
+aiomysql = "^0.2.0"
+alembic = "^1.14.0"
+
+# Cache & Queue
+redis = "^5.2.0"
+celery = "^5.4.0"
+
+# Authentication & Security
+pyjwt = "^2.10.0"
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+bcrypt = "<5"
+python-multipart = "^0.0.20"
+
+# Rate Limiting
+slowapi = "^0.1.9"
+
+# ML / Data Processing
+scikit-learn = "^1.6.0"
+pandas = "^2.2.0"
+numpy = "^2.2.0"
+
+# Logging & Monitoring
+structlog = "^25.1.0"
+prometheus-client = "^0.21.0"
+
+# HTTP Client (for webhooks)
+httpx = "^0.28.0"
+boto3 = {version = "^1.36.0", optional = true}
+google-cloud-storage = {version = "^2.19.0", optional = true}
+azure-storage-blob = {version = "^12.24.0", optional = true}
+
+# Utilities
+python-dotenv = "^1.0.0"
+aiofiles = "^24.1.0"
+python-magic = "^0.4.27"
+python-magic-bin = {version = "^0.4.14", markers = "platform_system == 'Windows'"}
+croniter = "^6.0.0"
+tenacity = "^9.0.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.0"
+pytest-asyncio = "^0.25.0"
+pytest-cov = "^6.0.0"
+httpx = "^0.28.0"
+respx = "^0.22.0"
+factory-boy = "^3.3.0"
+freezegun = "^1.5.0"
+
+# Linting & Formatting
+ruff = "^0.9.0"
+mypy = "^1.14.0"
+pre-commit = "^4.1.0"
+
+[tool.poetry.scripts]
+start = "app.cli:start"
+worker = "app.cli:worker"
+beat = "app.cli:beat"
+flower = "app.cli:flower"
+migrate = "app.cli:migrate"
+makemigrations = "app.cli:makemigrations"
+
+[tool.poetry.extras]
+migration-sdks = ["boto3", "google-cloud-storage", "azure-storage-blob"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+select = [
+    "E",   # pycodestyle errors
+    "F",   # Pyflakes
+    "I",   # isort
+    "N",   # pep8-naming
+    "W",   # pycodestyle warnings
+    "UP",  # pyupgrade
+    "B",   # flake8-bugbear
+    "C4",  # flake8-comprehensions
+    "SIM", # flake8-simplify
+    "ARG", # flake8-unused-arguments
+]
+ignore = ["E501"]  # Line too long (handled by formatter)
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+warn_return_any = true
+warn_unused_configs = true
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = "-v --cov=app --cov-report=term-missing --cov-report=html"

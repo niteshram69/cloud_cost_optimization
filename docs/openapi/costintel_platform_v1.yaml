@@ -1,0 +1,689 @@
+openapi: 3.1.0
+info:
+  title: CostIntel Pipeline API
+  version: 1.0.0
+  summary: Enterprise multi-cloud storage intelligence APIs
+  description: |
+    Deterministic + ML-augmented storage optimization APIs.
+
+    Design guarantees:
+    - Every recommendation references a pricing version.
+    - Every action is auditable.
+    - Migration follows workflow approvals.
+servers:
+  - url: https://api.costintel.example.com
+    description: Production
+  - url: https://staging-api.costintel.example.com
+    description: Staging
+security:
+  - ApiKeyAuth: []
+paths:
+  /api/v1/ingestion/events:
+    post:
+      tags: [Ingestion]
+      summary: Ingest usage metadata from client systems (no client cost)
+      operationId: ingestUsageMetadata
+      security:
+        - ApiKeyAuth: []
+      parameters:
+        - $ref: '#/components/parameters/IdempotencyKey'
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UsageMetadataIngestionRequest'
+            example:
+              source_type: billing
+              resource_id: s3-bucket-001
+              cloud_provider: aws
+              region: ap-south-1
+              timestamp: '2026-02-16T10:00:00Z'
+              usage_metrics:
+                size_mb: 52804.4
+                access_count_30d: 25
+              storage_class: Standard
+      responses:
+        '202':
+          description: Event accepted for async processing.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/IngestionAcceptedResponse'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '409':
+          $ref: '#/components/responses/Conflict'
+        '500':
+          $ref: '#/components/responses/InternalError'
+
+  /api/v1/ingest/billing:
+    post:
+      tags: [Ingestion]
+      summary: Ingest normalized provider billing export records
+      description: |
+        Accepts records from official billing export connectors.
+        `monthly_cost` may be provided by upstream billing exports.
+      operationId: ingestBillingRecord
+      security:
+        - ApiKeyAuth: []
+      parameters:
+        - $ref: '#/components/parameters/IdempotencyKey'
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/BillingIngestionRequest'
+            example:
+              provider: AWS
+              resource_id: s3-bucket-001
+              storage_class: Standard
+              region: ap-south-1
+              size_gb: 51.57
+              monthly_cost: 1.186
+              request_count_30d: 25
+              pricing_version: '2026-02-17'
+              event_timestamp: '2026-02-16T10:00:00Z'
+      responses:
+        '202':
+          description: Billing record accepted.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/IngestionAcceptedResponse'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '409':
+          $ref: '#/components/responses/Conflict'
+        '500':
+          $ref: '#/components/responses/InternalError'
+
+  /api/v1/classify/storage:
+    post:
+      tags: [Classification]
+      summary: Classify storage temperature with explainable confidence
+      operationId: classifyStorage
+      security:
+        - ApiKeyAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/StorageClassificationRequest'
+            example:
+              resource_id: s3-bucket-001
+              cloud_provider: AWS
+              region: ap-south-1
+              storage_class: Standard
+              size_mb: 52804.4
+              access_count_30d: 25
+              creation_date: '2025-10-14T12:00:00Z'
+              last_access_date: '2026-01-22T10:00:00Z'
+      responses:
+        '200':
+          description: Classification completed.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/StorageClassificationResponse'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '422':
+          $ref: '#/components/responses/Unprocessable'
+        '500':
+          $ref: '#/components/responses/InternalError'
+
+  /api/v1/recommendations:
+    get:
+      tags: [Recommendations]
+      summary: List optimization recommendations
+      operationId: listRecommendations
+      security:
+        - ApiKeyAuth: []
+      parameters:
+        - name: limit
+          in: query
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 500
+            default: 100
+        - name: risk_level
+          in: query
+          schema:
+            type: string
+            enum: [LOW, MEDIUM, HIGH]
+      responses:
+        '200':
+          description: Recommendation list.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/RecommendationResponse'
+              examples:
+                sample:
+                  value:
+                    - resource_id: s3-bucket-001
+                      predicted_temperature: COLD
+                      confidence: 0.57
+                      current_cloud: AWS
+                      current_tier: Standard
+                      recommended_cloud: AWS
+                      recommended_tier: Standard-IA
+                      current_monthly_cost: 240.02
+                      optimized_monthly_cost: 30.72
+                      estimated_savings: 209.30
+                      pricing_version: '2026-02-17'
+                      final_action: SAME_CLOUD_DOWNGRADE
+                      risk_level: MEDIUM
+                      decision_trace:
+                        - Derived monthly cost from pricing snapshot
+                        - ML predicted COLD
+                        - Confidence below cross-cloud threshold
+                        - Same-cloud downgrade applied
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '500':
+          $ref: '#/components/responses/InternalError'
+
+  /api/v1/migrations/{id}/approve:
+    post:
+      tags: [Migrations]
+      summary: Approve a migration draft
+      operationId: approveMigration
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/MigrationApprovalRequest'
+            example:
+              approved_by: finops.approver@example.com
+              approval_note: Approved after dry-run review.
+      responses:
+        '200':
+          description: Migration approved.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/MigrationResponse'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '403':
+          $ref: '#/components/responses/Forbidden'
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '409':
+          $ref: '#/components/responses/Conflict'
+
+  /api/v1/pricing/versions:
+    get:
+      tags: [Pricing]
+      summary: List immutable pricing snapshot versions
+      operationId: listPricingVersions
+      security:
+        - ApiKeyAuth: []
+      parameters:
+        - name: provider
+          in: query
+          schema:
+            type: string
+            enum: [AWS, GCP, AZURE]
+        - name: region
+          in: query
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Pricing versions list.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/PricingVersionRecord'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '500':
+          $ref: '#/components/responses/InternalError'
+
+components:
+  securitySchemes:
+    ApiKeyAuth:
+      type: apiKey
+      in: header
+      name: X-API-Key
+    BearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+
+  parameters:
+    IdempotencyKey:
+      name: Idempotency-Key
+      in: header
+      required: true
+      schema:
+        type: string
+        minLength: 8
+        maxLength: 128
+
+  schemas:
+    UsageMetadataIngestionRequest:
+      type: object
+      additionalProperties: false
+      required:
+        - source_type
+        - resource_id
+        - cloud_provider
+        - region
+        - timestamp
+        - usage_metrics
+        - storage_class
+      properties:
+        source_type:
+          type: string
+          enum: [billing, storage, logs]
+        resource_id:
+          type: string
+        cloud_provider:
+          type: string
+          enum: [aws, gcp, azure]
+        region:
+          type: string
+        timestamp:
+          type: string
+          format: date-time
+        usage_metrics:
+          type: object
+          additionalProperties: true
+          required: [size_mb, access_count_30d]
+          properties:
+            size_mb:
+              type: number
+              exclusiveMinimum: 0
+            access_count_30d:
+              type: integer
+              minimum: 0
+        storage_class:
+          type: string
+
+    BillingIngestionRequest:
+      type: object
+      additionalProperties: false
+      required:
+        - provider
+        - resource_id
+        - storage_class
+        - region
+        - size_gb
+        - request_count_30d
+        - event_timestamp
+      properties:
+        provider:
+          type: string
+          enum: [AWS, GCP, AZURE]
+        resource_id:
+          type: string
+        storage_class:
+          type: string
+        region:
+          type: string
+        size_gb:
+          type: number
+          exclusiveMinimum: 0
+        monthly_cost:
+          type: number
+          minimum: 0
+          nullable: true
+        request_count_30d:
+          type: integer
+          minimum: 0
+        pricing_version:
+          type: string
+          nullable: true
+        event_timestamp:
+          type: string
+          format: date-time
+
+    IngestionAcceptedResponse:
+      type: object
+      required: [ingestion_id, status]
+      properties:
+        ingestion_id:
+          type: string
+          format: uuid
+        status:
+          type: string
+          enum: [PENDING, ACCEPTED]
+        normalized_record_id:
+          type: string
+          nullable: true
+        warnings:
+          type: array
+          items:
+            type: string
+
+    StorageClassificationRequest:
+      type: object
+      additionalProperties: false
+      required:
+        - resource_id
+        - cloud_provider
+        - region
+        - storage_class
+        - size_mb
+        - access_count_30d
+        - creation_date
+        - last_access_date
+      properties:
+        resource_id:
+          type: string
+        cloud_provider:
+          type: string
+          enum: [AWS, GCP, AZURE]
+        region:
+          type: string
+        storage_class:
+          type: string
+        size_mb:
+          type: number
+          exclusiveMinimum: 0
+        access_count_30d:
+          type: integer
+          minimum: 0
+        creation_date:
+          type: string
+          format: date-time
+        last_access_date:
+          type: string
+          format: date-time
+        retrieval_gb_30d:
+          type: number
+          minimum: 0
+        historical_volatility:
+          type: number
+          minimum: 0
+          maximum: 1
+
+    FeatureSnapshot:
+      type: object
+      required:
+        - size_mb
+        - access_count_30d
+        - days_since_creation
+        - days_since_access
+        - monthly_cost
+      properties:
+        size_mb:
+          type: number
+        access_count_30d:
+          type: integer
+        days_since_creation:
+          type: number
+        days_since_access:
+          type: number
+        monthly_cost:
+          type: number
+
+    StorageClassificationResponse:
+      type: object
+      required:
+        - resource_id
+        - predicted_tier
+        - confidence_score
+        - ml_probability
+        - feature_snapshot
+        - pricing_comparison
+        - decision_trace
+      properties:
+        resource_id:
+          type: string
+        predicted_tier:
+          type: string
+          enum: [HOT, COLD, ARCHIVE]
+        confidence_score:
+          type: number
+          minimum: 0
+          maximum: 1
+        ml_probability:
+          type: number
+          minimum: 0
+          maximum: 1
+        feature_snapshot:
+          $ref: '#/components/schemas/FeatureSnapshot'
+        pricing_comparison:
+          type: array
+          items:
+            $ref: '#/components/schemas/PricingCandidate'
+        decision_trace:
+          type: array
+          items:
+            type: string
+
+    PricingCandidate:
+      type: object
+      required:
+        - cloud
+        - tier
+        - monthly_cost
+      properties:
+        cloud:
+          type: string
+        tier:
+          type: string
+        monthly_cost:
+          type: number
+
+    RecommendationResponse:
+      type: object
+      required:
+        - resource_id
+        - predicted_temperature
+        - confidence
+        - current_cloud
+        - current_tier
+        - recommended_cloud
+        - recommended_tier
+        - current_monthly_cost
+        - optimized_monthly_cost
+        - estimated_savings
+        - pricing_version
+        - final_action
+        - risk_level
+        - decision_trace
+      properties:
+        resource_id:
+          type: string
+        predicted_temperature:
+          type: string
+          enum: [HOT, COLD, ARCHIVE]
+        confidence:
+          type: number
+          minimum: 0
+          maximum: 1
+        current_cloud:
+          type: string
+        current_tier:
+          type: string
+        recommended_cloud:
+          type: string
+        recommended_tier:
+          type: string
+        current_monthly_cost:
+          type: number
+        optimized_monthly_cost:
+          type: number
+        estimated_savings:
+          type: number
+        pricing_version:
+          type: string
+        final_action:
+          type: string
+          enum: [CROSS_CLOUD_MOVE, SAME_CLOUD_DOWNGRADE, ADVISORY_ONLY]
+        risk_level:
+          type: string
+          enum: [LOW, MEDIUM, HIGH]
+        decision_trace:
+          type: array
+          items:
+            type: string
+
+    MigrationApprovalRequest:
+      type: object
+      additionalProperties: false
+      required: [approved_by]
+      properties:
+        approved_by:
+          type: string
+          format: email
+        approval_note:
+          type: string
+          maxLength: 1000
+
+    MigrationResponse:
+      type: object
+      required:
+        - migration_id
+        - state
+        - state_history
+        - risk_level
+        - rollback_plan
+        - audit_ref
+      properties:
+        migration_id:
+          type: string
+          format: uuid
+        state:
+          type: string
+          enum: [DRAFT, APPROVED, DRY_RUN, EXECUTING, VERIFIED, COMPLETED, FAILED, ROLLBACK_READY, ROLLED_BACK]
+        state_history:
+          type: array
+          items:
+            type: string
+        risk_level:
+          type: string
+          enum: [LOW, MEDIUM, HIGH]
+        rollback_plan:
+          type: array
+          items:
+            type: string
+        audit_ref:
+          type: string
+
+    PricingVersionRecord:
+      type: object
+      required:
+        - version_id
+        - provider
+        - region
+        - storage_tier
+        - canonical_tier
+        - price_per_gb
+        - retrieval_cost
+        - minimum_duration_days
+        - effective_date
+      properties:
+        version_id:
+          type: string
+          format: uuid
+        provider:
+          type: string
+          enum: [AWS, GCP, AZURE]
+        region:
+          type: string
+        storage_tier:
+          type: string
+        canonical_tier:
+          type: string
+          enum: [HOT, COLD, ARCHIVE]
+        price_per_gb:
+          type: number
+        retrieval_cost:
+          type: number
+        minimum_duration_days:
+          type: integer
+        effective_date:
+          type: string
+          format: date
+
+    ErrorResponse:
+      type: object
+      required: [error, trace_id]
+      properties:
+        error:
+          type: object
+          required: [code, message]
+          properties:
+            code:
+              type: string
+            message:
+              type: string
+            details:
+              type: object
+              nullable: true
+        trace_id:
+          type: string
+
+  responses:
+    BadRequest:
+      description: Invalid request payload.
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/ErrorResponse'
+    Unauthorized:
+      description: Missing or invalid credentials.
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/ErrorResponse'
+    Forbidden:
+      description: Authenticated but not allowed for this action.
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/ErrorResponse'
+    NotFound:
+      description: Requested resource not found.
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/ErrorResponse'
+    Conflict:
+      description: State or idempotency conflict.
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/ErrorResponse'
+    Unprocessable:
+      description: Semantic validation failure.
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/ErrorResponse'
+    InternalError:
+      description: Internal platform failure.
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/ErrorResponse'
